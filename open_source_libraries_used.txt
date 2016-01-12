@@ -1,0 +1,19 @@
+CySmart Android App Open Source Libraries
+-----------------------------------------
+
+CySmart Android app uses few open source libraries to implement some of its features. 
+The details of these open source libraries are documented below:
+
+1. AChartEngine
+AChartEngine is a charting library for Android applications
+https://code.google.com/p/achartengine/
+
+License: Apache License2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+2. Android-WebRequest
+Fluent interface for easy HTTP requests to web servers (GET, POST, PUT or DELETE)
+https://github.com/delight-im/Android-WebRequest
+
+License: Apache License 2.0
+http://www.apache.org/licenses/LICENSE-2.0
