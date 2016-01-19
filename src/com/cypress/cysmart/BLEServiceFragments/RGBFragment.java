@@ -311,8 +311,12 @@ public class RGBFragment extends Fragment {
         mTextalpha.setText(String.format("0x%02x", mIntensity));
         try {
             Logger.i("Writing value-->" + mRed + " " + mGreen + " " + mBlue + " " + mIntensity);
-            BluetoothLeService.writeCharacteristicRGB(mReadCharacteristic, mRed,
-                    mGreen, mBlue, mIntensity);
+            BluetoothLeService.writeCharacteristicRGB(
+                    mReadCharacteristic,
+                    mRed,
+                    mGreen,
+                    mBlue,
+                    mIntensity);
         } catch (Exception e) {
 
         }

@@ -1247,8 +1247,10 @@ public class BluetoothLeService extends Service {
             valueByte[1] = (byte) green;
             valueByte[2] = (byte) blue;
             valueByte[3] = (byte) intensity;
+
             characteristic.setValue(valueByte);
             String characteristicValue = Utils.ByteArraytoHex(valueByte);
+
             mBluetoothGatt.writeCharacteristic(characteristic);
             String dataLog = mContext.getResources().getString(R.string.dl_commaseparator) +
                     "[" + serviceName + "|" + characteristicName + "] " +

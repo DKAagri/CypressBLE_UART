@@ -82,7 +82,6 @@ public class DeviceInformationService extends Fragment {
     //ProgressDialog
     private ProgressDialog mProgressDialog;
 
-
     // Flag for data set
     private static boolean mManufacturerSet = false;
     private static boolean mmModelNumberSet = false;
