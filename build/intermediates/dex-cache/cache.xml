@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/altanaibisht/ble/cysmart_android/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="/home/altanaibisht/ble/cysmart_android/build/intermediates/pre-dexed/debug/android-support-v4-795f910623ddfd93e77072f998b519f05f52093f.jar" />
+    </item>
+    <item
+        jar="/home/altanaibisht/ble/cysmart_android/libs/Android-WebRequest.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5b2f0df23d78fff1dce0f6e19c17d06e8c18a7e">
+        <dex dex="/home/altanaibisht/ble/cysmart_android/build/intermediates/pre-dexed/debug/Android-WebRequest-66eb07ae1ae06360842a2b4015e4bbb2273a2286.jar" />
+    </item>
+    <item
+        jar="/home/altanaibisht/ble/cysmart_android/libs/achartengine-1.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2bb0af9f390c0edd4d7d95f613f38da3abe0144">
+        <dex dex="/home/altanaibisht/ble/cysmart_android/build/intermediates/pre-dexed/debug/achartengine-1.0.0-b88c3cbf294dba381a543ddfb7114dae71d8198f.jar" />
+    </item>
+
+</items>

@@ -15,17 +15,18 @@
             android:id="@+id/viewgroup"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="0.54"
             android:clickable="false">
 
             <ImageView
                 android:id="@+id/imgrgbcanvas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
                 android:contentDescription="@string/app_name"
                 android:scaleType="matrix"
-                android:src="@drawable/gamut" />
+                android:src="@drawable/gamut"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
 
             <ImageView
                 android:id="@+id/imgcolorpicker"
@@ -38,6 +39,7 @@
                 android:contentDescription="@string/app_name"
                 android:padding="5dp"
                 android:src="@drawable/color_picker" />
+
         </RelativeLayout>
 
         <LinearLayout
@@ -137,7 +139,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="Red"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/actionbar_bg_color" />
@@ -148,7 +150,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="0x00"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/actionbar_bg_color" />
@@ -166,7 +168,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="Green"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/actionbar_bg_color" />
@@ -177,7 +179,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="0x00"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/actionbar_bg_color" />
@@ -196,7 +198,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="Blue"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/actionbar_bg_color" />
@@ -207,7 +209,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="0x00"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/actionbar_bg_color" />
@@ -225,7 +227,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="Intensity"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/actionbar_bg_color" />
@@ -236,13 +238,49 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="0x00"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/actionbar_bg_color" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="enter audio level here "
+                android:id="@+id/textView5"
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@+id/editTextTxBLE" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="6"
+                android:id="@+id/editTextTxBLE"
+                android:text="00"
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@+id/buttonTxBLE"
+                android:enabled="true"
+                android:editable="true"
+                android:focusable="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:id="@+id/buttonTxBLE"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>

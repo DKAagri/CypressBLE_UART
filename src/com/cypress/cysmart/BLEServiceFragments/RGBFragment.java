@@ -55,6 +55,8 @@ import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
@@ -87,6 +89,15 @@ public class RGBFragment extends Fragment {
     private TextView mTextgreen;
     private TextView mTextblue;
     private TextView mTextalpha;
+
+
+    // added for the Send button in TX BLE
+    private Button btnTXSend ;
+    private EditText mTextTX;
+    private String mHexTx;
+    private int mTxBLE;
+
+
     private ImageView mColorindicator;
     private SeekBar mIntensityBar;
     private RelativeLayout mParentRelLayout;
@@ -100,6 +111,7 @@ public class RGBFragment extends Fragment {
     private String mHexRed;
     private String mHexGreen;
     private String mHexBlue;
+
     private View mRootView;
     // Flag
     private boolean mIsReaded = false;
@@ -200,8 +212,10 @@ public class RGBFragment extends Fragment {
     void setUpControls() {
         mParentRelLayout = (RelativeLayout) mRootView.findViewById(R.id.parent);
         mParentRelLayout.setClickable(true);
+
         mRGBcanavs = (ImageView) mRootView.findViewById(R.id.imgrgbcanvas);
         mcolorpicker = (ImageView) mRootView.findViewById(R.id.imgcolorpicker);
+
         mTextalpha = (TextView) mRootView.findViewById(R.id.txtintencity);
         mTextred = (TextView) mRootView.findViewById(R.id.txtred);
         mTextgreen = (TextView) mRootView.findViewById(R.id.txtgreen);
@@ -209,13 +223,13 @@ public class RGBFragment extends Fragment {
         mColorindicator = (ImageView) mRootView
                 .findViewById(R.id.txtcolorindicator);
         mViewContainer = (ViewGroup) mRootView.findViewById(R.id.viewgroup);
+
         mIntensityBar = (SeekBar) mRootView.findViewById(R.id.intencitychanger);
         mProgressDialog = new ProgressDialog(getActivity());
         BitmapDrawable mBmpdwbl = (BitmapDrawable) mRGBcanavs.getDrawable();
         mBitmap = mBmpdwbl.getBitmap();
         Drawable d = getResources().getDrawable(R.drawable.gamut);
         mRGBcanavs.setOnTouchListener(new OnTouchListener() {
-
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_MOVE
@@ -256,16 +270,13 @@ public class RGBFragment extends Fragment {
 
         mIntensity = mIntensityBar.getProgress();
         mTextalpha.setText(String.format("0x%02x", mIntensity));
-        // Seek bar progress change listener
         mIntensityBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
 
             public void onProgressChanged(SeekBar seekBar, int progress,
                                           boolean fromUser) {
-
                 mIntensity = progress;
                 UIupdation();
                 mIsReaded = false;
-
             }
 
             public void onStartTrackingTouch(SeekBar seekBar) {
@@ -278,6 +289,22 @@ public class RGBFragment extends Fragment {
 
             }
         });
+
+        //for sending the Tx BLE Value
+        mTextTX = (EditText) mRootView.findViewById(R.id.editTextTxBLE);
+        mTextTX.setText("");
+        mTextTX.setFocusable(true);
+        mTextTX.requestFocus();
+
+        btnTXSend = (Button) mRootView.findViewById(R.id.buttonTxBLE);
+        btnTXSend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SendTxVal();
+            }
+        });
+
+
     }
 
     @Override
@@ -309,6 +336,7 @@ public class RGBFragment extends Fragment {
         mTextblue.setText(mHexBlue);
         mTextgreen.setText(mHexGreen);
         mTextalpha.setText(String.format("0x%02x", mIntensity));
+
         try {
             Logger.i("Writing value-->" + mRed + " " + mGreen + " " + mBlue + " " + mIntensity);
             BluetoothLeService.writeCharacteristicRGB(
@@ -323,6 +351,34 @@ public class RGBFragment extends Fragment {
 
     }
 
+    private void SendTxVal() {
+
+        mHexRed = String.format("0x%02x", mRed);
+        mTextred.setText(mHexRed);
+
+        mHexGreen = String.format("0x%02x", mGreen);
+        mTextgreen.setText(mHexGreen);
+
+        mHexBlue = String.format("0x%02x", mBlue);
+        mTextblue.setText(mHexBlue);
+
+        if (mTextTX.getText().toString().length() > 0) {
+            mHexTx = mTextTX.getText().toString();
+            //mHexTx= String.format("0x%02x", mHexTx_temp);
+        }
+        try {
+            Logger.i(" SendTxVal Writing value-->" + mRed + " " + mGreen + " " + mBlue + " " + mHexTx);
+            BluetoothLeService.writeCharacteristicRGB(
+                    mReadCharacteristic,
+                    mRed,
+                    mGreen,
+                    mBlue,
+                    Integer.getInteger(mTextTX.getText().toString()));
+        } catch (Exception e) {
+            Logger.e(" error in send TXval");
+        }
+
+    }
     /**
      * Method to get required characteristics from service
      */
