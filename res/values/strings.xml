@@ -2,12 +2,12 @@
 <resources>
 
     <!-- Application elements -->
-    <string name="app_name">CySmart</string>
+    <string name="app_name">DigitalMeditation</string>
     <string name="loading">Loading</string>
 
     <!-- Navigation drawer elements -->
     <string name="title_devices">BLE Devices</string>
-    <string name="title_products">Cypress BLE Products</string>
+    <string name="title_products">Products</string>
     <string name="title_contact">Contact Us</string>
     <string name="title_about">About</string>
 

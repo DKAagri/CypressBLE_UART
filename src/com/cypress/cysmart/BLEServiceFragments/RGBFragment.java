@@ -292,15 +292,15 @@ public class RGBFragment extends Fragment {
 
         //for sending the Tx BLE Value
         mTextTX = (EditText) mRootView.findViewById(R.id.editTextTxBLE);
-        mTextTX.setText("");
-        mTextTX.setFocusable(true);
-        mTextTX.requestFocus();
 
         btnTXSend = (Button) mRootView.findViewById(R.id.buttonTxBLE);
         btnTXSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 SendTxVal();
+                mTextTX.setText("");
+                mTextTX.setFocusable(true);
+                mTextTX.requestFocus();
             }
         });
 
@@ -329,12 +329,16 @@ public class RGBFragment extends Fragment {
                 .format("#%02x%02x%02x%02x", mIntensity, mRed, mGreen, mBlue);
         mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
         mTextalpha.setText(String.format("0x%02x", mIntensity));
+
         mHexRed = String.format("0x%02x", mRed);
-        mHexGreen = String.format("0x%02x", mGreen);
-        mHexBlue = String.format("0x%02x", mBlue);
         mTextred.setText(mHexRed);
-        mTextblue.setText(mHexBlue);
+
+        mHexGreen = String.format("0x%02x", mGreen);
         mTextgreen.setText(mHexGreen);
+
+        mHexBlue = String.format("0x%02x", mBlue);
+        mTextblue.setText(mHexBlue);
+
         mTextalpha.setText(String.format("0x%02x", mIntensity));
 
         try {
@@ -362,18 +366,34 @@ public class RGBFragment extends Fragment {
         mHexBlue = String.format("0x%02x", mBlue);
         mTextblue.setText(mHexBlue);
 
+        mTextalpha.setText(String.format("0x%02x", mIntensity));
+
+        int mHexTx_int =0;
         if (mTextTX.getText().toString().length() > 0) {
             mHexTx = mTextTX.getText().toString();
-            //mHexTx= String.format("0x%02x", mHexTx_temp);
+            mHexTx_int = Integer.parseInt(mHexTx);
         }
+        //int mHexTx_int= Integer.getInteger(mHexTx);
+
         try {
+            /* send valu of input box inside intensity */
             Logger.i(" SendTxVal Writing value-->" + mRed + " " + mGreen + " " + mBlue + " " + mHexTx);
             BluetoothLeService.writeCharacteristicRGB(
                     mReadCharacteristic,
                     mRed,
                     mGreen,
                     mBlue,
-                    Integer.getInteger(mTextTX.getText().toString()));
+                    mHexTx_int);
+
+            /* sedning value of inout box inside green */
+            /*
+            Logger.i(" SendTxVal Writing value-->" + mRed + " " + mHexTx_int + " " + mBlue + " " + mIntensity);
+            BluetoothLeService.writeCharacteristicRGB(
+                    mReadCharacteristic,
+                    mRed,
+                    mHexTx_int,
+                    mBlue,
+                    mIntensity);*/
         } catch (Exception e) {
             Logger.e(" error in send TXval");
         }

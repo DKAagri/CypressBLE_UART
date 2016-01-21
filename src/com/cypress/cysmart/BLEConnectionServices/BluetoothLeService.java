@@ -1232,7 +1232,8 @@ public class BluetoothLeService extends Service {
      * @param intensity
      */
     public static void writeCharacteristicRGB(
-            BluetoothGattCharacteristic characteristic, int red, int green,
+            BluetoothGattCharacteristic characteristic,
+            int red, int green,
             int blue, int intensity) {
         String serviceUUID = characteristic.getService().getUuid().toString();
         String serviceName = GattAttributes.lookupUUID(characteristic.getService().getUuid(), serviceUUID);

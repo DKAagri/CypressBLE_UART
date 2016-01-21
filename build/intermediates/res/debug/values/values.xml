@@ -127,7 +127,7 @@
     <string name="alert_title_clear_cache">Clear Bluetooth Cache?</string>
     <string name="apikey_requirement_text">Please enter your developer API Key
         for voice to text conversion</string>
-    <string name="app_name">CySmart</string>
+    <string name="app_name">DigitalMeditation</string>
     <string name="armpit">Armpit</string>
     <string name="battery_info_fragment">Battery Service</string>
     <string name="battery_read">Read</string>
@@ -508,7 +508,7 @@
     <string name="title_about">About</string>
     <string name="title_contact">Contact Us</string>
     <string name="title_devices">BLE Devices</string>
-    <string name="title_products">Cypress BLE Products</string>
+    <string name="title_products">Products</string>
     <string name="toast_descriptor_write">Descriptor Write failed</string>
     <string name="toast_file_copied">File copied to CySmart folder successfully</string>
     <string name="toast_file_zero">No data found on recorded file</string>

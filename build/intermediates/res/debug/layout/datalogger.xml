@@ -39,7 +39,8 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/title"
         android:gravity="bottom"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:clickable="true">
 
         <ListView
             android:id="@+id/txtlog"

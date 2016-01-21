@@ -35,6 +35,15 @@ ADDED from AndroidManifest.xml:20:5
 		ADDED from AndroidManifest.xml:20:22
 uses-permission#android.permission.INTERNET
 ADDED from AndroidManifest.xml:21:5
+MERGED from com.crashlytics.sdk.android:crashlytics:2.5.5:9:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.6:9:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:25:5
+MERGED from com.crashlytics.sdk.android:crashlytics-core:2.3.8:9:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.6:9:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:25:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:25:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:25:5
+MERGED from com.crashlytics.sdk.android:beta:1.1.4:9:5
 	android:name
 		ADDED from AndroidManifest.xml:21:22
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -43,6 +52,15 @@ ADDED from AndroidManifest.xml:22:5
 		ADDED from AndroidManifest.xml:22:22
 application
 ADDED from AndroidManifest.xml:24:5
+MERGED from com.crashlytics.sdk.android:crashlytics:2.5.5:11:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.6:11:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:27:5
+MERGED from com.crashlytics.sdk.android:crashlytics-core:2.3.8:11:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.6:11:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:27:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:27:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:27:5
+MERGED from com.crashlytics.sdk.android:beta:1.1.4:11:5
 	android:supportsRtl
 		ADDED from AndroidManifest.xml:29:9
 	android:label
@@ -163,8 +181,23 @@ ADDED from AndroidManifest.xml:110:9
 		ADDED from AndroidManifest.xml:113:13
 	android:name
 		ADDED from AndroidManifest.xml:111:13
+meta-data#io.fabric.ApiKey
+ADDED from AndroidManifest.xml:117:9
+	android:name
+		ADDED from AndroidManifest.xml:118:13
+	android:value
+		ADDED from AndroidManifest.xml:119:13
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.crashlytics.sdk.android:crashlytics:2.5.5:7:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.6:7:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:23:5
+MERGED from com.crashlytics.sdk.android:crashlytics-core:2.3.8:7:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.6:7:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:23:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:23:5
+MERGED from io.fabric.sdk.android:fabric:1.3.10:23:5
+MERGED from com.crashlytics.sdk.android:beta:1.1.4:7:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0

@@ -41,6 +41,8 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.cypress.cysmart.CommonUtils.Logger;
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 
 /**
  * Activity to display the initial splash screen
@@ -76,6 +78,7 @@ public class SplashPageActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         if (isTablet(this)) {
             Logger.d("Tablet");
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);

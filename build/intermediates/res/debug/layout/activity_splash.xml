@@ -7,12 +7,32 @@
 
     <ImageView
         android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/image_splash_logo"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/abovelargelogo"
+        android:layout_above="@+id/imageView1"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:contentDescription="@string/image_splash_logo"
-        android:src="@drawable/logo" /> 
+        android:layout_marginBottom="72dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\@ Above Electronics Lab  2016"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f9f7f7" />
 
 </RelativeLayout>
 <!-- From: file:/home/altanaibisht/ble/cysmart_android/res/layout/activity_splash.xml -->
