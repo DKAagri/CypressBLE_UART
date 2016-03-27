@@ -47,14 +47,9 @@ import android.widget.TextView;
 
 import com.cypress.cysmart.BLEConnectionServices.BluetoothLeService;
 import com.cypress.cysmart.BLEServiceFragments.BatteryInformationService;
-import com.cypress.cysmart.BLEServiceFragments.BloodPressureService;
-import com.cypress.cysmart.BLEServiceFragments.CSCService;
 import com.cypress.cysmart.BLEServiceFragments.CapsenseService;
 import com.cypress.cysmart.BLEServiceFragments.DeviceInformationService;
 import com.cypress.cysmart.BLEServiceFragments.FindMeService;
-import com.cypress.cysmart.BLEServiceFragments.GlucoseService;
-import com.cypress.cysmart.BLEServiceFragments.HealthTemperatureService;
-import com.cypress.cysmart.BLEServiceFragments.HeartRateService;
 import com.cypress.cysmart.BLEServiceFragments.RGBFragment;
 import com.cypress.cysmart.BLEServiceFragments.RSCService;
 import com.cypress.cysmart.BLEServiceFragments.SensorHubService;
@@ -63,7 +58,6 @@ import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.UUIDDatabase;
 import com.cypress.cysmart.GATTDBFragments.GattServicesFragment;
 import com.cypress.cysmart.OTAFirmwareUpdate.OTAFirmwareUpgradeFragment;
-import com.cypress.cysmart.R;
 import com.cypress.cysmart.RDKEmulatorView.RemoteControlEmulatorFragment;
 
 import java.util.HashMap;
@@ -169,15 +163,9 @@ public class CarouselFragment extends Fragment {
                 mService = mBleHashMap.get(mUuid);
                 mCurrentUUID = mService.getUuid();
 
-                // Heart rate service
-                if (mService.getUuid().equals(UUIDDatabase.UUID_HEART_RATE_SERVICE)) {
-                    HeartRateService heartRateMeasurement = new HeartRateService()
-                            .create(mService);
-                    displayView(heartRateMeasurement, getResources().getString(R.string.heart_rate));
 
-                }
                 // Device information service
-                else if (mService.getUuid().equals(UUIDDatabase.UUID_DEVICE_INFORMATION_SERVICE)) {
+                if (mService.getUuid().equals(UUIDDatabase.UUID_DEVICE_INFORMATION_SERVICE)) {
                     DeviceInformationService deviceInformationMeasurementFragment = new DeviceInformationService()
                             .create(mService);
                     displayView(deviceInformationMeasurementFragment, getResources().getString(R.string.device_info));
@@ -189,13 +177,7 @@ public class CarouselFragment extends Fragment {
                             .create(mService);
                     displayView(batteryInfoFragment, getResources().getString(R.string.battery_info_fragment));
                 }
-                // Health Temperature Measurement
-                else if (mService.getUuid().equals(UUIDDatabase.UUID_HEALTH_THERMOMETER_SERVICE)) {
-                    HealthTemperatureService healthTempMeasurement = new HealthTemperatureService()
-                            .create(mService);
-                    displayView(healthTempMeasurement, getResources().getString(R.string.health_thermometer_fragment));
 
-                }
                 // Find Me
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_IMMEDIATE_ALERT_SERVICE)) {
                     FindMeService findMeService = new FindMeService().create(
@@ -233,34 +215,14 @@ public class CarouselFragment extends Fragment {
                     RGBFragment rgbfragment = new RGBFragment().create(mService);
                     displayView(rgbfragment, getResources().getString(R.string.rgb_led));
                 }
-                // Glucose Service
-                else if (mService.getUuid().equals(UUIDDatabase.UUID_GLUCOSE_SERVICE)) {
-                    if (Constants.GMS_ENABLED) {
-                        GlucoseService glucosefragment = new GlucoseService()
-                                .create(mService);
-                        displayView(glucosefragment, getResources().getString(R.string.glucose_fragment));
-                    } else {
-                        showWarningMessage();
-                    }
-                }
-                // Blood Pressure Service
-                else if (mService.getUuid().equals(UUIDDatabase.UUID_BLOOD_PRESSURE_SERVICE)) {
-                    BloodPressureService bloodPressureService = new BloodPressureService()
-                            .create(mService);
-                    displayView(bloodPressureService, getResources().getString(R.string.blood_pressure));
 
-                }
                 // Running service
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_RSC_SERVICE)) {
                     RSCService rscService = new RSCService().create(mService);
                     displayView(rscService, getResources().getString(R.string.rsc_fragment));
 
                 }
-                // Cycling service
-                else if (mService.getUuid().equals(UUIDDatabase.UUID_CSC_SERVICE)) {
-                    CSCService cscService = new CSCService().create(mService);
-                    displayView(cscService, getResources().getString(R.string.csc_fragment));
-                }
+
                 // Barometer(SensorHub) Service
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_BAROMETER_SERVICE)) {
                     SensorHubService sensorHubService = new SensorHubService()

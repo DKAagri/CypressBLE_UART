@@ -66,14 +66,10 @@ import android.widget.Toast;
 
 import com.cypress.cysmart.BLEConnectionServices.BluetoothLeService;
 import com.cypress.cysmart.BLEServiceFragments.BatteryInformationService;
-import com.cypress.cysmart.BLEServiceFragments.BloodPressureService;
 import com.cypress.cysmart.BLEServiceFragments.CSCService;
 import com.cypress.cysmart.BLEServiceFragments.CapsenseService;
 import com.cypress.cysmart.BLEServiceFragments.DeviceInformationService;
 import com.cypress.cysmart.BLEServiceFragments.FindMeService;
-import com.cypress.cysmart.BLEServiceFragments.GlucoseService;
-import com.cypress.cysmart.BLEServiceFragments.HealthTemperatureService;
-import com.cypress.cysmart.BLEServiceFragments.HeartRateService;
 import com.cypress.cysmart.BLEServiceFragments.RGBFragment;
 import com.cypress.cysmart.BLEServiceFragments.RSCService;
 import com.cypress.cysmart.BLEServiceFragments.SensorHubService;
@@ -441,15 +437,14 @@ public class HomePageActivity extends FragmentActivity implements
                 BluetoothLeService.readDescriptor(descriptor);
             }
             super.onBackPressed();
-        } else if (currentFragment instanceof HeartRateService
-                || currentFragment instanceof HealthTemperatureService
-                || currentFragment instanceof DeviceInformationService
+        } else if (
+                 currentFragment instanceof DeviceInformationService
                 || currentFragment instanceof BatteryInformationService
-                || currentFragment instanceof BloodPressureService
+
                 || currentFragment instanceof CapsenseService
                 || currentFragment instanceof CSCService
                 || currentFragment instanceof FindMeService
-                || currentFragment instanceof GlucoseService
+
                 || currentFragment instanceof RGBFragment
                 || currentFragment instanceof RSCService
                 || currentFragment instanceof SensorHubService

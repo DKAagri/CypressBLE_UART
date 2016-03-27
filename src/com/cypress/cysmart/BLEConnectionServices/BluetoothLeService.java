@@ -50,11 +50,8 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
-import com.cypress.cysmart.BLEProfileDataParserClasses.BloodPressureParser;
-import com.cypress.cysmart.BLEProfileDataParserClasses.CSCParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.CapSenseParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.DescriptorParser;
-import com.cypress.cysmart.BLEProfileDataParserClasses.GlucoseParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.HRMParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.HTMParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.RGBParser;
@@ -585,30 +582,7 @@ public class BluetoothLeService extends Service {
             ArrayList<String> health_temp = HTMParser.getHealthThermo(characteristic, mContext);
             mBundle.putStringArrayList(Constants.EXTRA_HTM_VALUE, health_temp);
         }
-        // Blood pressure measurement notify value
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_BLOOD_PRESSURE_MEASUREMENT)) {
-            String blood_pressure_systolic = BloodPressureParser
-                    .getSystolicBloodPressure(characteristic);
-            String blood_pressure_diastolic = BloodPressureParser
-                    .getDiaStolicBloodPressure(characteristic);
-            String blood_pressure_systolic_unit = BloodPressureParser
-                    .getSystolicBloodPressureUnit(characteristic, mContext);
-            String blood_pressure_diastolic_unit = BloodPressureParser
-                    .getDiaStolicBloodPressureUnit(characteristic, mContext);
-            mBundle.putString(
-                    Constants.EXTRA_PRESURE_SYSTOLIC_UNIT_VALUE,
-                    blood_pressure_systolic_unit);
-            mBundle.putString(
-                    Constants.EXTRA_PRESURE_DIASTOLIC_UNIT_VALUE,
-                    blood_pressure_diastolic_unit);
-            mBundle.putString(
-                    Constants.EXTRA_PRESURE_SYSTOLIC_VALUE,
-                    blood_pressure_systolic);
-            mBundle.putString(
-                    Constants.EXTRA_PRESURE_DIASTOLIC_VALUE,
-                    blood_pressure_diastolic);
 
-        }
         // Cycling speed Measurement notify value
         else if (characteristic.getUuid().equals(UUIDDatabase.UUID_CSC_MEASURE)) {
             ArrayList<String> csc_values = CSCParser
@@ -743,24 +717,7 @@ public class BluetoothLeService extends Service {
             mBundle.putString(Constants.EXTRA_RGB_VALUE,
                     RGBParser.getRGBValue(characteristic));
         }
-        // Glucose Measurement value
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_GLUCOSE_MEASUREMENT)
-                || characteristic.getUuid().equals(UUIDDatabase.UUID_GLUCOSE_MEASUREMENT_CONTEXT)) {
-            mBundle.putSparseParcelableArray(Constants.EXTRA_GLUCOSE_MEASUREMENT,
-                    GlucoseParser.getGlucoseMeasurement(characteristic));
-            //Logger.e("ON glucose Measurement received..." + Utils.ByteArraytoHex(characteristic.getValue()));
-        }
-//        // Glucose Measurement Context value
-//        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_GLUCOSE_MEASUREMENT_CONTEXT)) {
-//            mBundle.putSparseParcelableArray(Constants.EXTRA_GLUCOSE_MEASUREMENT_CONTEXT,
-//                    GlucoseParser.getGlucoseMeasurement(characteristic));
-//            Logger.e("ON glucose Measurement context received..." + Utils.ByteArraytoHex(characteristic.getValue()));
-//        }
-        // Glucose RACP
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_RECORD_ACCESS_CONTROL_POINT)) {
-            GlucoseParser.onCharacteristicIndicated(characteristic);
-            Logger.e("ON RACP received..." + Utils.ByteArraytoHex(characteristic.getValue()));
-        }
+
         // Running speed read value
         else if (characteristic.getUuid().equals(UUIDDatabase.UUID_RSC_MEASURE)) {
             mBundle.putStringArrayList(Constants.EXTRA_RSC_VALUE,

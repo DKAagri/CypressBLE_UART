@@ -39,6 +39,7 @@ import android.bluetooth.BluetoothGattService;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -69,7 +70,12 @@ import com.cypress.cysmart.CommonUtils.GattAttributes;
 import com.cypress.cysmart.CommonUtils.Logger;
 import com.cypress.cysmart.CommonUtils.Utils;
 import com.cypress.cysmart.R;
+import com.opencsv.CSVReader;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -304,7 +310,6 @@ public class RGBFragment extends Fragment {
             }
         });
 
-
     }
 
     @Override
@@ -493,5 +498,29 @@ public class RGBFragment extends Fragment {
 
         }
 
+    }
+
+
+
+    public final List<String[]> readCsv(Context context) {
+        List<String[]> questionList = new ArrayList<String[]>();
+        AssetManager assetManager = context.getAssets();
+
+        try {
+            InputStream csvStream = assetManager.open("trip_to_the_forest_file.csv");
+            InputStreamReader csvStreamReader = new InputStreamReader(csvStream);
+            CSVReader csvReader = new CSVReader(csvStreamReader);
+            String[] line;
+
+            // throw away the header
+            csvReader.readNext();
+
+            while ((line = csvReader.readNext()) != null) {
+                questionList.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return questionList;
     }
 }
