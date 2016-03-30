@@ -18,20 +18,17 @@ repositories {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0-alpha1'
-    compile 'com.android.support:support-v13:24.0.0-alpha1'
-    compile 'com.android.support:support-v4:24.0.0-alpha1'
-    compile files('libs/achartengine-1.0.0.jar')
-    compile files('libs/android-support-v4.jar')
-    compile files('libs/Android-WebRequest.jar')
     compile files('libs/opencsv-3.7.jar')
     compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
         transitive = true;
     }
+    compile 'com.android.support:support-v4:24.0.0-alpha1'
+    compile files('libs/achartengine-1.0.0.jar')
 }
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion '22.0.1'
+    compileSdkVersion 23
+    buildToolsVersion '23.0.0'
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'

@@ -16,16 +16,6 @@
         android:background="@color/actionbar_bg_color"
         android:contentDescription="@string/image_actionbar_bg_color" />
 
-    <ImageView
-        android:id="@+id/logo_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
-        android:background="@drawable/logo_about"
-        android:contentDescription="@string/image_about_cypress_logo" />
-
     <TextView
         android:id="@+id/cysmart_version"
         android:layout_width="wrap_content"

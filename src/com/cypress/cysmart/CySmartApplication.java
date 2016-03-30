@@ -54,8 +54,6 @@ public class CySmartApplication extends Application {
     private BluetoothGattCharacteristic mBluetoothgattcharacteristic;
     private BluetoothGattDescriptor mBluetoothGattDescriptor;
 
-
-
     /**
      * getter method for Blue tooth GATT characteristic
      *

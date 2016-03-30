@@ -52,11 +52,8 @@ import android.util.Log;
 
 import com.cypress.cysmart.BLEProfileDataParserClasses.CapSenseParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.DescriptorParser;
-import com.cypress.cysmart.BLEProfileDataParserClasses.HRMParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.HTMParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.RGBParser;
-import com.cypress.cysmart.BLEProfileDataParserClasses.RSCParser;
-import com.cypress.cysmart.BLEProfileDataParserClasses.SensorHubParser;
 import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.GattAttributes;
 import com.cypress.cysmart.CommonUtils.Logger;
@@ -566,32 +563,9 @@ public class BluetoothLeService extends Service {
                 characteristic.getService().getUuid().toString());
         mBundle.putInt(Constants.EXTRA_BYTE_SERVICE_INSTANCE_VALUE,
                 characteristic.getService().getInstanceId());
-        // Heart rate Measurement notify value
-        if (characteristic.getUuid().equals(UUIDDatabase.UUID_HEART_RATE_MEASUREMENT)) {
-            String heart_rate = HRMParser.getHeartRate(characteristic);
-            String energy_expended = HRMParser
-                    .getEnergyExpended(characteristic);
-            ArrayList<Integer> rrintervel = HRMParser
-                    .getRRInterval(characteristic);
-            mBundle.putString(Constants.EXTRA_HRM_VALUE, heart_rate);
-            mBundle.putString(Constants.EXTRA_HRM_EEVALUE, energy_expended);
-            mBundle.putIntegerArrayList(Constants.EXTRA_HRM_RRVALUE, rrintervel);
-        }
-        // Health thermometer notify value
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_HEALTH_THERMOMETER)) {
-            ArrayList<String> health_temp = HTMParser.getHealthThermo(characteristic, mContext);
-            mBundle.putStringArrayList(Constants.EXTRA_HTM_VALUE, health_temp);
-        }
 
-        // Cycling speed Measurement notify value
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_CSC_MEASURE)) {
-            ArrayList<String> csc_values = CSCParser
-                    .getCyclingSpeednCadence(characteristic);
-            mBundle.putStringArrayList(Constants.EXTRA_CSC_VALUE, csc_values);
-
-        }
         //RDK characteristic
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_REP0RT)) {
+        if (characteristic.getUuid().equals(UUIDDatabase.UUID_REP0RT)) {
             BluetoothGattDescriptor descriptor = characteristic.getDescriptor
                     (UUIDDatabase.UUID_REPORT_REFERENCE);
             if (descriptor != null) {
@@ -615,11 +589,6 @@ public class BluetoothLeService extends Service {
             mContext.sendBroadcast(mIntentOTA);
         }
 
-        // Body sensor location read value
-        if (characteristic.getUuid().equals(UUIDDatabase.UUID_BODY_SENSOR_LOCATION)) {
-            mBundle.putString(Constants.EXTRA_BSL_VALUE,
-                    HRMParser.getBodySensorLocation(characteristic, mContext));
-        }
         // Manufacture name read value
         else if (characteristic.getUuid()
                 .equals(UUIDDatabase.UUID_MANUFACTURE_NAME_STRING)) {
@@ -718,98 +687,6 @@ public class BluetoothLeService extends Service {
                     RGBParser.getRGBValue(characteristic));
         }
 
-        // Running speed read value
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_RSC_MEASURE)) {
-            mBundle.putStringArrayList(Constants.EXTRA_RSC_VALUE,
-                    RSCParser.getRunningSpeednCadence(characteristic));
-        }
-        // Accelerometer X read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_ACCELEROMETER_READING_X)) {
-            mBundle.putInt(Constants.EXTRA_ACCX_VALUE, SensorHubParser
-                    .getAcceleroMeterXYZReading(characteristic));
-        }
-        // Accelerometer Y read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_ACCELEROMETER_READING_Y)) {
-            mBundle.putInt(Constants.EXTRA_ACCY_VALUE, SensorHubParser
-                    .getAcceleroMeterXYZReading(characteristic));
-        }
-        // Accelerometer Z read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_ACCELEROMETER_READING_Z)) {
-            mBundle.putInt(Constants.EXTRA_ACCZ_VALUE, SensorHubParser
-                    .getAcceleroMeterXYZReading(characteristic));
-        }
-        // Temperature read value
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_TEMPERATURE_READING)) {
-            mBundle.putFloat(Constants.EXTRA_STEMP_VALUE,
-                    SensorHubParser
-                            .getThermometerReading(characteristic));
-        }
-        // Barometer read value
-        else if (characteristic.getUuid().equals(UUIDDatabase.UUID_BAROMETER_READING)) {
-            mBundle.putInt(Constants.EXTRA_SPRESSURE_VALUE,
-                    SensorHubParser.getBarometerReading(characteristic));
-        }
-        // Accelerometer scan interval read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_ACCELEROMETER_SENSOR_SCAN_INTERVAL)) {
-            mBundle.putInt(
-                    Constants.EXTRA_ACC_SENSOR_SCAN_VALUE,
-                    SensorHubParser
-                            .getSensorScanIntervalReading(characteristic));
-        }
-        // Accelerometer analog sensor read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_ACCELEROMETER_ANALOG_SENSOR)) {
-            mBundle.putInt(Constants.EXTRA_ACC_SENSOR_TYPE_VALUE,
-                    SensorHubParser
-                            .getSensorTypeReading(characteristic));
-        }
-        // Accelerometer data accumulation read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_ACCELEROMETER_DATA_ACCUMULATION)) {
-            mBundle.putInt(Constants.EXTRA_ACC_FILTER_VALUE,
-                    SensorHubParser
-                            .getFilterConfiguration(characteristic));
-        }
-        // Temperature sensor scan read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_TEMPERATURE_SENSOR_SCAN_INTERVAL)) {
-            mBundle.putInt(
-                    Constants.EXTRA_STEMP_SENSOR_SCAN_VALUE,
-                    SensorHubParser
-                            .getSensorScanIntervalReading(characteristic));
-        }
-        // Temperature analog sensor read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_TEMPERATURE_ANALOG_SENSOR)) {
-            mBundle.putInt(Constants.EXTRA_STEMP_SENSOR_TYPE_VALUE,
-                    SensorHubParser
-                            .getSensorTypeReading(characteristic));
-        }
-        // Barometer sensor scan interval read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_BAROMETER_SENSOR_SCAN_INTERVAL)) {
-            mBundle.putInt(
-                    Constants.EXTRA_SPRESSURE_SENSOR_SCAN_VALUE,
-                    SensorHubParser
-                            .getSensorScanIntervalReading(characteristic));
-        }
-        // Barometer digital sensor
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_BAROMETER_DIGITAL_SENSOR)) {
-            mBundle.putInt(Constants.EXTRA_SPRESSURE_SENSOR_TYPE_VALUE,
-                    SensorHubParser
-                            .getSensorTypeReading(characteristic));
-        }
-        // Barometer threshold for indication read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_BAROMETER_THRESHOLD_FOR_INDICATION)) {
-            mBundle.putInt(Constants.EXTRA_SPRESSURE_THRESHOLD_VALUE,
-                    SensorHubParser.getThresholdValue(characteristic));
-        }
 
 
         intent.putExtras(mBundle);

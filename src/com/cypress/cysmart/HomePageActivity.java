@@ -66,13 +66,10 @@ import android.widget.Toast;
 
 import com.cypress.cysmart.BLEConnectionServices.BluetoothLeService;
 import com.cypress.cysmart.BLEServiceFragments.BatteryInformationService;
-import com.cypress.cysmart.BLEServiceFragments.CSCService;
 import com.cypress.cysmart.BLEServiceFragments.CapsenseService;
 import com.cypress.cysmart.BLEServiceFragments.DeviceInformationService;
 import com.cypress.cysmart.BLEServiceFragments.FindMeService;
 import com.cypress.cysmart.BLEServiceFragments.RGBFragment;
-import com.cypress.cysmart.BLEServiceFragments.RSCService;
-import com.cypress.cysmart.BLEServiceFragments.SensorHubService;
 import com.cypress.cysmart.CommonFragments.AboutFragment;
 import com.cypress.cysmart.CommonFragments.NavigationDrawerFragment;
 import com.cypress.cysmart.CommonFragments.ProfileControlFragment;
@@ -440,14 +437,9 @@ public class HomePageActivity extends FragmentActivity implements
         } else if (
                  currentFragment instanceof DeviceInformationService
                 || currentFragment instanceof BatteryInformationService
-
                 || currentFragment instanceof CapsenseService
-                || currentFragment instanceof CSCService
                 || currentFragment instanceof FindMeService
-
                 || currentFragment instanceof RGBFragment
-                || currentFragment instanceof RSCService
-                || currentFragment instanceof SensorHubService
                 || currentFragment instanceof RemoteControlEmulatorFragment
                 || currentFragment instanceof GattServicesFragment) {
             if (mParentView.isDrawerOpen(Gravity.START)) {

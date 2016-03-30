@@ -51,13 +51,12 @@ import com.cypress.cysmart.BLEServiceFragments.CapsenseService;
 import com.cypress.cysmart.BLEServiceFragments.DeviceInformationService;
 import com.cypress.cysmart.BLEServiceFragments.FindMeService;
 import com.cypress.cysmart.BLEServiceFragments.RGBFragment;
-import com.cypress.cysmart.BLEServiceFragments.RSCService;
-import com.cypress.cysmart.BLEServiceFragments.SensorHubService;
 import com.cypress.cysmart.CommonUtils.CarouselLinearLayout;
 import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.UUIDDatabase;
 import com.cypress.cysmart.GATTDBFragments.GattServicesFragment;
 import com.cypress.cysmart.OTAFirmwareUpdate.OTAFirmwareUpgradeFragment;
+import com.cypress.cysmart.R;
 import com.cypress.cysmart.RDKEmulatorView.RemoteControlEmulatorFragment;
 
 import java.util.HashMap;
@@ -216,20 +215,7 @@ public class CarouselFragment extends Fragment {
                     displayView(rgbfragment, getResources().getString(R.string.rgb_led));
                 }
 
-                // Running service
-                else if (mService.getUuid().equals(UUIDDatabase.UUID_RSC_SERVICE)) {
-                    RSCService rscService = new RSCService().create(mService);
-                    displayView(rscService, getResources().getString(R.string.rsc_fragment));
 
-                }
-
-                // Barometer(SensorHub) Service
-                else if (mService.getUuid().equals(UUIDDatabase.UUID_BAROMETER_SERVICE)) {
-                    SensorHubService sensorHubService = new SensorHubService()
-                            .create(mService,
-                                    ServiceDiscoveryFragment.mGattServiceSensorHubData);
-                    displayView(sensorHubService, getResources().getString(R.string.sen_hub));
-                }
                 // HID(Remote Control Emulator) Service
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_HID_SERVICE)) {
                     String connectedDeviceName = BluetoothLeService.getmBluetoothDeviceName();
