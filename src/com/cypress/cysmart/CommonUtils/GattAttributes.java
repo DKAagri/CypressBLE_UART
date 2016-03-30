@@ -435,55 +435,6 @@ public class GattAttributes {
         attributesUUID.put(UUIDDatabase.UUID_RGB_LED, "RGB LED");
         attributesUUID.put(UUIDDatabase.UUID_RGB_LED_CUSTOM, "RGB LED");
 
-        // Glucose Characteristics
-        attributesUUID.put(UUIDDatabase.UUID_GLUCOSE_MEASUREMENT, "Glucose Measurement");
-        attributesUUID.put(UUIDDatabase.UUID_GLUCOSE_MEASUREMENT_CONTEXT,
-                "Glucose Measurement Context");
-        attributesUUID.put(UUIDDatabase.UUID_GLUCOSE_FEATURE, "Glucose Feature");
-        attributesUUID.put(UUIDDatabase.UUID_RECORD_ACCESS_CONTROL_POINT,
-                "Record Access Control Point");
-
-        // Blood pressure service characteristics
-        attributesUUID.put(UUIDDatabase.UUID_BLOOD_INTERMEDIATE_CUFF_PRESSURE,
-                "Intermediate Cuff Pressure");
-        attributesUUID.put(UUIDDatabase.UUID_BLOOD_PRESSURE_FEATURE, "Blood Pressure Feature");
-        attributesUUID
-                .put(UUIDDatabase.UUID_BLOOD_PRESSURE_MEASUREMENT, "Blood Pressure Measurement");
-
-        // Running Speed Characteristics
-        attributesUUID.put(UUIDDatabase.UUID_RSC_MEASURE, "Running Speed and Cadence Measurement");
-        attributesUUID.put(UUIDDatabase.UUID_RSC_FEATURE, "Running Speed and Cadence Feature");
-        attributesUUID.put(UUIDDatabase.UUID_SC_CONTROL_POINT, "Speed and Cadence Control Point");
-        attributesUUID.put(UUIDDatabase.UUID_SC_SENSOR_LOCATION, "Speed and Cadence Sensor Location");
-
-        // Cycling Speed Characteristics
-        attributesUUID.put(UUIDDatabase.UUID_CSC_MEASURE, "Cycling Speed and Cadence Measurement");
-        attributesUUID.put(UUIDDatabase.UUID_CSC_FEATURE, "Cycling Speed and Cadence Feature");
-
-
-        // SensorHub Characteristics
-        attributesUUID.put(UUIDDatabase.UUID_ACCELEROMETER_ANALOG_SENSOR,
-                "Accelerometer Analog Sensor");
-        attributesUUID.put(UUIDDatabase.UUID_ACCELEROMETER_DATA_ACCUMULATION,
-                "Accelerometer Data Accumulation");
-        attributesUUID.put(UUIDDatabase.UUID_ACCELEROMETER_READING_X, "Accelerometer X Reading");
-        attributesUUID.put(UUIDDatabase.UUID_ACCELEROMETER_READING_Y, "Accelerometer Y Reading");
-        attributesUUID.put(UUIDDatabase.UUID_ACCELEROMETER_READING_Z, "Accelerometer Z Reading");
-        attributesUUID.put(UUIDDatabase.UUID_ACCELEROMETER_SENSOR_SCAN_INTERVAL,
-                "Accelerometer Sensor Scan Interval");
-        attributesUUID.put(UUIDDatabase.UUID_BAROMETER_DATA_ACCUMULATION,
-                "Barometer Data Accumulation");
-        attributesUUID.put(UUIDDatabase.UUID_BAROMETER_DIGITAL_SENSOR, "Barometer Digital Sensor");
-        attributesUUID.put(UUIDDatabase.UUID_BAROMETER_READING, "Barometer Reading");
-        attributesUUID.put(UUIDDatabase.UUID_BAROMETER_SENSOR_SCAN_INTERVAL,
-                "Barometer Sensor Scan Interval");
-        attributesUUID.put(UUIDDatabase.UUID_BAROMETER_THRESHOLD_FOR_INDICATION,
-                "Barometer Threshold for Indication");
-        attributesUUID.put(UUIDDatabase.UUID_TEMPERATURE_ANALOG_SENSOR, "Temperature Analog Sensor");
-        attributesUUID.put(UUIDDatabase.UUID_TEMPERATURE_READING, "Temperature Reading");
-        attributesUUID.put(UUIDDatabase.UUID_TEMPERATURE_SENSOR_SCAN_INTERVAL,
-                "Temperature Sensor Scan Interval");
-
         //HID Characteristics
         attributesUUID.put(UUIDDatabase.UUID_PROTOCOL_MODE, "Protocol Mode");
         attributesUUID.put(UUIDDatabase.UUID_REP0RT, "Report");
@@ -609,9 +560,6 @@ public class GattAttributes {
 
 
         // Services Image Mapping.
-        attributesImageMap.put(UUIDDatabase.UUID_HEART_RATE_SERVICE, R.drawable.heart_rate);
-        attributesImageMap.put(UUIDDatabase.UUID_HEALTH_THERMOMETER_SERVICE,
-                R.drawable.thermometer_carousel);
         attributesImageMap.put(UUIDDatabase.UUID_GENERIC_ACCESS_SERVICE,// "00001800-0000-1000-8000-00805f9b34fb",
                 R.drawable.gatt_db_dark_blue);
         attributesImageMap.put(UUIDDatabase.UUID_GENERIC_ATTRIBUTE_SERVICE,// "00001801-0000-1000-8000-00805f9b34fb",
@@ -634,12 +582,10 @@ public class GattAttributes {
         attributesImageMap.put(UUIDDatabase.UUID_IMMEDIATE_ALERT_SERVICE, R.drawable.find_me);
         attributesImageMap.put(UUIDDatabase.UUID_LINK_LOSS_SERVICE, R.drawable.proximity);
         attributesImageMap.put(UUIDDatabase.UUID_TRANSMISSION_POWER_SERVICE, R.drawable.proximity);
-        attributesImageMap.put(UUIDDatabase.UUID_GLUCOSE_SERVICE, R.drawable.glucose);
-        attributesImageMap.put(UUIDDatabase.UUID_BLOOD_PRESSURE_SERVICE,
-                R.drawable.blood_pressure);
+
         attributesImageMap.put(UUIDDatabase.UUID_RSC_SERVICE, R.drawable.rsc);
         attributesImageMap.put(UUIDDatabase.UUID_CSC_SERVICE, R.drawable.cpc);
-        attributesImageMap.put(UUIDDatabase.UUID_BAROMETER_SERVICE, R.drawable.sensor_hub);
+
         // CapSense Image Mapping
         attributesCapSenseImageMap.put(UUIDDatabase.UUID_CAPSENSE_SERVICE, R.drawable.capsense);
         attributesCapSenseImageMap.put(UUIDDatabase.UUID_CAPSENSE_PROXIMITY,
