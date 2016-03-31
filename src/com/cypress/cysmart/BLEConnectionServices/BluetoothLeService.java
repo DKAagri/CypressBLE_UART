@@ -154,10 +154,9 @@ public class BluetoothLeService extends Service {
      * example,connection change and services discovered.
      */
     private final static BluetoothGattCallback mGattCallback = new BluetoothGattCallback() {
-        @Override
-        public void onConnectionStateChange(BluetoothGatt gatt, int status,
-                                            int newState) {
 
+        @Override
+        public void onConnectionStateChange(BluetoothGatt gatt, int status, int newState) {
             Logger.i("onConnectionStateChange");
             String intentAction;
             // GATT Server connected
@@ -1097,6 +1096,65 @@ public class BluetoothLeService extends Service {
         }
 
     }
+
+
+    /**
+     * Request a write on a given {@code BluetoothGattCharacteristic} for RGB.
+     *
+     * @param characteristic
+     * @param Frequency
+     * @param Intensity
+     * @param Duty_Cycle
+     * @param Red
+     * @param Green
+     * @param Blue
+     * @param Phase
+     * @param Change
+     */
+    public static void writeDreamweaverCsv(
+            BluetoothGattCharacteristic characteristic,
+            int Frequency,int Intensity, int Duty_Cycle, int Red, int Green, int Blue,int Phase, int Change ) {
+
+        String serviceUUID = characteristic.getService().getUuid().toString();
+        String serviceName = GattAttributes.lookupUUID(characteristic.getService().getUuid(), serviceUUID);
+
+        String characteristicUUID = characteristic.getUuid().toString();
+        String characteristicName = GattAttributes.lookupUUID(characteristic.getUuid(), characteristicUUID);
+
+        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
+            return;
+        } else {
+            byte[] valueByte = new byte[8];
+/*            valueByte[0] = (byte) Frequency;
+            valueByte[1] = (byte) Intensity;
+            valueByte[2] = (byte) Duty_Cycle;
+            valueByte[3] = (byte) Red;
+            valueByte[4] = (byte) Green;
+            valueByte[5] = (byte) Blue;
+            valueByte[6] = (byte) Phase;
+            valueByte[7] = (byte) Change;*/
+
+
+            valueByte[0] = (byte) Red;
+            valueByte[1] = (byte) Green;
+            valueByte[2] = (byte) Blue;
+            valueByte[3] = (byte) Intensity;
+
+            characteristic.setValue(valueByte);
+            String characteristicValue = Utils.ByteArraytoHex(valueByte);
+
+            mBluetoothGatt.writeCharacteristic(characteristic);
+            String dataLog = mContext.getResources().getString(R.string.dl_commaseparator) +
+                    "[" + serviceName + "|" + characteristicName + "] " +
+                    mContext.getResources().getString(R.string.dl_characteristic_write_request) +
+                    mContext.getResources().getString(R.string.dl_commaseparator) +
+                    "[ " + characteristicValue + " ]";
+            Logger.datalog(dataLog);
+        }
+
+    }
+
+
 
     /**
      * Enables or disables notification on a give characteristic.

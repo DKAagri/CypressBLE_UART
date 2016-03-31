@@ -39,12 +39,12 @@ import android.bluetooth.BluetoothGattService;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -78,6 +78,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.cypress.cysmart.BLEConnectionServices.BluetoothLeService.writeDreamweaverCsv;
+
 /**
  * Fragment to display the RGB service
  */
@@ -103,6 +105,9 @@ public class RGBFragment extends Fragment {
     private String mHexTx;
     private int mTxBLE;
 
+//added fpr mediacontroller and play button
+    private Button btnPlay;
+    private MediaPlayer mediaPlayer;
 
     private ImageView mColorindicator;
     private SeekBar mIntensityBar;
@@ -127,6 +132,7 @@ public class RGBFragment extends Fragment {
      * BroadcastReceiver for receiving the GATT server status
      */
     private BroadcastReceiver mGattUpdateReceiver = new BroadcastReceiver() {
+
         @Override
         public void onReceive(Context context, Intent intent) {
             final String action = intent.getAction();
@@ -135,7 +141,6 @@ public class RGBFragment extends Fragment {
                 final int state = intent.getIntExtra(BluetoothDevice.EXTRA_BOND_STATE, BluetoothDevice.ERROR);
 
                 if (state == BluetoothDevice.BOND_BONDING) {
-                    // Bonding...
                     Logger.i("Bonding is in process....");
                     Utils.bondingProgressDialog(getActivity(), mProgressDialog, true);
                 } else if (state == BluetoothDevice.BOND_BONDED) {
@@ -147,7 +152,6 @@ public class RGBFragment extends Fragment {
                     Logger.datalog(dataLog);
                     Utils.bondingProgressDialog(getActivity(), mProgressDialog, false);
                     getGattData();
-
                 } else if (state == BluetoothDevice.BOND_NONE) {
                     String dataLog = getResources().getString(R.string.dl_commaseparator)
                             + "[" + BluetoothLeService.getmBluetoothDeviceName() + "|"
@@ -158,9 +162,7 @@ public class RGBFragment extends Fragment {
                     Utils.bondingProgressDialog(getActivity(), mProgressDialog, false);
                 }
             }
-
         }
-
     };
 
     public RGBFragment create(BluetoothGattService currentservice) {
@@ -170,8 +172,7 @@ public class RGBFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         int currentOrientation = getResources().getConfiguration().orientation;
         if (currentOrientation == Configuration.ORIENTATION_LANDSCAPE) {
             mRootView = inflater.inflate(R.layout.rgb_view_landscape, container,
@@ -186,6 +187,7 @@ public class RGBFragment extends Fragment {
         setHasOptionsMenu(true);
         return mRootView;
     }
+
 
     private void setDefaultColorPickerPositionColor() {
         ViewTreeObserver observer = mcolorpicker.getViewTreeObserver();
@@ -209,7 +211,6 @@ public class RGBFragment extends Fragment {
                 }
             }
         });
-
     }
 
     /**
@@ -226,14 +227,15 @@ public class RGBFragment extends Fragment {
         mTextred = (TextView) mRootView.findViewById(R.id.txtred);
         mTextgreen = (TextView) mRootView.findViewById(R.id.txtgreen);
         mTextblue = (TextView) mRootView.findViewById(R.id.txtblue);
-        mColorindicator = (ImageView) mRootView
-                .findViewById(R.id.txtcolorindicator);
+        mColorindicator = (ImageView) mRootView.findViewById(R.id.txtcolorindicator);
         mViewContainer = (ViewGroup) mRootView.findViewById(R.id.viewgroup);
 
         mIntensityBar = (SeekBar) mRootView.findViewById(R.id.intencitychanger);
         mProgressDialog = new ProgressDialog(getActivity());
+
         BitmapDrawable mBmpdwbl = (BitmapDrawable) mRGBcanavs.getDrawable();
         mBitmap = mBmpdwbl.getBitmap();
+
         Drawable d = getResources().getDrawable(R.drawable.gamut);
         mRGBcanavs.setOnTouchListener(new OnTouchListener() {
             @Override
@@ -310,6 +312,38 @@ public class RGBFragment extends Fragment {
             }
         });
 
+        /*
+        MediaPlayer mPlayer = MediaPlayer.create(this, Uri.parse(Environment.getExternalStorageDirectory().getPath()+ "/calm.mp3"));
+        mPlayer.setLooping(true);
+        mPlayer.start();*/
+        btnPlay=  (Button) mRootView.findViewById(R.id.buttonPlayAudio);
+        btnPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                List<String[]> csvvalues = readCsv();
+
+                /*
+                String filePath = Environment.getExternalStorageDirectory()+"/res/raw/trip_to_the_forest.mp3";
+                mediaPlayer = new MediaPlayer();
+                try {
+                    mediaPlayer.setDataSource(filePath);
+                    mediaPlayer.prepare();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                mediaPlayer.start();*/
+
+                writeDreamweaverCsv(mReadCharacteristic,
+                        Integer.parseInt(csvvalues.get(0)[2]),
+                        Integer.parseInt(csvvalues.get(0)[3]),
+                        Integer.parseInt(csvvalues.get(0)[4]),
+                        Integer.parseInt(csvvalues.get(0)[5]),
+                        Integer.parseInt(csvvalues.get(0)[6]),
+                        Integer.parseInt(csvvalues.get(0)[7]),
+                        Integer.parseInt(csvvalues.get(0)[8]),
+                        Integer.parseInt(csvvalues.get(0)[9]));
+            }
+        });
     }
 
     @Override
@@ -381,7 +415,7 @@ public class RGBFragment extends Fragment {
         //int mHexTx_int= Integer.getInteger(mHexTx);
 
         try {
-            /* send valu of input box inside intensity */
+            /* send value of input box inside intensity */
             Logger.i(" SendTxVal Writing value-->" + mRed + " " + mGreen + " " + mBlue + " " + mHexTx);
             BluetoothLeService.writeCharacteristicRGB(
                     mReadCharacteristic,
@@ -475,9 +509,9 @@ public class RGBFragment extends Fragment {
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
+
         if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            LayoutInflater inflater = (LayoutInflater) getActivity()
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             mRootView = inflater.inflate(R.layout.rgb_view_landscape, null);
             ViewGroup rootViewG = (ViewGroup) getView();
             // Remove all the existing views from the root view.
@@ -486,8 +520,7 @@ public class RGBFragment extends Fragment {
             setUpControls();
             setDefaultColorPickerPositionColor();
         } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
-            LayoutInflater inflater = (LayoutInflater) getActivity()
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             mRootView = inflater.inflate(R.layout.rgb_view_portrait, null);
             ViewGroup rootViewG = (ViewGroup) getView();
             // Remove all the existing views from the root view.
@@ -502,12 +535,19 @@ public class RGBFragment extends Fragment {
 
 
 
-    public final List<String[]> readCsv(Context context) {
+    public final List<String[]> readCsv() {
         List<String[]> questionList = new ArrayList<String[]>();
-        AssetManager assetManager = context.getAssets();
+        //AssetManager assetManager = context.getAssets();
 
         try {
-            InputStream csvStream = assetManager.open("trip_to_the_forest_file.csv");
+            ///R.raw.trip_to_the_forest_file
+            //InputStream csvStream = assetManager.open(String.valueOf(R.raw.trip_to_the_forest_file));
+           // InputStream csvStream= new FileInputStream("/res/raw/trip_to_the_forest_file.csv");
+/*            InputStream csvStream = getResources().openRawResource(
+                    getResources().getIdentifier("FILENAME_WITHOUT_EXTENSION",
+                            "raw", getPackageName()));*/
+            InputStream csvStream= getResources().openRawResource(R.raw.trip_to_the_forest_file);
+            Logger.v("Csv file read as stream ");
             InputStreamReader csvStreamReader = new InputStreamReader(csvStream);
             CSVReader csvReader = new CSVReader(csvStreamReader);
             String[] line;

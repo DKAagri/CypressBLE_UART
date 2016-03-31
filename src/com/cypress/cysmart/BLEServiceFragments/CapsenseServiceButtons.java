@@ -127,7 +127,6 @@ public class CapsenseServiceButtons extends Fragment {
         super.onResume();
         getActivity().registerReceiver(mGattUpdateReceiver,
                 Utils.makeGattUpdateIntentFilter());
-
     }
 
     @Override

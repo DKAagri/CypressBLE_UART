@@ -49,7 +49,6 @@ public class CySmartApplication extends Application {
     private ArrayList<HashMap<String, BluetoothGattService>> mGattServiceMasterData =
             new ArrayList<HashMap<String, BluetoothGattService>>();
 
-
     private List<BluetoothGattCharacteristic> mGattCharacteristics;
     private BluetoothGattCharacteristic mBluetoothgattcharacteristic;
     private BluetoothGattDescriptor mBluetoothGattDescriptor;

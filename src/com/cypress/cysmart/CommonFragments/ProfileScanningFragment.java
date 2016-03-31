@@ -82,8 +82,8 @@ import java.util.TimerTask;
 
 public class ProfileScanningFragment extends Fragment {
 
-    // Stops scanning after 2 seconds.
-    private static final long SCAN_PERIOD_TIMEOUT = 2000;
+    // Stops scanning after 4 seconds.
+    private static final long SCAN_PERIOD_TIMEOUT = 4000;
     private Timer mScanTimer;
     private boolean mScanning;
 
@@ -149,7 +149,6 @@ public class ProfileScanningFragment extends Fragment {
                     }
                 });
             }
-
         }
     };
 
@@ -215,15 +214,17 @@ public class ProfileScanningFragment extends Fragment {
                              Bundle savedInstanceState) {
        View mrootView = inflater.inflate(R.layout.fragment_profile_scan, container,
                 false);
+
         mDevRssiValues = new HashMap<String, Integer>();
-        mSwipeLayout = (SwipeRefreshLayout) mrootView
-                .findViewById(R.id.swipe_container);
+        mSwipeLayout = (SwipeRefreshLayout) mrootView.findViewById(R.id.swipe_container);
+
         mSwipeLayout.setColorScheme(R.color.dark_blue, R.color.medium_blue,
                 R.color.light_blue, R.color.faint_blue);
-        mProfileListView = (ListView) mrootView
-                .findViewById(R.id.listView_profiles);
+        mProfileListView = (ListView) mrootView.findViewById(R.id.listView_profiles);
         mRefreshText = (TextView) mrootView.findViewById(R.id.no_dev);
+
         mLeDeviceListAdapter = new LeDeviceListAdapter();
+
         mProfileListView.setAdapter(mLeDeviceListAdapter);
         mProfileListView.setTextFilterEnabled(true);
         setHasOptionsMenu(true);
@@ -668,7 +669,7 @@ public class ProfileScanningFragment extends Fragment {
                                 R.string.profile_control_no_device_message));
                     }
                 });
-                mSwipeLayout.setRefreshing(false);
+                //mSwipeLayout.setRefreshing(false);
                 scanLeDevice(false);
             }
         },SCAN_PERIOD_TIMEOUT);
@@ -747,12 +748,9 @@ public class ProfileScanningFragment extends Fragment {
                 view = mInflator.inflate(R.layout.listitem_device, viewGroup,
                         false);
                 viewHolder = new ViewHolder();
-                viewHolder.deviceAddress = (TextView) view
-                        .findViewById(R.id.device_address);
-                viewHolder.deviceName = (TextView) view
-                        .findViewById(R.id.device_name);
-                viewHolder.deviceRssi = (TextView) view
-                        .findViewById(R.id.device_rssi);
+                viewHolder.deviceAddress = (TextView) view.findViewById(R.id.device_address);
+                viewHolder.deviceName = (TextView) view.findViewById(R.id.device_name);
+                viewHolder.deviceRssi = (TextView) view.findViewById(R.id.device_rssi);
                 viewHolder.pairStatus = (Button) view.findViewById(R.id.btn_pair);
                 view.setTag(viewHolder);
             } else {

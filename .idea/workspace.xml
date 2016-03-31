@@ -10,61 +10,117 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d95fb66-ae16-4fa4-9372-98df9482e939" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/test/debug/com/cypress/cysmart/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/blood_pressure_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/blood_pressure_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-sw720dp-v13/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-sw720dp-v13/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/blood_pressure_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/blood_pressure_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout-sw600dp-v13/hrm_measurement.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/hrm_measurement.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/blood_pressure_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/blood_pressure_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-sw720dp/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-sw720dp/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/blood_pressure_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/blood_pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/blood_pressure_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/heart_rate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/pressure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-sw600dp/hrm_measurement.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/hrm_measurement.xml" afterPath="" />
+    <list default="true" id="3d95fb66-ae16-4fa4-9372-98df9482e939" name="Default" comment="remove more icon soze is now 60 Mb of apk">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/backup.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/achartengine_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/flame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/speed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/temp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/themometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/flame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/speed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/temp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/themometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-sw600dp-v13/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-sw720dp-v13/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-sw720dp-v13/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-sw720dp-v13/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/flame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/speed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/temp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/themometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/flame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/speed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/temp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/themometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout-sw600dp-v13/fragment_drawer_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/about_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/contact_us_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/fragment_drawer_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/fragment_drawer_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/fragment_navigation_drawer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/flame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/speed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/temp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/themometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/flame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/speed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/temp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/themometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-sw600dp/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-sw720dp/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-sw720dp/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-sw720dp/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/flame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/speed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/temp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/themometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/flame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/rsc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/sensor_hub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/speed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/temp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/themometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/thermometer_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-sw600dp/fragment_drawer_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/about_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/contact_us_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_drawer_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_drawer_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_navigation_drawer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/AboutFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ContactUsFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/NavigationDrawerFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/ListAdapters/NavDrawerExpandableListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/ListAdapters/NavDrawerListAdapter.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/ASCIIKeyBoard.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/ASCIIKeyBoard.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceButtons.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceButtons.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceProximity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceProximity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceSlider.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceSlider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$8$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$8$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$9$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$9$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter$ItemFilter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter$ItemFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$ViewHolder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$drawable.class" />
@@ -76,17 +132,35 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$menu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$raw.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$raw.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/SplashPageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/SplashPageActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/TrackpadEmulatorFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/TrackpadEmulatorFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bleicon.9.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bleicon.9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceButtons.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceButtons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CySmartApplication.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/CySmartApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonUtils/GattAttributes.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonUtils/GattAttributes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/values/com_crashlytics_build_id.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values/com_crashlytics_build_id.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rgb_view_portrait.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rgb_view_portrait.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" afterPath="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/raw/trip_to_the_forest_file.csv" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/raw/trip_to_the_forest_file.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv" afterPath="$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cysmart_android.iws" />
@@ -207,76 +281,132 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="capsense_btn_bg.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/capsense_btn_bg.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="capsense.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/capsense.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadence.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/cadence.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cypress.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/cypress.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cypress.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/cypress.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/home.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkbox_unchecked.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/checkbox_unchecked.xml">
+      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.1724138">
+              <caret line="1151" column="0" selection-start-line="1151" selection-start-column="0" selection-end-line="1151" selection-end-column="0" />
+              <folding>
+                <element signature="e#7911#7972#0" expanded="true" />
+                <element signature="e#8091#8160#0" expanded="true" />
+                <element signature="e#8600#8661#0" expanded="true" />
+                <element signature="e#8780#8850#0" expanded="true" />
+                <element signature="e#9277#9338#0" expanded="true" />
+                <element signature="e#9457#9527#0" expanded="true" />
+                <element signature="e#10185#10246#0" expanded="true" />
+                <element signature="e#10365#10436#0" expanded="true" />
+                <element signature="e#10463#10524#0" expanded="true" />
+                <element signature="e#10975#11036#0" expanded="true" />
+                <element signature="e#11155#11226#0" expanded="true" />
+                <element signature="e#11253#11314#0" expanded="true" />
+                <element signature="e#12397#12458#0" expanded="true" />
+                <element signature="e#12586#12668#0" expanded="true" />
+                <element signature="e#12695#12756#0" expanded="true" />
+                <element signature="e#14022#14083#0" expanded="true" />
+                <element signature="e#14211#14293#0" expanded="true" />
+                <element signature="e#14320#14381#0" expanded="true" />
+                <element signature="e#16233#16294#0" expanded="true" />
+                <element signature="e#16422#16497#0" expanded="true" />
+                <element signature="e#16524#16585#0" expanded="true" />
+                <element signature="e#20161#20222#0" expanded="true" />
+                <element signature="e#20341#20422#0" expanded="true" />
+                <element signature="e#20449#20543#0" expanded="true" />
+                <element signature="e#21277#21338#0" expanded="true" />
+                <element signature="e#21443#21525#0" expanded="true" />
+                <element signature="e#21552#21613#0" expanded="true" />
+                <element signature="e#21767#21828#0" expanded="true" />
+                <element signature="e#21933#22015#0" expanded="true" />
+                <element signature="e#22042#22136#0" expanded="true" />
+                <element signature="e#23652#23713#0" expanded="true" />
+                <element signature="e#23818#23893#0" expanded="true" />
+                <element signature="e#23920#23981#0" expanded="true" />
+                <element signature="e#24191#24252#0" expanded="true" />
+                <element signature="e#24371#24452#0" expanded="true" />
+                <element signature="e#24479#24573#0" expanded="true" />
+                <element signature="e#25540#25601#0" expanded="true" />
+                <element signature="e#25698#25810#0" expanded="true" />
+                <element signature="e#25833#25894#0" expanded="true" />
+                <element signature="e#26262#26302#0" expanded="true" />
+                <element signature="e#26411#26447#0" expanded="true" />
+                <element signature="e#26894#26938#0" expanded="true" />
+                <element signature="e#27035#27071#0" expanded="true" />
+                <element signature="e#27828#27829#0" expanded="true" />
+                <element signature="e#27874#27875#0" expanded="true" />
+                <element signature="e#37613#37674#0" expanded="true" />
+                <element signature="e#37751#37816#0" expanded="true" />
+                <element signature="e#38438#38499#0" expanded="true" />
+                <element signature="e#38602#38667#0" expanded="true" />
+                <element signature="e#39360#39421#0" expanded="true" />
+                <element signature="e#39524#39589#0" expanded="true" />
+                <element signature="e#41139#41200#0" expanded="true" />
+                <element signature="e#41311#41379#0" expanded="true" />
+                <element signature="e#41781#41842#0" expanded="true" />
+                <element signature="e#41953#42025#0" expanded="true" />
+                <element signature="e#43111#43172#0" expanded="true" />
+                <element signature="e#43261#43335#0" expanded="true" />
+                <element signature="e#44315#44376#0" expanded="true" />
+                <element signature="e#44465#44539#0" expanded="true" />
+                <element signature="e#45624#45685#0" expanded="true" />
+                <element signature="e#45782#45857#0" expanded="true" />
+                <element signature="e#45880#45941#0" expanded="true" />
+                <element signature="e#47985#48046#0" expanded="true" />
+                <element signature="e#48151#48226#0" expanded="true" />
+                <element signature="e#48253#48314#0" expanded="true" />
+                <element signature="e#49876#49937#0" expanded="true" />
+                <element signature="e#50034#50109#0" expanded="true" />
+                <element signature="e#50132#50193#0" expanded="true" />
+                <element signature="e#52505#52566#0" expanded="true" />
+                <element signature="e#52663#52738#0" expanded="true" />
+                <element signature="e#52761#52822#0" expanded="true" />
+                <element signature="e#54698#54759#0" expanded="true" />
+                <element signature="e#54856#54931#0" expanded="true" />
+                <element signature="e#54954#55015#0" expanded="true" />
+                <element signature="e#56739#56800#0" expanded="true" />
+                <element signature="e#56928#57003#0" expanded="true" />
+                <element signature="e#57030#57091#0" expanded="true" />
+                <element signature="e#57676#57737#0" expanded="true" />
+                <element signature="e#57865#57940#0" expanded="true" />
+                <element signature="e#57967#58028#0" expanded="true" />
+                <element signature="e#58337#58398#0" expanded="true" />
+                <element signature="e#58495#58575#0" expanded="true" />
+                <element signature="e#58660#58721#0" expanded="true" />
+                <element signature="e#58818#58897#0" expanded="true" />
+                <element signature="e#60590#60651#0" expanded="true" />
+                <element signature="e#60803#60878#0" expanded="true" />
+                <element signature="e#60905#60966#0" expanded="true" />
+                <element signature="e#61573#61634#0" expanded="true" />
+                <element signature="e#61762#61837#0" expanded="true" />
+                <element signature="e#61864#61925#0" expanded="true" />
+                <element signature="e#62259#62320#0" expanded="true" />
+                <element signature="e#62417#62495#0" expanded="true" />
+                <element signature="e#62580#62641#0" expanded="true" />
+                <element signature="e#62738#62815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trip_to_the_forest_file.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.037406486">
+              <caret line="1" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/mobile.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minus_active.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/minus_active.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_white_icon.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/search_white_icon.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="RGBFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#22436#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#setDefaultColorPickerPositionColor#0;class#RGBFragment#0" expanded="false" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -778,7 +908,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2888935298859" />
+        <entry key="$PROJECT_DIR$" value="2888952933741" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1006,25 +1136,32 @@
         <option value="$PROJECT_DIR$/res/layout/listitem_device.xml" />
         <option value="$PROJECT_DIR$/res/layout/datalogger.xml" />
         <option value="$PROJECT_DIR$/res/layout/carousel_fragment_item.xml" />
-        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cypress/cysmart/AnalyticsTrackers.java" />
         <option value="$PROJECT_DIR$/res/xml/app_tracker.xml" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/tracker/AnalyticsTrackers.java" />
         <option value="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/SplashPageActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEProfileDataParserClasses/CSCParser.java" />
         <option value="$PROJECT_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/values-v23/values-v23.xml" />
         <option value="$PROJECT_DIR$/res/layout/about_fragment.xml" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/CarouselFragment.java" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ContactUsFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
-        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CySmartApplication.java" />
-        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonUtils/GattAttributes.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CySmartApplication.java" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonUtils/GattAttributes.java" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceButtons.java" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/NavigationDrawerFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
+        <option value="$PROJECT_DIR$/res/raw/backup.csv" />
+        <option value="$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv" />
       </list>
     </option>
   </component>
@@ -1039,10 +1176,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="21" />
-    <option name="width" value="1325" />
-    <option name="height" value="747" />
+    <option name="x" value="128" />
+    <option name="y" value="77" />
+    <option name="width" value="873" />
+    <option name="height" value="668" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1067,7 +1204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1086,46 +1222,290 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cysmart_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cysmart_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cysmart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cysmart_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cysmart_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="cysmart_android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RDKEmulatorView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OTAFirmwareUpdate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ListAdapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GATTDBFragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataModelClasses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataLoggerFragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonFragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLEServiceFragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLEProfileDataParserClasses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLEConnectionServices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1140,8 +1520,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1149,11 +1528,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/android-sdks" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="ZY2222GZ98" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="ac646561" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21" />
     <property name="FullScreen" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="501" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="323" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="206" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="108" />
@@ -1373,7 +1752,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459344388470</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove more icon soze is now 60 Mb of apk">
+      <created>1459344953528</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459344953528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1386,33 +1771,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="21" width="1325" height="747" extended-state="6" />
-    <editor active="false" />
+    <frame x="128" y="77" width="873" height="668" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.017460318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5857143" sideWeight="0.48791894" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6761905" sideWeight="0.48791894" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4079365" sideWeight="0.48791894" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18441065" sideWeight="0.48791894" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46825397" sideWeight="0.5120811" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6269841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20793651" sideWeight="0.5167576" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07460318" sideWeight="0.4832424" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53492063" sideWeight="0.4832424" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25643024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39590853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35396826" sideWeight="0.49415433" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1425,32 +1810,33 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34603176" sideWeight="0.49415433" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5126984" sideWeight="0.48791894" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46825397" sideWeight="0.5120811" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6269841" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20793651" sideWeight="0.5167576" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24941543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25643024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35396826" sideWeight="0.49415433" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.017460318" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46825397" sideWeight="0.48791894" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5253968" sideWeight="0.48791894" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25555557" sideWeight="0.48791894" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53492063" sideWeight="0.4832424" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1471,26 +1857,27 @@
     <MESSAGE value="changed UI + added integraer parse int" />
     <MESSAGE value="removed unused service fragments and their views" />
     <MESSAGE value="RGB changes , remove service resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="RGB changes , remove service resources" />
+    <MESSAGE value="remove more icon soze is now 60 Mb of apk" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove more icon soze is now 60 Mb of apk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java</url>
-          <line>149</line>
+          <line>140</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java</url>
-          <line>168</line>
+          <line>159</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java</url>
-          <line>185</line>
+          <line>176</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -1550,103 +1937,79 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>350</line>
+          <line>384</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>426</line>
+          <line>460</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>1044</line>
+          <line>1043</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>1046</line>
+          <line>1045</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>1052</line>
+          <line>1051</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>1029</line>
+          <line>1028</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>1033</line>
+          <line>1032</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>1041</line>
+          <line>1040</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>305</line>
+          <line>307</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>371</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>368</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>365</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>373</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>395</line>
+          <line>429</line>
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>394</line>
+          <line>428</line>
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>402</line>
+          <line>436</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>378</line>
+          <line>412</line>
           <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
@@ -1658,15 +2021,117 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>235</line>
+          <line>234</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java</url>
-          <line>157</line>
+          <line>148</line>
           <properties />
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>667</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>663</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>690</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>698</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>754</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>775</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>823</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>841</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
+          <line>407</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
+          <line>335</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
+          <line>322</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
+          <line>555</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
+          <line>563</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
+          <line>550</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
+          <line>1126</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
+          <line>1143</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
+          <line>1151</line>
+          <properties />
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$USER_HOME$/android-sdks/sources/android-22/android/view/View.java</url>
@@ -1674,206 +2139,60 @@
           <properties class="android.view.View.OnTouchListener" method="onTouch" />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
+          <line>685</line>
+          <properties field="mFilter" class="com.cypress.cysmart.CommonFragments.ProfileScanningFragment.LeDeviceListAdapter" />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="73" />
+      <option name="time" value="95" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/rdk_motion_sensor.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/rdk_microphone.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/rdk_emulator_view_portrait.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-sw600dp/rdk_emulator_view_landscape.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/ReportCharacteristicDescriptionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/ADPCMConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/ADPCMStateModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/KeyBoardAttributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/RDKAttributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/ReportAttributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/TrackpadEmulatorFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEStatusReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/layout_search.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/capsense_proximity.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/capsense_main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/capsense_buttons_item.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/capsense_buttons.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_splash.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/rgb_view_portrait.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/blutooth_icon.png">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/proximity_bar.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/border_blue_white.xml">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/proximity.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/products.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/plus_normal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/plus_active.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/search_white_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonUtils/GattAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="586" column="0" selection-start-line="585" selection-start-column="0" selection-end-line="589" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/rdk_plus_selector.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1881,7 +2200,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/border_blue_fill.xml">
+    <entry file="file://$PROJECT_DIR$/res/drawable/rdk_minus_selector.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1889,121 +2208,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/border_button_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/border_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/bledevices.png">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/on_btn.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/bleicon.9.png">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/battery.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/back_btn_normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/back_btn_active.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/back_btn.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/arrow_bw.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/accelometer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/accelometer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/accelometer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/abovelogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/abovesmalllogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/abovelargelogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/about.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/capsense_slider.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/capsense_proimity.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/capsense_buttons.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/capsense_btn_bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/capsense.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/cadence.png">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -2013,7 +2223,35 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/cypress.png">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/drawer_shadow.9.png">
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/document_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/device_info.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/delete_normal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/hand_active.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/hand_normal.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -2023,7 +2261,24 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/checkbox_unchecked.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="7" selection-start-line="168" selection-start-column="7" selection-end-line="168" selection-end-column="7" />
+          <folding>
+            <element signature="method#onCreateView#0;class#ServiceDiscoveryFragment#0" expanded="false" />
+            <element signature="method#showServiceDiscoveryAlert#0;class#ServiceDiscoveryFragment#0" expanded="false" />
+            <element signature="method#updateWithNewFragment#0;class#ServiceDiscoveryFragment#0" expanded="false" />
+            <element signature="method#prepareData#0;class#ServiceDiscoveryFragment#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#ServiceDiscoveryFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/rdk_microphone.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2031,19 +2286,456 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/mobile.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/res/layout/profile_findme.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/minus_active.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/search_white_icon.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/res/layout/profile_control.xml">
+      <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lazy_loader_footer.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/datalogger_list.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listitem_device.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/layout_menu_paircache.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/rgb_view_landscape.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/rdk_motion_sensor.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceSlider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="229" column="53" selection-start-line="229" selection-start-column="53" selection-end-line="229" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/CarouselFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileControlFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceProximity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/device_information_measurement.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/capsense_buttons.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/capsense_buttons_item.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7586207">
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5781#10740#0" expanded="true" />
+            <element signature="e#6528#6580#0" expanded="true" />
+            <element signature="e#6765#6829#0" expanded="true" />
+            <element signature="e#7505#7552#0" expanded="true" />
+            <element signature="e#7667#7719#0" expanded="true" />
+            <element signature="e#7904#7959#0" expanded="true" />
+            <element signature="e#8641#8690#0" expanded="true" />
+            <element signature="e#8855#8923#0" expanded="true" />
+            <element signature="e#9073#9125#0" expanded="true" />
+            <element signature="e#9310#9378#0" expanded="true" />
+            <element signature="e#10739#10740#0" expanded="true" />
+            <element signature="e#11514#11563#0" expanded="true" />
+            <element signature="e#11584#11635#0" expanded="true" />
+            <element signature="e#11868#11936#0" expanded="true" />
+            <element signature="e#12001#12044#0" expanded="true" />
+            <element signature="e#12096#12169#0" expanded="true" />
+            <element signature="e#12171#12620#0" expanded="true" />
+            <element signature="e#12619#12620#0" expanded="true" />
+            <element signature="e#16264#16333#0" expanded="true" />
+            <element signature="e#17701#17793#0" expanded="true" />
+            <element signature="e#18149#18247#0" expanded="true" />
+            <element signature="e#18283#18331#0" expanded="true" />
+            <element signature="e#18455#18553#0" expanded="true" />
+            <element signature="e#18587#20285#0" expanded="true" />
+            <element signature="e#19609#19678#0" expanded="true" />
+            <element signature="e#20284#20285#0" expanded="true" />
+            <element signature="e#20330#20419#0" expanded="true" />
+            <element signature="e#20713#20805#0" expanded="true" />
+            <element signature="e#22795#22853#0" expanded="true" />
+            <element signature="e#22959#23002#0" expanded="true" />
+            <element signature="e#23104#23209#0" expanded="true" />
+            <element signature="e#23255#24507#0" expanded="true" />
+            <element signature="e#24506#24507#0" expanded="true" />
+            <element signature="e#24609#24713#0" expanded="true" />
+            <element signature="e#24759#25221#0" expanded="true" />
+            <element signature="e#25220#25221#0" expanded="true" />
+            <element signature="e#25949#26001#0" expanded="true" />
+            <element signature="e#27052#27110#0" expanded="true" />
+            <element signature="e#27200#27243#0" expanded="true" />
+            <element signature="e#27329#27426#0" expanded="true" />
+            <element signature="e#27464#28007#0" expanded="true" />
+            <element signature="e#28006#28007#0" expanded="true" />
+            <element signature="e#28093#28189#0" expanded="true" />
+            <element signature="e#28227#28641#0" expanded="true" />
+            <element signature="e#28640#28641#0" expanded="true" />
+            <element signature="e#28903#28955#0" expanded="true" />
+            <element signature="e#31016#31069#0" expanded="true" />
+            <element signature="e#31135#31178#0" expanded="true" />
+            <element signature="e#31240#31329#0" expanded="true" />
+            <element signature="e#31355#31886#0" expanded="true" />
+            <element signature="e#31885#31886#0" expanded="true" />
+            <element signature="e#31948#32041#0" expanded="true" />
+            <element signature="e#32067#32350#0" expanded="true" />
+            <element signature="e#32349#32350#0" expanded="true" />
+            <element signature="e#34552#34621#0" expanded="true" />
+            <element signature="e#36413#36438#0" expanded="true" />
+            <element signature="e#36691#36716#0" expanded="true" />
+            <element signature="e#37036#37081#0" expanded="true" />
+            <element signature="e#37109#37152#0" expanded="true" />
+            <element signature="e#37227#37301#0" expanded="true" />
+            <element signature="e#37327#38394#0" expanded="true" />
+            <element signature="e#37858#37912#0" expanded="true" />
+            <element signature="e#38393#38394#0" expanded="true" />
+            <element signature="e#38431#38501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceButtons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/FindMeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="116" column="45" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8133#8134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/rgb_view_portrait.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_profile_scan.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5135135">
+          <caret line="836" column="24" selection-start-line="836" selection-start-column="24" selection-end-line="836" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/backup.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="42.032257">
+          <caret line="1303" column="0" selection-start-line="1303" selection-start-column="0" selection-end-line="1303" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1724138">
+          <caret line="1151" column="0" selection-start-line="1151" selection-start-column="0" selection-end-line="1151" selection-end-column="0" />
+          <folding>
+            <element signature="e#7911#7972#0" expanded="true" />
+            <element signature="e#8091#8160#0" expanded="true" />
+            <element signature="e#8600#8661#0" expanded="true" />
+            <element signature="e#8780#8850#0" expanded="true" />
+            <element signature="e#9277#9338#0" expanded="true" />
+            <element signature="e#9457#9527#0" expanded="true" />
+            <element signature="e#10185#10246#0" expanded="true" />
+            <element signature="e#10365#10436#0" expanded="true" />
+            <element signature="e#10463#10524#0" expanded="true" />
+            <element signature="e#10975#11036#0" expanded="true" />
+            <element signature="e#11155#11226#0" expanded="true" />
+            <element signature="e#11253#11314#0" expanded="true" />
+            <element signature="e#12397#12458#0" expanded="true" />
+            <element signature="e#12586#12668#0" expanded="true" />
+            <element signature="e#12695#12756#0" expanded="true" />
+            <element signature="e#14022#14083#0" expanded="true" />
+            <element signature="e#14211#14293#0" expanded="true" />
+            <element signature="e#14320#14381#0" expanded="true" />
+            <element signature="e#16233#16294#0" expanded="true" />
+            <element signature="e#16422#16497#0" expanded="true" />
+            <element signature="e#16524#16585#0" expanded="true" />
+            <element signature="e#20161#20222#0" expanded="true" />
+            <element signature="e#20341#20422#0" expanded="true" />
+            <element signature="e#20449#20543#0" expanded="true" />
+            <element signature="e#21277#21338#0" expanded="true" />
+            <element signature="e#21443#21525#0" expanded="true" />
+            <element signature="e#21552#21613#0" expanded="true" />
+            <element signature="e#21767#21828#0" expanded="true" />
+            <element signature="e#21933#22015#0" expanded="true" />
+            <element signature="e#22042#22136#0" expanded="true" />
+            <element signature="e#23652#23713#0" expanded="true" />
+            <element signature="e#23818#23893#0" expanded="true" />
+            <element signature="e#23920#23981#0" expanded="true" />
+            <element signature="e#24191#24252#0" expanded="true" />
+            <element signature="e#24371#24452#0" expanded="true" />
+            <element signature="e#24479#24573#0" expanded="true" />
+            <element signature="e#25540#25601#0" expanded="true" />
+            <element signature="e#25698#25810#0" expanded="true" />
+            <element signature="e#25833#25894#0" expanded="true" />
+            <element signature="e#26262#26302#0" expanded="true" />
+            <element signature="e#26411#26447#0" expanded="true" />
+            <element signature="e#26894#26938#0" expanded="true" />
+            <element signature="e#27035#27071#0" expanded="true" />
+            <element signature="e#27828#27829#0" expanded="true" />
+            <element signature="e#27874#27875#0" expanded="true" />
+            <element signature="e#37613#37674#0" expanded="true" />
+            <element signature="e#37751#37816#0" expanded="true" />
+            <element signature="e#38438#38499#0" expanded="true" />
+            <element signature="e#38602#38667#0" expanded="true" />
+            <element signature="e#39360#39421#0" expanded="true" />
+            <element signature="e#39524#39589#0" expanded="true" />
+            <element signature="e#41139#41200#0" expanded="true" />
+            <element signature="e#41311#41379#0" expanded="true" />
+            <element signature="e#41781#41842#0" expanded="true" />
+            <element signature="e#41953#42025#0" expanded="true" />
+            <element signature="e#43111#43172#0" expanded="true" />
+            <element signature="e#43261#43335#0" expanded="true" />
+            <element signature="e#44315#44376#0" expanded="true" />
+            <element signature="e#44465#44539#0" expanded="true" />
+            <element signature="e#45624#45685#0" expanded="true" />
+            <element signature="e#45782#45857#0" expanded="true" />
+            <element signature="e#45880#45941#0" expanded="true" />
+            <element signature="e#47985#48046#0" expanded="true" />
+            <element signature="e#48151#48226#0" expanded="true" />
+            <element signature="e#48253#48314#0" expanded="true" />
+            <element signature="e#49876#49937#0" expanded="true" />
+            <element signature="e#50034#50109#0" expanded="true" />
+            <element signature="e#50132#50193#0" expanded="true" />
+            <element signature="e#52505#52566#0" expanded="true" />
+            <element signature="e#52663#52738#0" expanded="true" />
+            <element signature="e#52761#52822#0" expanded="true" />
+            <element signature="e#54698#54759#0" expanded="true" />
+            <element signature="e#54856#54931#0" expanded="true" />
+            <element signature="e#54954#55015#0" expanded="true" />
+            <element signature="e#56739#56800#0" expanded="true" />
+            <element signature="e#56928#57003#0" expanded="true" />
+            <element signature="e#57030#57091#0" expanded="true" />
+            <element signature="e#57676#57737#0" expanded="true" />
+            <element signature="e#57865#57940#0" expanded="true" />
+            <element signature="e#57967#58028#0" expanded="true" />
+            <element signature="e#58337#58398#0" expanded="true" />
+            <element signature="e#58495#58575#0" expanded="true" />
+            <element signature="e#58660#58721#0" expanded="true" />
+            <element signature="e#58818#58897#0" expanded="true" />
+            <element signature="e#60590#60651#0" expanded="true" />
+            <element signature="e#60803#60878#0" expanded="true" />
+            <element signature="e#60905#60966#0" expanded="true" />
+            <element signature="e#61573#61634#0" expanded="true" />
+            <element signature="e#61762#61837#0" expanded="true" />
+            <element signature="e#61864#61925#0" expanded="true" />
+            <element signature="e#62259#62320#0" expanded="true" />
+            <element signature="e#62417#62495#0" expanded="true" />
+            <element signature="e#62580#62641#0" expanded="true" />
+            <element signature="e#62738#62815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22436#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#setDefaultColorPickerPositionColor#0;class#RGBFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037406486">
+          <caret line="1" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

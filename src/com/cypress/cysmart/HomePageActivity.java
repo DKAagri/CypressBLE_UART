@@ -56,8 +56,6 @@ import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.widget.DrawerLayout;
-import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -70,8 +68,6 @@ import com.cypress.cysmart.BLEServiceFragments.CapsenseService;
 import com.cypress.cysmart.BLEServiceFragments.DeviceInformationService;
 import com.cypress.cysmart.BLEServiceFragments.FindMeService;
 import com.cypress.cysmart.BLEServiceFragments.RGBFragment;
-import com.cypress.cysmart.CommonFragments.AboutFragment;
-import com.cypress.cysmart.CommonFragments.NavigationDrawerFragment;
 import com.cypress.cysmart.CommonFragments.ProfileControlFragment;
 import com.cypress.cysmart.CommonFragments.ProfileScanningFragment;
 import com.cypress.cysmart.CommonFragments.ServiceDiscoveryFragment;
@@ -96,8 +92,7 @@ import java.lang.reflect.Method;
 /**
  * Base activity to hold all fragments
  */
-public class HomePageActivity extends FragmentActivity implements
-        NavigationDrawerFragment.NavigationDrawerCallbacks {
+public class HomePageActivity extends FragmentActivity  {
 
     private static final int DRAWER_BLE = 0;
     private static final int DRAWER_ABOUT = 2;
@@ -107,7 +102,7 @@ public class HomePageActivity extends FragmentActivity implements
      * Used to manage connections of the Blue tooth LE Device
      */
     private static BluetoothLeService mBluetoothLeService;
-    private static DrawerLayout mParentView;
+
     /**
      * Code to manage Service life cycle.
      */
@@ -138,11 +133,7 @@ public class HomePageActivity extends FragmentActivity implements
     private AlertDialog mAlert;
     //Upgrade file catch
     private InputStream attachment = null;
-    /**
-     * Fragment managing the behaviors, interactions and presentation of the
-     * navigation drawer.
-     */
-    private NavigationDrawerFragment mNavigationDrawerFragment;
+
     /**
      * Broadcast receiver for getting the bonding information
      */
@@ -257,14 +248,14 @@ public class HomePageActivity extends FragmentActivity implements
 
         Paired = getResources().getString(R.string.bluetooth_pair);
         Unpaired = getResources().getString(R.string.bluetooth_unpair);
-        mParentView = (DrawerLayout) findViewById(R.id.drawer_layout);
         mContainerView = (FrameLayout) findViewById(R.id.container);
+
         mpdia = new ProgressDialog(this);
         mpdia.setCancelable(false);
         mAlert = new AlertDialog.Builder(this).create();
-        mAlert.setMessage(getResources().getString(
-                R.string.alert_message_bluetooth_reconnect));
+        mAlert.setMessage(getResources().getString(R.string.alert_message_bluetooth_reconnect));
         mAlert.setCancelable(false);
+
         mAlert.setTitle(getResources().getString(R.string.app_name));
         mAlert.setButton(Dialog.BUTTON_POSITIVE, getResources().getString(
                 R.string.alert_message_exit_ok), new DialogInterface.OnClickListener() {
@@ -272,23 +263,15 @@ public class HomePageActivity extends FragmentActivity implements
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intentActivity = getIntent();
                 finish();
-                overridePendingTransition(
-                        R.anim.slide_left, R.anim.push_left);
+                overridePendingTransition( R.anim.slide_left, R.anim.push_left);
                 startActivity(intentActivity);
-                overridePendingTransition(
-                        R.anim.slide_right, R.anim.push_right);
+                overridePendingTransition( R.anim.slide_right, R.anim.push_right);
             }
         });
         mAlert.setCanceledOnTouchOutside(false);
         getTitle();
 
-        // Getting the id of the navigation fragment from the attached xml
-        mNavigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.navigation_drawer);
 
-        // Set up the drawer.
-        mNavigationDrawerFragment.setUp(R.id.navigation_drawer,
-                (DrawerLayout) findViewById(R.id.drawer_layout));
 
         // Set the Clear cahce on disconnect as true by devfault
         if (!Utils.ifContainsSharedPreference(this, Constants.PREF_PAIR_CACHE_STATUS)) {
@@ -304,8 +287,7 @@ public class HomePageActivity extends FragmentActivity implements
          * devices
          */
         ProfileScanningFragment profileScanningFragment = new ProfileScanningFragment();
-        displayView(profileScanningFragment,
-                Constants.PROFILE_SCANNING_FRAGMENT_TAG);
+        displayView(profileScanningFragment,Constants.PROFILE_SCANNING_FRAGMENT_TAG);
 
     }
 
@@ -326,8 +308,7 @@ public class HomePageActivity extends FragmentActivity implements
         // Getting the current active fragment
         Fragment currentFragment = getSupportFragmentManager()
                 .findFragmentById(R.id.container);
-        if (currentFragment instanceof ProfileScanningFragment || currentFragment instanceof
-                AboutFragment) {
+        if (currentFragment instanceof ProfileScanningFragment) {
             Intent gattServiceIntent = new Intent(getApplicationContext(),
                     BluetoothLeService.class);
             stopService(gattServiceIntent);
@@ -376,38 +357,13 @@ public class HomePageActivity extends FragmentActivity implements
 
         // Profile scanning fragment active
         if (currentFragment instanceof ProfileScanningFragment) {
-            if (mParentView.isDrawerOpen(Gravity.START)) {
-                mParentView.closeDrawer(Gravity.START);
-            } else {
+
                 alertbox();
-            }
 
-        } else if (currentFragment instanceof AboutFragment) {
-            if (mParentView.isDrawerOpen(Gravity.START)) {
-                mParentView.closeDrawer(Gravity.START);
-            } else {
-                if (BluetoothLeService.getConnectionState() == 2 ||
-                        BluetoothLeService.getConnectionState() == 1 ||
-                        BluetoothLeService.getConnectionState() == 4) {
-                    BluetoothLeService.disconnect();
-                    Toast.makeText(this,
-                            getResources().getString(R.string.alert_message_bluetooth_disconnect),
-                            Toast.LENGTH_SHORT).show();
-                }
-
-                // Guiding the user back to profile scanning fragment
-                Intent intent = getIntent();
-                finish();
-                overridePendingTransition(R.anim.slide_left, R.anim.push_left);
-                startActivity(intent);
-                overridePendingTransition(R.anim.slide_right, R.anim.push_right);
-            }
 
         } else if (currentFragment instanceof ProfileControlFragment
                 ||currentFragment instanceof ServiceDiscoveryFragment) {
-            if (mParentView.isDrawerOpen(Gravity.START)) {
-                mParentView.closeDrawer(Gravity.START);
-            } else {
+
                 // Guiding the user back to profile scanning fragment
                 //  Logger.i("BLE DISCONNECT---->"+BluetoothLeService.getConnectionState());
                 if (BluetoothLeService.getConnectionState() == 2 ||
@@ -425,7 +381,6 @@ public class HomePageActivity extends FragmentActivity implements
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_left, R.anim.push_left);
                 super.onBackPressed();
-            }
 
         } else if (currentFragment instanceof GattDescriptorFragment) {
             CySmartApplication mApplication = (CySmartApplication) getApplication();
@@ -442,19 +397,14 @@ public class HomePageActivity extends FragmentActivity implements
                 || currentFragment instanceof RGBFragment
                 || currentFragment instanceof RemoteControlEmulatorFragment
                 || currentFragment instanceof GattServicesFragment) {
-            if (mParentView.isDrawerOpen(Gravity.START)) {
-                mParentView.closeDrawer(Gravity.START);
-            } else {
+
                 Utils.setUpActionBar(
                         this,
                         getResources().getString(
                                 R.string.profile_control_fragment));
                 super.onBackPressed();
-            }
         } else if (currentFragment instanceof OTAFirmwareUpgradeFragment) {
-            if (mParentView.isDrawerOpen(Gravity.START)) {
-                mParentView.closeDrawer(Gravity.START);
-            } else if (OTAFirmwareUpgradeFragment.mFileupgradeStarted) {
+            if (OTAFirmwareUpgradeFragment.mFileupgradeStarted) {
                 AlertDialog alert;
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setMessage(
@@ -500,51 +450,10 @@ public class HomePageActivity extends FragmentActivity implements
                 super.onBackPressed();
             }
         } else {
-            if (mParentView.isDrawerOpen(Gravity.START)) {
-                mParentView.closeDrawer(Gravity.START);
-            } else {
-                super.onBackPressed();
-            }
+            super.onBackPressed();
         }
     }
 
-    @Override
-    public void onNavigationDrawerItemSelected(int position) {
-        Logger.e("onNavigationDrawerItemSelected " + position);
-        /**
-         * Update the main content by replacing fragments with user selected
-         * option
-         */
-        switch (position) {
-            case DRAWER_BLE:
-                /**
-                 * BLE Devices
-                 */
-                if (BluetoothLeService.getConnectionState() == 2 ||
-                        BluetoothLeService.getConnectionState() == 1 ||
-                        BluetoothLeService.getConnectionState() == 4) {
-                    BluetoothLeService.disconnect();
-                }
-                Intent intent = getIntent();
-                finish();
-                overridePendingTransition(R.anim.slide_left, R.anim.push_left);
-                startActivity(intent);
-                overridePendingTransition(R.anim.slide_right, R.anim.push_right);
-
-                break;
-            case DRAWER_ABOUT:
-                /**
-                 * About
-                 */
-                AboutFragment aboutFragment = new AboutFragment();
-                displayView(aboutFragment, Constants.ABOUT_FRAGMENT_TAG);
-
-                break;
-            default:
-                break;
-        }
-
-    }
 
     /**
      * Used for replacing the main content of the view with provided fragments

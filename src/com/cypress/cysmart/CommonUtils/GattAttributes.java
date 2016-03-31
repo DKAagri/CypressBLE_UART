@@ -583,8 +583,10 @@ public class GattAttributes {
         attributesImageMap.put(UUIDDatabase.UUID_LINK_LOSS_SERVICE, R.drawable.proximity);
         attributesImageMap.put(UUIDDatabase.UUID_TRANSMISSION_POWER_SERVICE, R.drawable.proximity);
 
+/*
         attributesImageMap.put(UUIDDatabase.UUID_RSC_SERVICE, R.drawable.rsc);
         attributesImageMap.put(UUIDDatabase.UUID_CSC_SERVICE, R.drawable.cpc);
+*/
 
         // CapSense Image Mapping
         attributesCapSenseImageMap.put(UUIDDatabase.UUID_CAPSENSE_SERVICE, R.drawable.capsense);

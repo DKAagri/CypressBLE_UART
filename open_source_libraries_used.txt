@@ -1,7 +1,7 @@
-CySmart Android App Open Source Libraries
+BLE Android App Open Source Libraries
 -----------------------------------------
 
-CySmart Android app uses few open source libraries to implement some of its features. 
+This app uses few open source libraries to implement some of its features.
 The details of these open source libraries are documented below:
 
 1. AChartEngine
