@@ -11,148 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d95fb66-ae16-4fa4-9372-98df9482e939" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/HRMParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/HTMParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/KeyBoardAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$7$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$7$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$PCMConversionTask$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$PCMConversionTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment$googleVoiceConversion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment$6$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/TrackpadEmulatorFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/TrackpadEmulatorFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/TrackpadEmulatorFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/test/debug/com/cypress/cysmart/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout-sw600dp-v13/rdk_emulator_view_landscape.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout-sw600dp-v13/rdk_emulator_view_portrait.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout-sw600dp-v13/rdk_motion_sensor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout-sw600dp-v13/rgb_view_portrait.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/listitem_glucose_spinner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rdk_emulator_view_portrait.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rdk_microphone.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rdk_motion_sensor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-sw600dp/rdk_emulator_view_landscape.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-sw600dp/rdk_emulator_view_portrait.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-sw600dp/rdk_motion_sensor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-sw600dp/rgb_view_portrait.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/listitem_glucose_spinner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/rdk_emulator_view_portrait.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/rdk_microphone.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/rdk_motion_sensor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEProfileDataParserClasses/HRMParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEProfileDataParserClasses/HTMParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/KeyBoardAttributes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/MicrophoneEmulatorFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/RemoteControlEmulatorFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/RDKEmulatorView/TrackpadEmulatorFragment.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService$LocalBinder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService$LocalBinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/CapSenseParser.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/CapSenseParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceProximity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceProximity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattCharacteristicsFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattCharacteristicsFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDescriptorFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDescriptorFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattServicesFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattServicesFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattServicesFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattServicesFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$10.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$11.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFilesListingActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFilesListingActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileControlFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileControlFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$integer.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$raw.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$xml.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/RGBParser.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/RGBParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEProfileDataParserClasses/CapSenseParser.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEProfileDataParserClasses/CapSenseParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceProximity.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceProximity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/CarouselFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/CarouselFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/FindMeService.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/FindMeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/GATTDBFragments/GattServicesFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/GATTDBFragments/GattServicesFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/cypress/cysmart/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/cypress/cysmart/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEProfileDataParserClasses/RGBParser.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEProfileDataParserClasses/RGBParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/res/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/color.xml" afterPath="$PROJECT_DIR$/res/values/color.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/values/com_crashlytics_build_id.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values/com_crashlytics_build_id.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/apk/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rgb_view_portrait.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rgb_view_portrait.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" afterPath="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cysmart_android.iws" />
@@ -352,8 +210,8 @@
       <file leaf-file-name="DeviceInformationService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2916667">
-              <caret line="393" column="7" selection-start-line="393" selection-start-column="7" selection-end-line="393" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.7916667">
+              <caret line="369" column="36" selection-start-line="369" selection-start-column="36" selection-end-line="369" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -1676,7 +1534,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459344953528</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add media player buttons and layout">
+      <created>1459497548896</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459497548896</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2512,8 +2376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2916667">
-          <caret line="393" column="7" selection-start-line="393" selection-start-column="7" selection-end-line="393" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.7916667">
+          <caret line="369" column="36" selection-start-line="369" selection-start-column="36" selection-end-line="369" selection-end-column="36" />
           <folding />
         </state>
       </provider>
