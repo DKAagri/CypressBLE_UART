@@ -45,7 +45,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.cypress.cysmart.BLEConnectionServices.BluetoothLeService;
 import com.cypress.cysmart.BLEServiceFragments.BatteryInformationService;
 import com.cypress.cysmart.BLEServiceFragments.CapsenseService;
 import com.cypress.cysmart.BLEServiceFragments.DeviceInformationService;
@@ -57,7 +56,6 @@ import com.cypress.cysmart.CommonUtils.UUIDDatabase;
 import com.cypress.cysmart.GATTDBFragments.GattServicesFragment;
 import com.cypress.cysmart.OTAFirmwareUpdate.OTAFirmwareUpgradeFragment;
 import com.cypress.cysmart.R;
-import com.cypress.cysmart.RDKEmulatorView.RemoteControlEmulatorFragment;
 
 import java.util.HashMap;
 import java.util.List;
@@ -216,25 +214,7 @@ public class CarouselFragment extends Fragment {
                 }
 
 
-                // HID(Remote Control Emulator) Service
-                else if (mService.getUuid().equals(UUIDDatabase.UUID_HID_SERVICE)) {
-                    String connectedDeviceName = BluetoothLeService.getmBluetoothDeviceName();
-                    String remoteName = getResources().getString(R.string.rdk_emulator_view);
-                    if (connectedDeviceName.indexOf(remoteName) != -1) {
-                        if (Constants.RDK_ENABLED) {
-                            RemoteControlEmulatorFragment remoteControlEmulatorFragment =
-                                    new RemoteControlEmulatorFragment()
-                                            .create(mService);
-                            displayView(remoteControlEmulatorFragment, getResources().getString(R.string.rdk_emulator_view));
-                        } else {
-                            showWarningMessage();
-                        }
 
-                    } else {
-                        showWarningMessage();
-                    }
-
-                }
                 // OTA Firmware Update Service
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_OTA_UPDATE_SERVICE)) {
                     if (Constants.OTA_ENABLED) {

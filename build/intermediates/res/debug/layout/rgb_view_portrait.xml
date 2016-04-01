@@ -26,9 +26,8 @@
                 android:contentDescription="@string/app_name"
                 android:scaleType="matrix"
                 android:src="@drawable/gamut"
-                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="false" />
+                android:layout_alignParentStart="true" />
 
             <ImageView
                 android:id="@+id/imgcolorpicker"
@@ -47,7 +46,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/intensityLayout">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -81,43 +81,71 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="@color/actionbar_bg_color_light"
-            android:gravity="center_vertical">
+            android:gravity="center_vertical"
+            android:id="@+id/intensitycolorChangeLayout">
 
-            <TextView
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="6"
+                    android:id="@+id/editTextTxBLE"
+                    android:text="00"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/buttonTxBLE"
+                    android:enabled="true"
+                    android:editable="true"
+                    android:focusable="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send"
+                    android:id="@+id/buttonTxBLE"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="left|center_vertical"
-                android:padding="10dp"
-                android:text="@string/rgb_current_color"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/white" />
+                android:layout_alignParentEnd="true">
 
-            <ImageView
-                android:id="@+id/txtcolorindicator"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="17dp"
-                android:background="@color/white"
-                android:contentDescription="@string/app_name"
-                android:minHeight="30dp"
-                android:minWidth="40dp"
-                android:padding="1dp"
-                android:scaleType="matrix"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/rgb_current_color"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/txtcolorindicator"
+                    android:layout_toStartOf="@+id/txtcolorindicator" />
 
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/txtcolorindicator"
-                android:layout_alignLeft="@+id/txtcolorindicator"
-                android:layout_alignRight="@+id/txtcolorindicator"
-                android:layout_alignTop="@+id/txtcolorindicator"
-                android:layout_centerVertical="true"
-                android:background="@drawable/rec_broder"
-                android:contentDescription="@string/app_name" />
+                <ImageView
+                    android:id="@+id/txtcolorindicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="17dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/app_name"
+                    android:minHeight="30dp"
+                    android:minWidth="40dp"
+                    android:padding="1dp"
+                    android:scaleType="matrix"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
         </RelativeLayout>
 
         <ScrollView
@@ -143,7 +171,8 @@
                         android:padding="5dp"
                         android:text="Red"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:textColor="@color/actionbar_bg_color" />
+                        android:textColor="@color/actionbar_bg_color"
+                        android:id="@+id/textView1" />
 
                     <TextView
                         android:id="@+id/txtred"
@@ -171,7 +200,8 @@
                         android:padding="5dp"
                         android:text="Green"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:textColor="@color/actionbar_bg_color" />
+                        android:textColor="@color/actionbar_bg_color"
+                        android:id="@+id/textView2" />
 
                     <TextView
                         android:id="@+id/txtgreen"
@@ -232,7 +262,7 @@
                         android:textColor="@color/actionbar_bg_color" />
 
                     <TextView
-                        android:id="@+id/txtintencity"
+                        android:id="@+id/txtintensity"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -245,60 +275,78 @@
             </LinearLayout>
         </ScrollView>
 
-        <LinearLayout
-            android:orientation="horizontal"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:id="@+id/dreamWeaverLayout">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:id="@+id/buttonNextSong"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pause"
+                android:id="@+id/buttonPauseSong"
+                android:layout_toStartOf="@+id/buttonNextSong"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="play"
+                android:id="@+id/buttonPlayAudio"
+                android:layout_toStartOf="@+id/buttonPreviousSong"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:id="@+id/buttonPreviousSong"
+                android:layout_toStartOf="@+id/buttonPauseSong"
+                android:layout_alignParentTop="true" />
+
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:layout_below="@+id/buttonPreviousSong"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:indeterminate="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/songnameText"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/seekBar" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="enter audio level here "
-                android:id="@+id/textView5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/timeremainingText"
                 android:layout_alignParentBottom="true"
-                android:layout_toStartOf="@+id/editTextTxBLE" />
+                android:layout_centerHorizontal="true" />
 
-            <EditText
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="6"
-                android:id="@+id/editTextTxBLE"
-                android:text="00"
-                android:layout_alignParentBottom="true"
-                android:layout_toStartOf="@+id/buttonTxBLE"
-                android:enabled="true"
-                android:editable="true"
-                android:focusable="true" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Send"
-                android:id="@+id/buttonTxBLE"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true" />
-
-        </LinearLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="71dp"
-                android:text="Play"
-                android:id="@+id/buttonPlayAudio"
-                android:layout_gravity="right" />
-
-            <MediaController
-                android:layout_width="225dp"
-                android:layout_height="match_parent"
-                android:id="@+id/mediaController"
-                android:background="#9af4f6"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true" />
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/timepassedText"
+                android:layout_alignTop="@+id/songnameText"
+                android:layout_alignEnd="@+id/buttonPreviousSong" />
         </RelativeLayout>
 
     </LinearLayout>

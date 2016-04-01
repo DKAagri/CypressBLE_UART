@@ -94,13 +94,10 @@ public class GattServicesFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_gatt_list,
-                container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,   Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_gatt_list,  container, false);
         mApplication = (CySmartApplication) getActivity().getApplication();
-        mGattListView = (ListView) rootView
-                .findViewById(R.id.ListView_gatt_services);
+        mGattListView = (ListView) rootView.findViewById(R.id.ListView_gatt_services);
         mBackButton = (ImageView) rootView.findViewById(R.id.imgback);
         mBackButton.setVisibility(View.GONE);
 

@@ -22,8 +22,6 @@
 
 
     <!-- Text Sizes -->
-
-
     <dimen name="textsize_medium">30sp</dimen>
     <dimen name="textsize_small">25sp</dimen>
     <dimen name="textsize_very_small">20sp</dimen>
@@ -38,9 +36,6 @@
 
     <!-- margins -->
     <dimen name="sensor_hub_margin">10dp</dimen>
-
-
-
     <dimen name="battery_level_textsize">35sp</dimen>
 
 </resources>

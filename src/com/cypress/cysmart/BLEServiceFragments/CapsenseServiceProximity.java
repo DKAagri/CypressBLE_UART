@@ -62,8 +62,6 @@ public class CapsenseServiceProximity extends Fragment {
     private static final int PROXIMITY_WATERMARK_INDICATOR = 127;
     private static boolean mValueIncreased = false;
 
-
-
     public CapsenseServiceProximity create(BluetoothGattService service) {
         CapsenseServiceProximity fragment = new CapsenseServiceProximity();
         mService = service;

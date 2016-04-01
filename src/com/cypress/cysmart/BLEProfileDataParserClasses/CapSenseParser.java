@@ -85,9 +85,7 @@ public class CapSenseParser {
                 BluetoothGattCharacteristic.FORMAT_UINT8, 1);
         int buttonStatus2 = characteristic.getIntValue(
                 BluetoothGattCharacteristic.FORMAT_UINT8, 2);
-
-        Logger.i("Button count" + buttonCount + "Button status "
-                + buttonStatus1 + "Button status " + buttonStatus2);
+        Logger.i("Button count" + buttonCount + "Button status " + buttonStatus1 + "Button status " + buttonStatus2);
         mButtonParams.add(buttonCount);
         mButtonParams.add(buttonStatus1);
         mButtonParams.add(buttonStatus2);

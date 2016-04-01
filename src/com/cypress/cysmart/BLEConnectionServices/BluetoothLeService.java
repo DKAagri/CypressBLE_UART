@@ -52,7 +52,6 @@ import android.util.Log;
 
 import com.cypress.cysmart.BLEProfileDataParserClasses.CapSenseParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.DescriptorParser;
-import com.cypress.cysmart.BLEProfileDataParserClasses.HTMParser;
 import com.cypress.cysmart.BLEProfileDataParserClasses.RGBParser;
 import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.GattAttributes;
@@ -643,12 +642,7 @@ public class BluetoothLeService extends Service {
             mBundle.putString(Constants.EXTRA_RCDL_VALUE,
                     Utils.ByteArraytoHex(characteristic.getValue()));
         }
-        // Health thermometer sensor location read value
-        else if (characteristic.getUuid()
-                .equals(UUIDDatabase.UUID_HEALTH_THERMOMETER_SENSOR_LOCATION)) {
-            mBundle.putString(Constants.EXTRA_HSL_VALUE, HTMParser
-                    .getHealthThermoSensorLocation(characteristic, mContext));
-        }
+
         // CapSense proximity read value
         else if (characteristic.getUuid().equals(UUIDDatabase.UUID_CAPSENSE_PROXIMITY) ||
                 characteristic.getUuid().equals(UUIDDatabase.UUID_CAPSENSE_PROXIMITY_CUSTOM)) {
@@ -1030,7 +1024,6 @@ public class BluetoothLeService extends Service {
                     "[ " + characteristicValue + " ]";
             Logger.datalog(dataLog);
         }
-
     }
 
     /**
@@ -1094,7 +1087,6 @@ public class BluetoothLeService extends Service {
             Logger.datalog(dataLog);
 
         }
-
     }
 
 
@@ -1125,20 +1117,19 @@ public class BluetoothLeService extends Service {
             return;
         } else {
             byte[] valueByte = new byte[8];
-/*            valueByte[0] = (byte) Frequency;
+            valueByte[0] = (byte) Frequency;
             valueByte[1] = (byte) Intensity;
             valueByte[2] = (byte) Duty_Cycle;
             valueByte[3] = (byte) Red;
             valueByte[4] = (byte) Green;
             valueByte[5] = (byte) Blue;
             valueByte[6] = (byte) Phase;
-            valueByte[7] = (byte) Change;*/
+            valueByte[7] = (byte) Change;
 
-
-            valueByte[0] = (byte) Red;
+/*            valueByte[0] = (byte) Red;
             valueByte[1] = (byte) Green;
             valueByte[2] = (byte) Blue;
-            valueByte[3] = (byte) Intensity;
+            valueByte[3] = (byte) Intensity;*/
 
             characteristic.setValue(valueByte);
             String characteristicValue = Utils.ByteArraytoHex(valueByte);

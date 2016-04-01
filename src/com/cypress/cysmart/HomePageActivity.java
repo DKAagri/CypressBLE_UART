@@ -78,7 +78,7 @@ import com.cypress.cysmart.DataLoggerFragments.DataLoggerFragment;
 import com.cypress.cysmart.GATTDBFragments.GattDescriptorFragment;
 import com.cypress.cysmart.GATTDBFragments.GattServicesFragment;
 import com.cypress.cysmart.OTAFirmwareUpdate.OTAFirmwareUpgradeFragment;
-import com.cypress.cysmart.RDKEmulatorView.RemoteControlEmulatorFragment;
+
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -395,7 +395,6 @@ public class HomePageActivity extends FragmentActivity  {
                 || currentFragment instanceof CapsenseService
                 || currentFragment instanceof FindMeService
                 || currentFragment instanceof RGBFragment
-                || currentFragment instanceof RemoteControlEmulatorFragment
                 || currentFragment instanceof GattServicesFragment) {
 
                 Utils.setUpActionBar(

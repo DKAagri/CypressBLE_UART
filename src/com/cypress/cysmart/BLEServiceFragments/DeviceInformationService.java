@@ -79,6 +79,7 @@ public class DeviceInformationService extends Fragment {
     private TextView mPnpId;
     private TextView mSysId;
     private TextView mRegulatoryCertificationDataList;
+
     //ProgressDialog
     private ProgressDialog mProgressDialog;
 

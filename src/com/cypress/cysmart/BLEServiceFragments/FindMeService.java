@@ -131,7 +131,6 @@ public class FindMeService extends Fragment {
                             if (mHandlerFlag) {
                                 prepareBroadcastDataReadtp(mReadCharacteristicTp);
                             }
-
                         }
                     };
                     handler.postDelayed(mrun, TX_POWER_DELAY);

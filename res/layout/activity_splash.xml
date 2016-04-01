@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="\@ Above Electronics Lab  2016"
-        android:id="@+id/textView2"
+        android:id="@+id/timepassedText"
         android:layout_marginBottom="28dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -31,6 +31,6 @@
         android:text="Digital Meditation"
         android:id="@+id/textView6"
         android:layout_below="@+id/imageView"
-        android:layout_alignEnd="@+id/textView2" />
+        android:layout_alignEnd="@+id/timepassedText" />
 
 </RelativeLayout>

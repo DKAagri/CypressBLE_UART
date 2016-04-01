@@ -38,6 +38,7 @@
                 <action android:name="com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE" />
             </intent-filter>
         </receiver>
+
         <receiver android:name=".BLEStatusReceiver">
             <intent-filter>
                 <action android:name="com.example.bluetooth.le.ACTION_GATT_DISCONNECTED" />
@@ -105,16 +106,14 @@
             android:configChanges="orientation|screenSize"
             android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar"
             android:windowSoftInputMode="adjustPan">
-
         </activity>
+
         <activity
             android:name=".DataLoggerFragments.DataLoggerHistoryList"
             android:configChanges="orientation|screenSize"
             android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar"
             android:windowSoftInputMode="adjustPan">
-
         </activity>
-
 
         <meta-data
             android:name="io.fabric.ApiKey"

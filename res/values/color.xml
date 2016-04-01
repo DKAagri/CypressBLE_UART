@@ -3,11 +3,9 @@
 
     <color name="main_bg_color">#0c377b</color>
 
-
     <color name="list_item_title_notactivated">#000</color>
     <color name="list_item_title_activated">#007aff</color>
     <color name="list_background">#FFF</color>
-
 
     <color name="actionbar_bg_color">#0c377b</color>
     <color name="actionbar_bg_color_light">#900c377b</color>
