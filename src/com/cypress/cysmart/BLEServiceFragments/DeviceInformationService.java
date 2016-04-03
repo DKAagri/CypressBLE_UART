@@ -366,18 +366,13 @@ public class DeviceInformationService extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(
-                R.layout.device_information_measurement, container, false);
-        mManufacturerName = (TextView) rootView
-                .findViewById(R.id.div_manufacturer);
+        View rootView = inflater.inflate(R.layout.device_information_measurement, container, false);
+        mManufacturerName = (TextView) rootView.findViewById(R.id.div_manufacturer);
         mModelName = (TextView) rootView.findViewById(R.id.div_model);
         mSerialName = (TextView) rootView.findViewById(R.id.div_serial);
-        mHardwareRevisionName = (TextView) rootView
-                .findViewById(R.id.div_hardware);
-        mFirmwareRevisionName = (TextView) rootView
-                .findViewById(R.id.div_firmware);
-        mSoftwareRevisionName = (TextView) rootView
-                .findViewById(R.id.div_software);
+        mHardwareRevisionName = (TextView) rootView.findViewById(R.id.div_hardware);
+        mFirmwareRevisionName = (TextView) rootView.findViewById(R.id.div_firmware);
+        mSoftwareRevisionName = (TextView) rootView.findViewById(R.id.div_software);
         mProgressDialog = new ProgressDialog(getActivity());
         mPnpId = (TextView) rootView.findViewById(R.id.div_pnp);
         mSysId = (TextView) rootView.findViewById(R.id.div_system);

@@ -45,6 +45,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import static com.cypress.cysmart.BLEConnectionServices.BluetoothLeService.writeDreamweaverCsv;
 
@@ -53,6 +55,8 @@ import static com.cypress.cysmart.BLEConnectionServices.BluetoothLeService.write
  */
 public class RGBFragment extends Fragment {
 
+    List<String[]> csvvalues=null;
+    int csvindex=0;
     // GATT service and characteristics
     private static BluetoothGattService mCurrentservice;
     private static BluetoothGattCharacteristic mReadCharacteristic;
@@ -75,7 +79,7 @@ public class RGBFragment extends Fragment {
 
 //added fpr mediacontroller and play button
     private Button btnPlay;
-    private MediaPlayer mediaPlayer;
+    MediaPlayer mediaPlayer = new MediaPlayer();
 
     private ImageView mColorindicator;
     private SeekBar mIntensityBar;
@@ -141,6 +145,8 @@ public class RGBFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+
         int currentOrientation = getResources().getConfiguration().orientation;
         if (currentOrientation == Configuration.ORIENTATION_LANDSCAPE) {
             mRootView = inflater.inflate(R.layout.rgb_view_landscape, container,
@@ -149,7 +155,17 @@ public class RGBFragment extends Fragment {
             mRootView = inflater.inflate(R.layout.rgb_view_portrait, container,
                     false);
         }
-        getActivity().getActionBar().setTitle(R.string.rgb_led);
+
+        mediaPlayer = new MediaPlayer();
+        try {
+            mediaPlayer.setDataSource(String.valueOf(R.raw.trip_to_the_forest));
+            mediaPlayer.prepare();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+       // getActivity().getActionBar().setTitle(R.string.rgb_led);
         setUpControls();
         setDefaultColorPickerPositionColor();
         setHasOptionsMenu(true);
@@ -188,10 +204,25 @@ public class RGBFragment extends Fragment {
         mParentRelLayout = (RelativeLayout) mRootView.findViewById(R.id.parent);
         mParentRelLayout.setClickable(true);
 
+
+        csvvalues = readCsv();
+
+       // String filePath = getResources().openRawResource(R.raw.trip_to_the_forest);
+        //mediaPlayer = new MediaPlayer(getActivity().getApplicationContext(), R.raw.trip_to_the_forest);
+/*
+        try {
+            mediaPlayer.setDataSource(filePath);
+            mediaPlayer.prepare();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+*/
+
+
         mRGBcanavs = (ImageView) mRootView.findViewById(R.id.imgrgbcanvas);
         mcolorpicker = (ImageView) mRootView.findViewById(R.id.imgcolorpicker);
 
-        mTextalpha = (TextView) mRootView.findViewById(R.id.txtintencity);
+        mTextalpha = (TextView) mRootView.findViewById(R.id.txtintensity);
         mTextred = (TextView) mRootView.findViewById(R.id.txtred);
         mTextgreen = (TextView) mRootView.findViewById(R.id.txtgreen);
         mTextblue = (TextView) mRootView.findViewById(R.id.txtblue);
@@ -280,47 +311,39 @@ public class RGBFragment extends Fragment {
             }
         });
 
-        /*
-        MediaPlayer mPlayer = MediaPlayer.create(this, Uri.parse(Environment.getExternalStorageDirectory().getPath()+ "/calm.mp3"));
-        mPlayer.setLooping(true);
-        mPlayer.start();*/
         btnPlay=  (Button) mRootView.findViewById(R.id.buttonPlayAudio);
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                List<String[]> csvvalues = readCsv();
 
-                /*
-                String filePath = Environment.getExternalStorageDirectory()+"/res/raw/trip_to_the_forest.mp3";
-                mediaPlayer = new MediaPlayer();
-                try {
-                    mediaPlayer.setDataSource(filePath);
-                    mediaPlayer.prepare();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                mediaPlayer.start();*/
+                mediaPlayer.start();
 
-                writeDreamweaverCsv(mReadCharacteristic,
-                        Integer.parseInt(csvvalues.get(0)[2]),
-                        Integer.parseInt(csvvalues.get(0)[3]),
-                        Integer.parseInt(csvvalues.get(0)[4]),
-                        Integer.parseInt(csvvalues.get(0)[5]),
-                        Integer.parseInt(csvvalues.get(0)[6]),
-                        Integer.parseInt(csvvalues.get(0)[7]),
-                        Integer.parseInt(csvvalues.get(0)[8]),
-                        Integer.parseInt(csvvalues.get(0)[9]));
+                Timer timer = new Timer();
+                timer.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                    writeDreamweaverCsv(mReadCharacteristic,
+                            Integer.parseInt(csvvalues.get(csvindex)[2]),
+                            Integer.parseInt(csvvalues.get(csvindex)[3]),
+                            Integer.parseInt(csvvalues.get(csvindex)[4]),
+                            Integer.parseInt(csvvalues.get(csvindex)[5]),
+                            Integer.parseInt(csvvalues.get(csvindex)[6]),
+                            Integer.parseInt(csvvalues.get(csvindex)[7]),
+                            Integer.parseInt(csvvalues.get(csvindex)[8]),
+                            Integer.parseInt(csvvalues.get(csvindex)[9]));
+                    csvindex++;
+                    }
+                }, 0, 1000);
+
             }
         });
     }
 
     @Override
     public void onResume() {
-        getActivity().registerReceiver(mGattUpdateReceiver,
-                Utils.makeGattUpdateIntentFilter());
+        getActivity().registerReceiver(mGattUpdateReceiver,Utils.makeGattUpdateIntentFilter());
         getGattData();
-        Utils.setUpActionBar(getActivity(),
-                getResources().getString(R.string.rgb_led));
+        Utils.setUpActionBar(getActivity(),getResources().getString(R.string.rgb_led));
         super.onResume();
     }
 
@@ -332,8 +355,7 @@ public class RGBFragment extends Fragment {
 
 
     private void UIupdation() {
-        String hexColor = String
-                .format("#%02x%02x%02x%02x", mIntensity, mRed, mGreen, mBlue);
+        String hexColor = String.format("#%02x%02x%02x%02x", mIntensity, mRed, mGreen, mBlue);
         mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
         mTextalpha.setText(String.format("0x%02x", mIntensity));
 

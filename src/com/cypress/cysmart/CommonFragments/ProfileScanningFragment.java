@@ -116,7 +116,7 @@ public class ProfileScanningFragment extends Fragment {
     private TextView mRefreshText;
     private ProgressDialog mProgressdialog;
 
-    //  Flags
+    //Flags
     private boolean mSearchEnabled = false;
     public static boolean isInFragment = false;
 
@@ -394,7 +394,7 @@ public class ProfileScanningFragment extends Fragment {
      * Preparing the BLE Devicelist
      */
     public void prepareList() {
-        // Initializes ActionBar as required
+
         setUpActionBar();
         // Prepare list view and initiate scanning
         mLeDeviceListAdapter = new LeDeviceListAdapter();
