@@ -9,4 +9,4 @@ Process :
 4. Install Capsense module on IC  
 5. Run the android program , find and pair to the device   
 6. Use the service capsense RGB to change color and intensity  
-7. Read values on IDE  
+7. Read values on IDE
