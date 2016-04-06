@@ -79,7 +79,7 @@ public class RGBFragment extends Fragment {
 
 //added fpr mediacontroller and play button
     private Button btnPlay;
-    MediaPlayer mediaPlayer = new MediaPlayer();
+    private static MediaPlayer mMediaPlayer;
 
     private ImageView mColorindicator;
     private SeekBar mIntensityBar;
@@ -156,6 +156,8 @@ public class RGBFragment extends Fragment {
                     false);
         }
 
+        mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.trip_to_the_forest);
+/*
         mediaPlayer = new MediaPlayer();
         try {
             mediaPlayer.setDataSource(String.valueOf(R.raw.trip_to_the_forest));
@@ -163,6 +165,7 @@ public class RGBFragment extends Fragment {
         } catch (IOException e) {
             e.printStackTrace();
         }
+*/
 
 
        // getActivity().getActionBar().setTitle(R.string.rgb_led);
@@ -316,7 +319,7 @@ public class RGBFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                mediaPlayer.start();
+                //mediaPlayer.start();
 
                 Timer timer = new Timer();
                 timer.schedule(new TimerTask() {

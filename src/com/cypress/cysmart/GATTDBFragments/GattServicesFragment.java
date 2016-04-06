@@ -158,7 +158,6 @@ public class GattServicesFragment extends Fragment {
     public void onResume() {
         super.onResume();
         getActivity().getActionBar().setTitle(R.string.gatt_db);
-
     }
 
     @Override

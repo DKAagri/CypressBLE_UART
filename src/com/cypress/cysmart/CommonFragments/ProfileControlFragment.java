@@ -192,8 +192,7 @@ public class ProfileControlFragment extends Fragment {
     public void onResume() {
         super.onResume();
         // Initialize ActionBar as per requirement
-        Utils.setUpActionBar(getActivity(),
-                getResources().getString(R.string.profile_control_fragment));
+        Utils.setUpActionBar(getActivity(),getResources().getString(R.string.profile_control_fragment));
         checkConnectionStatus();
     }
 

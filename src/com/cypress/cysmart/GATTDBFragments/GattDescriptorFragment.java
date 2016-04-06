@@ -85,14 +85,11 @@ public class GattDescriptorFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_gatt_list,
-                container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_gatt_list,container, false);
         mApplication = (CySmartApplication) getActivity().getApplication();
         getActivity().getActionBar().setTitle(R.string.gatt_db);
-        mGattListView = (ListView) rootView
-                .findViewById(R.id.ListView_gatt_services);
+        mGattListView = (ListView) rootView.findViewById(R.id.ListView_gatt_services);
         mTextHeading = (TextView) rootView.findViewById(R.id.txtservices);
         mTextHeading.setText(getString(R.string.gatt_descriptors_heading));
         mBackButton = (ImageView) rootView.findViewById(R.id.imgback);
@@ -111,11 +108,10 @@ public class GattDescriptorFragment extends Fragment {
         // Getting the selected service from the arguments
         Bundle bundle = this.getArguments();
         if (bundle != null) {
-            mGattServiceName = bundle
-                    .getString(Constants.GATTDB_SELECTED_SERVICE);
-            mGattCharacteristicName = bundle
-                    .getString(Constants.GATTDB_SELECTED_CHARACTERISTICE);
+            mGattServiceName = bundle.getString(Constants.GATTDB_SELECTED_SERVICE);
+            mGattCharacteristicName = bundle.getString(Constants.GATTDB_SELECTED_CHARACTERISTICE);
         }
+
         //Preparing list data
         List<BluetoothGattDescriptor> tempList = mBluetoothGattCharacteristic.getDescriptors();
         mBluetoothGattDescriptors = new ArrayList<BluetoothGattDescriptor>();

@@ -67,8 +67,7 @@ public class ServiceDiscoveryFragment extends Fragment {
         @Override
         public void onReceive(Context context, Intent intent) {
             final String action = intent.getAction();
-            if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED
-                    .equals(action)) {
+            if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
                 Logger.e("Service discovered");
                 if(mTimer!=null)
                 mTimer.cancel();
@@ -80,8 +79,7 @@ public class ServiceDiscoveryFragment extends Fragment {
                 if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     BluetoothLeService.exchangeGattMtu(512);
                 }
-            } else if (BluetoothLeService.ACTION_GATT_SERVICE_DISCOVERY_UNSUCCESSFUL
-                    .equals(action)) {
+            } else if (BluetoothLeService.ACTION_GATT_SERVICE_DISCOVERY_UNSUCCESSFUL.equals(action)) {
                     mProgressDialog.dismiss();
                       if(mTimer!=null)
                     mTimer.cancel();

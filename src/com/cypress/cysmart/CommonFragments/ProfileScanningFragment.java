@@ -350,8 +350,7 @@ public class ProfileScanningFragment extends Fragment {
     }
 
     private void showConnectAlertMessage(String devicename,String deviceaddress) {
-        mProgressdialog.setTitle(getResources().getString(
-                R.string.alert_message_connect_title));
+        mProgressdialog.setTitle("Device connected ");
         mProgressdialog.setMessage(getResources().getString(
                 R.string.alert_message_connect)
                 + "\n"
@@ -377,8 +376,7 @@ public class ProfileScanningFragment extends Fragment {
             if (!mScanning) {
                 startScanTimer();
                 mScanning = true;
-                mRefreshText.setText(getResources().getString(
-                        R.string.profile_control_device_scanning));
+                mRefreshText.setText(getResources().getString(R.string.profile_control_device_scanning));
                 mBluetoothAdapter.startLeScan(mLeScanCallback);
                 mSwipeLayout.setRefreshing(true);
             }
@@ -394,9 +392,7 @@ public class ProfileScanningFragment extends Fragment {
      * Preparing the BLE Devicelist
      */
     public void prepareList() {
-
         setUpActionBar();
-        // Prepare list view and initiate scanning
         mLeDeviceListAdapter = new LeDeviceListAdapter();
         mProfileListView.setAdapter(mLeDeviceListAdapter);
         scanLeDevice(true);
@@ -460,23 +456,18 @@ public class ProfileScanningFragment extends Fragment {
         ServiceDiscoveryFragment serviceDiscoveryFragment = new ServiceDiscoveryFragment();
         fragmentManager.beginTransaction().remove(getFragmentManager().
                 findFragmentByTag(Constants.PROFILE_SCANNING_FRAGMENT_TAG)).commit();
-        fragmentManager
-                .beginTransaction()
-                .replace(R.id.container, serviceDiscoveryFragment,
-                        Constants.SERVICE_DISCOVERY_FRAGMENT_TAG)
-                .commit();
+        fragmentManager.beginTransaction()
+                .replace(R.id.container, serviceDiscoveryFragment, Constants.SERVICE_DISCOVERY_FRAGMENT_TAG).commit();
     }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         // User chose not to enable BlueTooth.
-        if (requestCode == REQUEST_ENABLE_BT
-                && resultCode == Activity.RESULT_CANCELED) {
+        if (requestCode == REQUEST_ENABLE_BT  && resultCode == Activity.RESULT_CANCELED) {
             getActivity().finish();
         } else {
             // Check which request we're responding to
             if (requestCode == REQUEST_ENABLE_BT) {
-
                 // Make sure the request was successful
                 if (resultCode == Activity.RESULT_OK) {
                     Toast.makeText(
@@ -498,8 +489,7 @@ public class ProfileScanningFragment extends Fragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         menu.clear();
         inflater.inflate(R.menu.global, menu);
-        final EditText mEditText = (EditText) menu.findItem(
-                R.id.search).getActionView();
+        final EditText mEditText = (EditText) menu.findItem(R.id.search).getActionView();
         mEditText.addTextChangedListener(textWatcher);
 
         MenuItem pairCache = menu.findItem(R.id.pairing);
@@ -596,8 +586,7 @@ public class ProfileScanningFragment extends Fragment {
          * to grant permission to enable it.
          */
         if (!mBluetoothAdapter.isEnabled()) {
-            Intent enableBtIntent = new Intent(
-                    BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            Intent enableBtIntent = new Intent( BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
             return false;
         }
@@ -631,9 +620,7 @@ public class ProfileScanningFragment extends Fragment {
                     getActivity().runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            Toast.makeText(getActivity(),
-                                    R.string.profile_cannot_connect_message,
-                                    Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), R.string.profile_cannot_connect_message,Toast.LENGTH_SHORT).show();
                             if (mLeDeviceListAdapter != null)
                                 mLeDeviceListAdapter.clear();
                             if (mLeDeviceListAdapter != null) {
@@ -669,7 +656,7 @@ public class ProfileScanningFragment extends Fragment {
                                 R.string.profile_control_no_device_message));
                     }
                 });
-                //mSwipeLayout.setRefreshing(false);
+                mSwipeLayout.setRefreshing(false);
                 scanLeDevice(false);
             }
         },SCAN_PERIOD_TIMEOUT);
@@ -745,8 +732,7 @@ public class ProfileScanningFragment extends Fragment {
             final ViewHolder viewHolder;
             // General ListView optimization code.
             if (view == null) {
-                view = mInflator.inflate(R.layout.listitem_device, viewGroup,
-                        false);
+                view = mInflator.inflate(R.layout.listitem_device, viewGroup, false);
                 viewHolder = new ViewHolder();
                 viewHolder.deviceAddress = (TextView) view.findViewById(R.id.device_address);
                 viewHolder.deviceName = (TextView) view.findViewById(R.id.device_name);

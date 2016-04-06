@@ -69,14 +69,10 @@ public class CapsenseServiceProximity extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.capsense_proximity,
-                container, false);
-        mProximityViewForeground = (ImageView) rootView
-                .findViewById(R.id.proximity_view_1);
-        mProximityViewBackground = (ImageView) rootView
-                .findViewById(R.id.proximity_view_2);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.capsense_proximity,   container, false);
+        mProximityViewForeground = (ImageView) rootView.findViewById(R.id.proximity_view_1);
+        mProximityViewBackground = (ImageView) rootView.findViewById(R.id.proximity_view_2);
         mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.beep);
         setHasOptionsMenu(true);
         return rootView;

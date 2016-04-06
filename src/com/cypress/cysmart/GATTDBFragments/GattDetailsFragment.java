@@ -54,7 +54,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -63,7 +62,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.cypress.cysmart.BLEConnectionServices.BluetoothLeService;
-import com.cypress.cysmart.CommonUtils.ASCIIKeyBoard;
 import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.DialogListner;
 import com.cypress.cysmart.CommonUtils.GattAttributes;
@@ -121,13 +119,11 @@ public class GattDetailsFragment extends Fragment implements DialogListner, OnCl
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.gattdb_details, container,
-                false);
+        View rootView = inflater.inflate(R.layout.gattdb_details, container,false);
         mApplication = (CySmartApplication) getActivity().getApplication();
         mServiceName = (TextView) rootView.findViewById(R.id.txtservicename);
         mHexValue = (TextView) rootView.findViewById(R.id.txthex);
-        mCharacteristiceName = (TextView) rootView
-                .findViewById(R.id.txtcharatrname);
+        mCharacteristiceName = (TextView) rootView.findViewById(R.id.txtcharatrname);
         mBtnnotify = (TextView) rootView.findViewById(R.id.txtnotify);
         mBtnIndicate = (TextView) rootView.findViewById(R.id.txtindicate);
         mBtnread = (TextView) rootView.findViewById(R.id.txtread);

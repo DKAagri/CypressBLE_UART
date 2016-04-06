@@ -46,8 +46,7 @@ import java.util.List;
  */
 public class CySmartApplication extends Application {
 
-    private ArrayList<HashMap<String, BluetoothGattService>> mGattServiceMasterData =
-            new ArrayList<HashMap<String, BluetoothGattService>>();
+    private ArrayList<HashMap<String, BluetoothGattService>> mGattServiceMasterData =  new ArrayList<HashMap<String, BluetoothGattService>>();
 
     private List<BluetoothGattCharacteristic> mGattCharacteristics;
     private BluetoothGattCharacteristic mBluetoothgattcharacteristic;
@@ -86,8 +85,7 @@ public class CySmartApplication extends Application {
      *
      * @param bluetoothGattDescriptor
      */
-    public void setBluetoothgattdescriptor(
-            BluetoothGattDescriptor bluetoothGattDescriptor) {
+    public void setBluetoothgattdescriptor( BluetoothGattDescriptor bluetoothGattDescriptor) {
         this.mBluetoothGattDescriptor = bluetoothGattDescriptor;
     }
 
@@ -105,8 +103,7 @@ public class CySmartApplication extends Application {
      *
      * @param gattCharacteristics
      */
-    public void setGattCharacteristics(
-            List<BluetoothGattCharacteristic> gattCharacteristics) {
+    public void setGattCharacteristics( List<BluetoothGattCharacteristic> gattCharacteristics) {
         this.mGattCharacteristics = gattCharacteristics;
     }
 

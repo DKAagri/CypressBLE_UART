@@ -111,8 +111,7 @@ public class HomePageActivity extends FragmentActivity  {
         @Override
         public void onServiceConnected(ComponentName componentName,
                                        IBinder service) {
-            mBluetoothLeService = ((BluetoothLeService.LocalBinder) service)
-                    .getService();
+            mBluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
             // Initializing the service
             if (!mBluetoothLeService.initialize()) {
                 Logger.d("Service not initialized");

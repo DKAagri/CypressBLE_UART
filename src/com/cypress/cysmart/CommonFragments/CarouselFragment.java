@@ -111,8 +111,7 @@ public class CarouselFragment extends Fragment {
      * @param service
      * @return CarouselFragment
      */
-    public static Fragment newInstance(int pos,
-                                       float scale, String name, String uuid, BluetoothGattService service) {
+    public static Fragment newInstance(int pos,float scale, String name, String uuid, BluetoothGattService service) {
         CarouselFragment mFragment = new CarouselFragment();
         if (service.getInstanceId() > 0) {
             uuid = uuid + service.getInstanceId();
@@ -125,14 +124,11 @@ public class CarouselFragment extends Fragment {
         mBundle.putString(EXTRA_FRAG_UUID, uuid);
         mFragment.setArguments(mBundle);
         return mFragment;
-
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(
-                R.layout.carousel_fragment_item, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,  Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.carousel_fragment_item, container, false);
 
         final int pos = this.getArguments().getInt(EXTRA_FRAG_POS);
         final String mName = this.getArguments().getString(EXTRA_FRAG_NAME);
@@ -160,26 +156,21 @@ public class CarouselFragment extends Fragment {
                 mService = mBleHashMap.get(mUuid);
                 mCurrentUUID = mService.getUuid();
 
-
                 // Device information service
                 if (mService.getUuid().equals(UUIDDatabase.UUID_DEVICE_INFORMATION_SERVICE)) {
-                    DeviceInformationService deviceInformationMeasurementFragment = new DeviceInformationService()
-                            .create(mService);
+                    DeviceInformationService deviceInformationMeasurementFragment = new DeviceInformationService().create(mService);
                     displayView(deviceInformationMeasurementFragment, getResources().getString(R.string.device_info));
 
                 }
                 // Battery service
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_BATTERY_SERVICE)) {
-                    BatteryInformationService batteryInfoFragment = new BatteryInformationService()
-                            .create(mService);
+                    BatteryInformationService batteryInfoFragment = new BatteryInformationService().create(mService);
                     displayView(batteryInfoFragment, getResources().getString(R.string.battery_info_fragment));
                 }
 
                 // Find Me
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_IMMEDIATE_ALERT_SERVICE)) {
-                    FindMeService findMeService = new FindMeService().create(
-                            mService,
-                            ServiceDiscoveryFragment.mGattServiceFindMeData, mName);
+                    FindMeService findMeService = new FindMeService().create( mService,ServiceDiscoveryFragment.mGattServiceFindMeData, mName);
                     displayView(findMeService, getResources().getString(R.string.findme_fragment));
                 }
                 // Proximity
@@ -193,10 +184,8 @@ public class CarouselFragment extends Fragment {
                 // CapSense
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_CAPSENSE_SERVICE)
                         || mService.getUuid().equals(UUIDDatabase.UUID_CAPSENSE_SERVICE_CUSTOM)) {
-                    List<BluetoothGattCharacteristic> gattCapSenseCharacteristics = mService
-                            .getCharacteristics();
-                    CapsenseService capSensePager = new CapsenseService()
-                            .create(mService, gattCapSenseCharacteristics.size());
+                    List<BluetoothGattCharacteristic> gattCapSenseCharacteristics = mService.getCharacteristics();
+                    CapsenseService capSensePager = new CapsenseService().create(mService, gattCapSenseCharacteristics.size());
                     displayView(capSensePager, getResources().getString(R.string.capsense));
                 }
                 // GattDB
@@ -212,8 +201,6 @@ public class CarouselFragment extends Fragment {
                     RGBFragment rgbfragment = new RGBFragment().create(mService);
                     displayView(rgbfragment, getResources().getString(R.string.rgb_led));
                 }
-
-
 
                 // OTA Firmware Update Service
                 else if (mService.getUuid().equals(UUIDDatabase.UUID_OTA_UPDATE_SERVICE)) {
@@ -232,8 +219,7 @@ public class CarouselFragment extends Fragment {
                 }
             }
         });
-        CarouselLinearLayout root = (CarouselLinearLayout) rootView
-                .findViewById(R.id.root);
+        CarouselLinearLayout root = (CarouselLinearLayout) rootView.findViewById(R.id.root);
         float scale = this.getArguments().getFloat(EXTRA_FRAG_SCALE);
         root.setScaleBoth(scale);
         return rootView;
