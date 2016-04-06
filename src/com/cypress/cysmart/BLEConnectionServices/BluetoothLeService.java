@@ -1105,7 +1105,7 @@ public class BluetoothLeService extends Service {
      */
     public static void writeDreamweaverCsv(
             BluetoothGattCharacteristic characteristic,
-            int Frequency,int Intensity, int Duty_Cycle, int Red, int Green, int Blue,int Phase, int Change ) {
+            int Frequency,int Intensity, int Duty_Cycle, int Red, int Green, int Blue,int Phase ) {
 
         String serviceUUID = characteristic.getService().getUuid().toString();
         String serviceName = GattAttributes.lookupUUID(characteristic.getService().getUuid(), serviceUUID);
@@ -1124,7 +1124,6 @@ public class BluetoothLeService extends Service {
             valueByte[4] = (byte) Green;
             valueByte[5] = (byte) Blue;
             valueByte[6] = (byte) Phase;
-            valueByte[7] = (byte) Change;
 
 /*            valueByte[0] = (byte) Red;
             valueByte[1] = (byte) Green;

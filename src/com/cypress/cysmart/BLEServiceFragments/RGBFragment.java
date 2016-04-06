@@ -313,9 +313,10 @@ public class RGBFragment extends Fragment {
                     public void run() {
                         if(csvvalues.get(csvindex)[2]!= "0"){
 
-                            if(csvvalues.get(csvindex)[2]=="7.83")frequency=68;
+                            Logger.v(csvvalues.get(csvindex)[2]);
+                            if(csvvalues.get(csvindex)[2].equalsIgnoreCase("7.83"))frequency=68;
                             else frequency=Integer.parseInt(csvvalues.get(csvindex)[2])*10-10;
-
+                            
                             writeDreamweaverCsv(mReadCharacteristic,
                                     frequency,
                                     Integer.parseInt(csvvalues.get(csvindex)[3]),
@@ -323,8 +324,7 @@ public class RGBFragment extends Fragment {
                                     Integer.parseInt(csvvalues.get(csvindex)[5]),
                                     Integer.parseInt(csvvalues.get(csvindex)[6]),
                                     Integer.parseInt(csvvalues.get(csvindex)[7]),
-                                    Integer.parseInt(csvvalues.get(csvindex)[8]),
-                                    Integer.parseInt(csvvalues.get(csvindex)[9]));
+                                    Integer.parseInt(csvvalues.get(csvindex)[8]));
                         }
 
                     csvindex++;
@@ -523,15 +523,8 @@ public class RGBFragment extends Fragment {
 
     public final List<String[]> readCsv() {
         List<String[]> questionList = new ArrayList<String[]>();
-        //AssetManager assetManager = context.getAssets();
 
         try {
-            ///R.raw.trip_to_the_forest_file
-            //InputStream csvStream = assetManager.open(String.valueOf(R.raw.trip_to_the_forest_file));
-           // InputStream csvStream= new FileInputStream("/res/raw/trip_to_the_forest_file.csv");
-/*            InputStream csvStream = getResources().openRawResource(
-                    getResources().getIdentifier("FILENAME_WITHOUT_EXTENSION",
-                            "raw", getPackageName()));*/
             InputStream csvStream= getResources().openRawResource(R.raw.sample);
             Logger.v("Csv file read as stream ");
             InputStreamReader csvStreamReader = new InputStreamReader(csvStream);

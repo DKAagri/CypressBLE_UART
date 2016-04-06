@@ -364,7 +364,7 @@ public class ProfileScanningFragment extends Fragment {
             }
         } else {
             mScanning = false;
-            /*mSwipeLayout.setRefreshing(false);*/
+            mSwipeLayout.setRefreshing(false);
             mBluetoothAdapter.stopLeScan(mLeScanCallback);
         }
     }
@@ -634,6 +634,7 @@ public class ProfileScanningFragment extends Fragment {
                         mRefreshText.setText(getResources().getString(R.string.profile_control_no_device_message));
                     }
                 });
+                mSwipeLayout.setRefreshing(false);
                 scanLeDevice(false);
             }
         },SCAN_PERIOD_TIMEOUT);
@@ -730,8 +731,7 @@ public class ProfileScanningFragment extends Fragment {
                 try {
                     viewHolder.deviceName.setText(deviceName);
                     viewHolder.deviceAddress.setText(device.getAddress());
-                    byte rssival = (byte) mDevRssiValues.get(device.getAddress())
-                            .intValue();
+                    byte rssival = (byte) mDevRssiValues.get(device.getAddress()).intValue();
                     if (rssival != 0) {
                         viewHolder.deviceRssi.setText(String.valueOf(rssival));
                     }

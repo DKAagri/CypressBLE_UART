@@ -6,244 +6,23 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d95fb66-ae16-4fa4-9372-98df9482e939" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService$LocalBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/CapSenseParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/DateTimeParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/DescriptorParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEProfileDataParserClasses/RGBParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/BatteryInformationService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseService$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseService$ScreenSlidePagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceButtons$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceButtons.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceProximity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceSlider$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/CapsenseServiceSlider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/DeviceInformationService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/FindMeService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEServiceFragments/RGBFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BLEStatusReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/CarouselFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileControlFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$8$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$9$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter$ItemFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$LeDeviceListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/ASCIIKeyBoard$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/ASCIIKeyBoard$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/ASCIIKeyBoard$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/ASCIIKeyBoard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/CarouselLinearLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/CustomSlideAnimation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/CustomSpinner$SpinnerAdapterProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/CustomSpinner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/CustumScrollView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/DecimalTextWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/DepthPageTransformer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/DialogListner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/GattAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/HexKeyBoard$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/HexKeyBoard$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/HexKeyBoard$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/HexKeyBoard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/LineGraphView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/Logger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/PagerFooterview.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/ScrollViewListner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/TextProgressBar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/UUIDDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/Utils$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/Utils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CommonUtils/VerticalTextView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/CySmartApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerFragment$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerFragment$loadLogdata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerHistoryList$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerHistoryList$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerHistoryList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerHistoryListFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerHistoryListFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataLoggerFragments/DataLoggerHistoryListFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataModelClasses/CapSenseButtonsGridModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataModelClasses/DataLoggerModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataModelClasses/NavigationDrawerModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataModelClasses/OTAFileModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataModelClasses/OTAFlashRowModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/DataModelClasses/ProfileScanningListModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattCharacteristicsFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattCharacteristicsFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattCharacteristicsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDescriptorDetails$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDescriptorDetails.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDescriptorFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDescriptorFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDescriptorFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattServicesFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/GATTDBFragments/GattServicesFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/HomePageActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/CapSenseButtonsGridAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/CapSenseButtonsGridAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/CarouselPagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/DataLoggerListAdapter$ViewHolderclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/DataLoggerListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/DataLogsListAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/DataLogsListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/GattCharacteriscticsListAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/GattCharacteriscticsListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/GattCharacteristicDescriptorsAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/GattCharacteristicDescriptorsAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/GattServiceListAdapter$ViewHolderclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/GattServiceListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/OTAFileListAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/OTAFileListAdapter$MyViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/ListAdapters/OTAFileListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/BootLoaderCommands.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/BootLoaderUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/CustomFileReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/FileReadStatusUpdater.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFilesListingActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFilesListingActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFilesListingActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFilesListingActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFilesListingActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareUpgradeFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAFirmwareWrite.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/OTAFirmwareUpdate/OTAResponseReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$raw.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/ADPCMConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/ADPCMStateModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/RDKAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/ReportAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/RDKEmulatorView/ReportCharacteristicDescriptionModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/SplashPageActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/cypress/cysmart/SplashPageActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/raw/backup.csv" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/raw/backup.csv" afterPath="$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv" afterPath="$PROJECT_DIR$/res/raw/sample.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cysmart_android-release.apk" afterPath="$PROJECT_DIR$/cysmart_android-release.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileControlFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileControlFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/cypress/cysmart/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/cypress/cysmart/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/values/com_crashlytics_build_id.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values/com_crashlytics_build_id.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rgb_view_portrait.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/rgb_view_portrait.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" afterPath="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/raw/trip_to_the_forest_file.csv" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/raw/trip_to_the_forest_file.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cysmart_android.iws" />
@@ -364,12 +143,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProfileScanningFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProfileScanningFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7607143">
-              <caret line="602" column="61" selection-start-line="602" selection-start-column="61" selection-end-line="602" selection-end-column="61" />
+            <state vertical-scroll-proportion="-8.275862">
+              <caret line="364" column="16" selection-start-line="364" selection-start-column="16" selection-end-line="364" selection-end-column="16" />
               <folding>
+                <element signature="e#0#30394#0" expanded="true" />
                 <element signature="e#4909#5741#0" expanded="true" />
                 <element signature="e#5740#5741#0" expanded="true" />
                 <element signature="e#5888#7269#0" expanded="true" />
@@ -386,25 +166,25 @@
                 <element signature="e#12904#12905#0" expanded="true" />
                 <element signature="e#13390#13443#0" expanded="true" />
                 <element signature="e#13947#14013#0" expanded="true" />
-                <element signature="e#17376#17467#0" expanded="true" />
-                <element signature="e#20353#20383#0" expanded="true" />
-                <element signature="e#22105#23325#0" expanded="true" />
-                <element signature="e#22446#23280#0" expanded="true" />
-                <element signature="e#23279#23280#0" expanded="true" />
-                <element signature="e#23324#23325#0" expanded="true" />
-                <element signature="e#23491#24000#0" expanded="true" />
-                <element signature="e#23695#23937#0" expanded="true" />
-                <element signature="e#23827#23895#0" expanded="true" />
-                <element signature="e#23936#23937#0" expanded="true" />
-                <element signature="e#23999#24000#0" expanded="true" />
-                <element signature="e#24260#24277#0" expanded="true" />
-                <element signature="e#27483#27546#0" expanded="true" />
-                <element signature="e#27549#27614#0" expanded="true" />
-                <element signature="e#27846#27869#0" expanded="true" />
-                <element signature="e#28067#28675#0" expanded="true" />
-                <element signature="e#28448#28497#0" expanded="true" />
-                <element signature="e#28674#28675#0" expanded="true" />
-                <element signature="e#29280#29297#0" expanded="true" />
+                <element signature="e#17372#17463#0" expanded="true" />
+                <element signature="e#20349#20379#0" expanded="true" />
+                <element signature="e#22101#23321#0" expanded="true" />
+                <element signature="e#22442#23276#0" expanded="true" />
+                <element signature="e#23275#23276#0" expanded="true" />
+                <element signature="e#23320#23321#0" expanded="true" />
+                <element signature="e#23487#24047#0" expanded="true" />
+                <element signature="e#23691#23933#0" expanded="true" />
+                <element signature="e#23823#23891#0" expanded="true" />
+                <element signature="e#23932#23933#0" expanded="true" />
+                <element signature="e#24046#24047#0" expanded="true" />
+                <element signature="e#24307#24324#0" expanded="true" />
+                <element signature="e#27501#27564#0" expanded="true" />
+                <element signature="e#27567#27632#0" expanded="true" />
+                <element signature="e#27864#27887#0" expanded="true" />
+                <element signature="e#28085#28693#0" expanded="true" />
+                <element signature="e#28466#28515#0" expanded="true" />
+                <element signature="e#28692#28693#0" expanded="true" />
+                <element signature="e#29298#29315#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -436,11 +216,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RGBFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RGBFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45564517">
+              <caret line="318" column="28" selection-start-line="318" selection-start-column="28" selection-end-line="318" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="316" column="87" selection-start-line="316" selection-start-column="87" selection-end-line="316" selection-end-column="87" />
+              <caret line="1125" column="40" selection-start-line="1125" selection-start-column="40" selection-end-line="1125" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trip_to_the_forest_file.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-152.06897">
+              <caret line="294" column="9" selection-start-line="294" selection-start-column="9" selection-end-line="294" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -450,12 +250,8 @@
         <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#5685#5686#0" expanded="false" />
-                <element signature="e#5786#5787#0" expanded="false" />
-              </folding>
+              <caret line="145" column="33" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1204,7 +1000,6 @@
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/HomePageActivity.java" />
         <option value="$PROJECT_DIR$/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/FindMeService.java" />
-        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEProfileDataParserClasses/CapSenseParser.java" />
         <option value="$PROJECT_DIR$/res/values/color.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -1220,9 +1015,10 @@
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/GATTDBFragments/GattDetailsFragment.java" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileControlFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" />
-        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
       </list>
     </option>
   </component>
@@ -1396,6 +1192,28 @@
               <option name="myItemId" value="cysmart_android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1413,6 +1231,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="cysmart" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonFragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1672,7 +1522,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459931753574</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add media player&#10;">
+      <created>1459969753550</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1459969753550</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1686,7 +1542,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="21" width="1325" height="747" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1694,14 +1550,14 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46507937" sideWeight="0.47622758" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.515873" sideWeight="0.47856587" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56349206" sideWeight="0.48480123" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25643024" sideWeight="0.51598173" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46825397" sideWeight="0.5120811" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46507937" sideWeight="0.5214341" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6269841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34285715" sideWeight="0.51519877" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5650794" sideWeight="0.5214341" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25643024" sideWeight="0.51598173" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26031747" sideWeight="0.47077164" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1920,19 +1776,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>541</line>
+          <line>534</line>
           <properties />
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>549</line>
+          <line>542</line>
           <properties />
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>536</line>
+          <line>529</line>
           <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
@@ -1944,13 +1800,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>1134</line>
+          <line>1133</line>
           <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java</url>
-          <line>1142</line>
+          <line>1141</line>
           <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
@@ -2034,27 +1890,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>315</line>
+          <line>316</line>
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java</url>
-          <line>316</line>
+          <line>317</line>
           <properties />
           <option name="timeStamp" value="115" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
-          <line>367</line>
-          <properties />
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
-          <line>362</line>
-          <properties />
-          <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$USER_HOME$/android-sdks/sources/android-22/android/view/View.java</url>
@@ -2194,14 +2038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="64" selection-start-line="87" selection-start-column="64" selection-end-line="87" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1147" column="0" selection-start-line="1147" selection-start-column="0" selection-end-line="1147" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2392,18 +2228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5685#5686#0" expanded="false" />
-            <element signature="e#5786#5787#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/CarouselFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2442,13 +2266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileControlFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2457,14 +2274,6 @@
             <element signature="e#0#10918#0" expanded="false" />
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="316" column="87" selection-start-line="316" selection-start-column="87" selection-end-line="316" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2484,11 +2293,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ServiceDiscoveryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="145" column="33" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7607143">
-          <caret line="602" column="61" selection-start-line="602" selection-start-column="61" selection-end-line="602" selection-end-column="61" />
+        <state vertical-scroll-proportion="-8.275862">
+          <caret line="364" column="16" selection-start-line="364" selection-start-column="16" selection-end-line="364" selection-end-column="16" />
           <folding>
+            <element signature="e#0#30394#0" expanded="true" />
             <element signature="e#4909#5741#0" expanded="true" />
             <element signature="e#5740#5741#0" expanded="true" />
             <element signature="e#5888#7269#0" expanded="true" />
@@ -2505,26 +2323,50 @@
             <element signature="e#12904#12905#0" expanded="true" />
             <element signature="e#13390#13443#0" expanded="true" />
             <element signature="e#13947#14013#0" expanded="true" />
-            <element signature="e#17376#17467#0" expanded="true" />
-            <element signature="e#20353#20383#0" expanded="true" />
-            <element signature="e#22105#23325#0" expanded="true" />
-            <element signature="e#22446#23280#0" expanded="true" />
-            <element signature="e#23279#23280#0" expanded="true" />
-            <element signature="e#23324#23325#0" expanded="true" />
-            <element signature="e#23491#24000#0" expanded="true" />
-            <element signature="e#23695#23937#0" expanded="true" />
-            <element signature="e#23827#23895#0" expanded="true" />
-            <element signature="e#23936#23937#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24260#24277#0" expanded="true" />
-            <element signature="e#27483#27546#0" expanded="true" />
-            <element signature="e#27549#27614#0" expanded="true" />
-            <element signature="e#27846#27869#0" expanded="true" />
-            <element signature="e#28067#28675#0" expanded="true" />
-            <element signature="e#28448#28497#0" expanded="true" />
-            <element signature="e#28674#28675#0" expanded="true" />
-            <element signature="e#29280#29297#0" expanded="true" />
+            <element signature="e#17372#17463#0" expanded="true" />
+            <element signature="e#20349#20379#0" expanded="true" />
+            <element signature="e#22101#23321#0" expanded="true" />
+            <element signature="e#22442#23276#0" expanded="true" />
+            <element signature="e#23275#23276#0" expanded="true" />
+            <element signature="e#23320#23321#0" expanded="true" />
+            <element signature="e#23487#24047#0" expanded="true" />
+            <element signature="e#23691#23933#0" expanded="true" />
+            <element signature="e#23823#23891#0" expanded="true" />
+            <element signature="e#23932#23933#0" expanded="true" />
+            <element signature="e#24046#24047#0" expanded="true" />
+            <element signature="e#24307#24324#0" expanded="true" />
+            <element signature="e#27501#27564#0" expanded="true" />
+            <element signature="e#27567#27632#0" expanded="true" />
+            <element signature="e#27864#27887#0" expanded="true" />
+            <element signature="e#28085#28693#0" expanded="true" />
+            <element signature="e#28466#28515#0" expanded="true" />
+            <element signature="e#28692#28693#0" expanded="true" />
+            <element signature="e#29298#29315#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-152.06897">
+          <caret line="294" column="9" selection-start-line="294" selection-start-column="9" selection-end-line="294" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1125" column="40" selection-start-line="1125" selection-start-column="40" selection-end-line="1125" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45564517">
+          <caret line="318" column="28" selection-start-line="318" selection-start-column="28" selection-end-line="318" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
