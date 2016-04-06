@@ -277,76 +277,42 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/dreamWeaverLayout">
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Next"
-                android:id="@+id/buttonNextSong"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentTop="true" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pause"
                 android:id="@+id/buttonPauseSong"
-                android:layout_toStartOf="@+id/buttonNextSong"
-                android:layout_alignParentTop="true" />
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/buttonPlayAudio" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="play"
                 android:id="@+id/buttonPlayAudio"
-                android:layout_toStartOf="@+id/buttonPreviousSong"
+                android:layout_toStartOf="@+id/buttonStopSong"
                 android:layout_alignParentTop="true" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Back"
-                android:id="@+id/buttonPreviousSong"
-                android:layout_toStartOf="@+id/buttonPauseSong"
-                android:layout_alignParentTop="true" />
-
-            <SeekBar
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/seekBar"
-                android:layout_below="@+id/buttonPreviousSong"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentStart="true"
-                android:indeterminate="false" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="49dp"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Small Text"
-                android:id="@+id/songnameText"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/seekBar" />
+                android:text="Stop"
+                android:id="@+id/buttonStopSong"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Medium Text"
+                android:text="Trip to the Forest"
                 android:id="@+id/timeremainingText"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_alignBottom="@+id/buttonPauseSong"
+                android:layout_alignParentStart="true" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Small Text"
-                android:id="@+id/timepassedText"
-                android:layout_alignTop="@+id/songnameText"
-                android:layout_alignEnd="@+id/buttonPreviousSong" />
         </RelativeLayout>
 
     </LinearLayout>

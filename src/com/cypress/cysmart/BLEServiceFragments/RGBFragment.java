@@ -57,6 +57,8 @@ public class RGBFragment extends Fragment {
 
     List<String[]> csvvalues=null;
     int csvindex=0;
+    int frequency=0;
+
     // GATT service and characteristics
     private static BluetoothGattService mCurrentservice;
     private static BluetoothGattCharacteristic mReadCharacteristic;
@@ -78,7 +80,7 @@ public class RGBFragment extends Fragment {
     private int mTxBLE;
 
 //added fpr mediacontroller and play button
-    private Button btnPlay;
+    private Button btnPlay,btnStop;
     private static MediaPlayer mMediaPlayer;
 
     private ImageView mColorindicator;
@@ -157,16 +159,6 @@ public class RGBFragment extends Fragment {
         }
 
         mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.trip_to_the_forest);
-/*
-        mediaPlayer = new MediaPlayer();
-        try {
-            mediaPlayer.setDataSource(String.valueOf(R.raw.trip_to_the_forest));
-            mediaPlayer.prepare();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-*/
-
 
        // getActivity().getActionBar().setTitle(R.string.rgb_led);
         setUpControls();
@@ -207,20 +199,7 @@ public class RGBFragment extends Fragment {
         mParentRelLayout = (RelativeLayout) mRootView.findViewById(R.id.parent);
         mParentRelLayout.setClickable(true);
 
-
         csvvalues = readCsv();
-
-       // String filePath = getResources().openRawResource(R.raw.trip_to_the_forest);
-        //mediaPlayer = new MediaPlayer(getActivity().getApplicationContext(), R.raw.trip_to_the_forest);
-/*
-        try {
-            mediaPlayer.setDataSource(filePath);
-            mediaPlayer.prepare();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-*/
-
 
         mRGBcanavs = (ImageView) mRootView.findViewById(R.id.imgrgbcanvas);
         mcolorpicker = (ImageView) mRootView.findViewById(R.id.imgcolorpicker);
@@ -282,8 +261,7 @@ public class RGBFragment extends Fragment {
         mTextalpha.setText(String.format("0x%02x", mIntensity));
         mIntensityBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
 
-            public void onProgressChanged(SeekBar seekBar, int progress,
-                                          boolean fromUser) {
+            public void onProgressChanged(SeekBar seekBar, int progress,   boolean fromUser) {
                 mIntensity = progress;
                 UIupdation();
                 mIsReaded = false;
@@ -314,26 +292,41 @@ public class RGBFragment extends Fragment {
             }
         });
 
+        btnStop=  (Button) mRootView.findViewById(R.id.buttonStopSong);
+        btnStop.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View v) {
+                                           mMediaPlayer.stop();
+                                       }
+        });
+
         btnPlay=  (Button) mRootView.findViewById(R.id.buttonPlayAudio);
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                //mediaPlayer.start();
+                mMediaPlayer.start();
 
                 Timer timer = new Timer();
                 timer.schedule(new TimerTask() {
                     @Override
                     public void run() {
-                    writeDreamweaverCsv(mReadCharacteristic,
-                            Integer.parseInt(csvvalues.get(csvindex)[2]),
-                            Integer.parseInt(csvvalues.get(csvindex)[3]),
-                            Integer.parseInt(csvvalues.get(csvindex)[4]),
-                            Integer.parseInt(csvvalues.get(csvindex)[5]),
-                            Integer.parseInt(csvvalues.get(csvindex)[6]),
-                            Integer.parseInt(csvvalues.get(csvindex)[7]),
-                            Integer.parseInt(csvvalues.get(csvindex)[8]),
-                            Integer.parseInt(csvvalues.get(csvindex)[9]));
+                        if(csvvalues.get(csvindex)[2]!= "0"){
+
+                            if(csvvalues.get(csvindex)[2]=="7.83")frequency=68;
+                            else frequency=Integer.parseInt(csvvalues.get(csvindex)[2])*10-10;
+
+                            writeDreamweaverCsv(mReadCharacteristic,
+                                    frequency,
+                                    Integer.parseInt(csvvalues.get(csvindex)[3]),
+                                    Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", "")),
+                                    Integer.parseInt(csvvalues.get(csvindex)[5]),
+                                    Integer.parseInt(csvvalues.get(csvindex)[6]),
+                                    Integer.parseInt(csvvalues.get(csvindex)[7]),
+                                    Integer.parseInt(csvvalues.get(csvindex)[8]),
+                                    Integer.parseInt(csvvalues.get(csvindex)[9]));
+                        }
+
                     csvindex++;
                     }
                 }, 0, 1000);
@@ -539,7 +532,7 @@ public class RGBFragment extends Fragment {
 /*            InputStream csvStream = getResources().openRawResource(
                     getResources().getIdentifier("FILENAME_WITHOUT_EXTENSION",
                             "raw", getPackageName()));*/
-            InputStream csvStream= getResources().openRawResource(R.raw.trip_to_the_forest_file);
+            InputStream csvStream= getResources().openRawResource(R.raw.sample);
             Logger.v("Csv file read as stream ");
             InputStreamReader csvStreamReader = new InputStreamReader(csvStream);
             CSVReader csvReader = new CSVReader(csvStreamReader);

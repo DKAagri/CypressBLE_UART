@@ -104,8 +104,7 @@ public class ProfileControlFragment extends Fragment {
      * @param device_address
      * @return ProfileControlFragment
      */
-    public ProfileControlFragment create(String device_name,
-                                         String device_address) {
+    public ProfileControlFragment create(String device_name,String device_address) {
         ProfileControlFragment fragment = new ProfileControlFragment();
         Bundle args = new Bundle();
         args.putString(ARG_DEVICE_NAME, device_name);
@@ -117,10 +116,8 @@ public class ProfileControlFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.profile_control, container,
-                false);
-        mRelativeLayout = (RelativeLayout) rootView
-                .findViewById(R.id.gatt_service_carousel);
+        View rootView = inflater.inflate(R.layout.profile_control, container,  false);
+        mRelativeLayout = (RelativeLayout) rootView.findViewById(R.id.gatt_service_carousel);
         mPager = (ViewPager) rootView.findViewById(R.id.myviewpager);
         mApplication = (CySmartApplication) getActivity().getApplication();
         mPages = 0;

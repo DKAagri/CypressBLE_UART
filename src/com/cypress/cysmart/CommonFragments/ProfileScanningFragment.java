@@ -131,8 +131,7 @@ public class ProfileScanningFragment extends Fragment {
     private BluetoothAdapter.LeScanCallback mLeScanCallback = new BluetoothAdapter.LeScanCallback() {
 
         @Override
-        public void onLeScan(final BluetoothDevice device, final int rssi,
-                             byte[] scanRecord) {
+        public void onLeScan(final BluetoothDevice device, final int rssi, byte[] scanRecord) {
             Activity mActivity = getActivity();
             if (mActivity != null) {
                 mActivity.runOnUiThread(new Runnable() {
@@ -150,6 +149,7 @@ public class ProfileScanningFragment extends Fragment {
                 });
             }
         }
+
     };
 
     /**
@@ -193,15 +193,13 @@ public class ProfileScanningFragment extends Fragment {
     private TextWatcher textWatcher = new TextWatcher() {
 
         @Override
-        public void onTextChanged(CharSequence s, int start, int before,
-                                  int count) {
+        public void onTextChanged(CharSequence s, int start, int before,int count) {
             mLeDeviceListAdapter.notifyDataSetInvalidated();
             mLeDeviceListAdapter.getFilter().filter(s.toString());
         }
 
         @Override
-        public void beforeTextChanged(CharSequence s, int start, int count,
-                                      int after) {
+        public void beforeTextChanged(CharSequence s, int start, int count,int after) {
         }
 
         @Override
@@ -210,21 +208,17 @@ public class ProfileScanningFragment extends Fragment {
     };
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-       View mrootView = inflater.inflate(R.layout.fragment_profile_scan, container,
-                false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View mrootView = inflater.inflate(R.layout.fragment_profile_scan, container, false);
 
         mDevRssiValues = new HashMap<String, Integer>();
         mSwipeLayout = (SwipeRefreshLayout) mrootView.findViewById(R.id.swipe_container);
+        mSwipeLayout.setColorScheme(R.color.dark_blue, R.color.medium_blue, R.color.light_blue, R.color.faint_blue);
 
-        mSwipeLayout.setColorScheme(R.color.dark_blue, R.color.medium_blue,
-                R.color.light_blue, R.color.faint_blue);
         mProfileListView = (ListView) mrootView.findViewById(R.id.listView_profiles);
         mRefreshText = (TextView) mrootView.findViewById(R.id.no_dev);
-
         mLeDeviceListAdapter = new LeDeviceListAdapter();
-
         mProfileListView.setAdapter(mLeDeviceListAdapter);
         mProfileListView.setTextFilterEnabled(true);
         setHasOptionsMenu(true);
@@ -239,12 +233,11 @@ public class ProfileScanningFragment extends Fragment {
          * Swipe listener,initiate a new scan on refresh. Stop the swipe refresh
          * after 5 seconds
          */
-        mSwipeLayout
-                .setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+        mSwipeLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
 
-                    @Override
-                    public void onRefresh() {
-                        if (!mScanning) {
+            @Override
+            public void onRefresh() {
+                  if (!mScanning) {
                             // Prepare list view and initiate scanning
                             if (mLeDeviceListAdapter != null) {
                                 mLeDeviceListAdapter.clear();
@@ -253,18 +246,14 @@ public class ProfileScanningFragment extends Fragment {
                                 } catch (Exception e) {
                                     e.printStackTrace();
                                 }
-                            }
-                            scanLeDevice(true);
-                            mScanning = true;
-                            mSearchEnabled = false;
-                            mRefreshText.setText(getResources().getString(
-                                    R.string.profile_control_device_scanning));
-                        }
+                  }
+                  scanLeDevice(true);
+                  mScanning = true;
+                  mSearchEnabled = false;
+                  mRefreshText.setText("Resfreshing device scanning , please wait");
+            }}
 
-                    }
-
-                });
-
+        });
 
         /**
          * Creating the dataLogger file and
@@ -275,8 +264,7 @@ public class ProfileScanningFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 if (mLeDeviceListAdapter.getCount() > 0) {
-                    final BluetoothDevice device = mLeDeviceListAdapter
-                            .getDevice(position);
+                    final BluetoothDevice device = mLeDeviceListAdapter.getDevice(position);
                     if (device != null) {
                         scanLeDevice(false);
                         connectDevice(device,true);
@@ -290,22 +278,17 @@ public class ProfileScanningFragment extends Fragment {
 
     private void checkBleSupportAndInitialize() {
         // Use this check to determine whether BLE is supported on the device.
-        if (!getActivity().getPackageManager().hasSystemFeature(
-                PackageManager.FEATURE_BLUETOOTH_LE)) {
-            Toast.makeText(getActivity(), R.string.device_ble_not_supported,
-                    Toast.LENGTH_SHORT).show();
+        if (!getActivity().getPackageManager().hasSystemFeature(   PackageManager.FEATURE_BLUETOOTH_LE)) {
+            Toast.makeText(getActivity(), R.string.device_ble_not_supported, Toast.LENGTH_SHORT).show();
             getActivity().finish();
         }
         // Initializes a Blue tooth adapter.
-        final BluetoothManager bluetoothManager = (BluetoothManager) getActivity()
-                .getSystemService(Context.BLUETOOTH_SERVICE);
+        final BluetoothManager bluetoothManager = (BluetoothManager) getActivity().getSystemService(Context.BLUETOOTH_SERVICE);
         mBluetoothAdapter = bluetoothManager.getAdapter();
 
         if (mBluetoothAdapter == null) {
             // Device does not support Blue tooth
-            Toast.makeText(getActivity(),
-                    R.string.device_bluetooth_not_supported, Toast.LENGTH_SHORT)
-                    .show();
+            Toast.makeText(getActivity(),R.string.device_bluetooth_not_supported, Toast.LENGTH_SHORT).show();
             getActivity().finish();
         }
     }
@@ -351,8 +334,7 @@ public class ProfileScanningFragment extends Fragment {
 
     private void showConnectAlertMessage(String devicename,String deviceaddress) {
         mProgressdialog.setTitle("Device connected ");
-        mProgressdialog.setMessage(getResources().getString(
-                R.string.alert_message_connect)
+        mProgressdialog.setMessage("Connecting to Device"
                 + "\n"
                 + devicename
                 + "\n"
@@ -382,10 +364,9 @@ public class ProfileScanningFragment extends Fragment {
             }
         } else {
             mScanning = false;
-            mSwipeLayout.setRefreshing(false);
+            /*mSwipeLayout.setRefreshing(false);*/
             mBluetoothAdapter.stopLeScan(mLeScanCallback);
         }
-
     }
 
     /**
@@ -408,9 +389,7 @@ public class ProfileScanningFragment extends Fragment {
             prepareList();
         }
         Logger.e("Registering receiver in Profile scannng");
-        getActivity().registerReceiver(mGattConnectReceiver,
-                Utils.makeGattUpdateIntentFilter());
-
+        getActivity().registerReceiver(mGattConnectReceiver, Utils.makeGattUpdateIntentFilter());
     }
 
     @Override
@@ -620,7 +599,7 @@ public class ProfileScanningFragment extends Fragment {
                     getActivity().runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            Toast.makeText(getActivity(), R.string.profile_cannot_connect_message,Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "Cannot connect to device ",Toast.LENGTH_SHORT).show();
                             if (mLeDeviceListAdapter != null)
                                 mLeDeviceListAdapter.clear();
                             if (mLeDeviceListAdapter != null) {
@@ -652,11 +631,9 @@ public class ProfileScanningFragment extends Fragment {
                 mRefreshText.post(new Runnable() {
                     @Override
                     public void run() {
-                        mRefreshText.setText(getResources().getString(
-                                R.string.profile_control_no_device_message));
+                        mRefreshText.setText(getResources().getString(R.string.profile_control_no_device_message));
                     }
                 });
-                mSwipeLayout.setRefreshing(false);
                 scanLeDevice(false);
             }
         },SCAN_PERIOD_TIMEOUT);

@@ -1921,11 +1921,10 @@ containing a value of this type.
         public static final int btnthree=0x7f0c00bc;
         public static final int btntwo=0x7f0c00bb;
         public static final int btnzero=0x7f0c00ca;
-        public static final int buttonNextSong=0x7f0c0117;
         public static final int buttonPanel=0x7f0c002e;
-        public static final int buttonPauseSong=0x7f0c0118;
-        public static final int buttonPlayAudio=0x7f0c0119;
-        public static final int buttonPreviousSong=0x7f0c011a;
+        public static final int buttonPauseSong=0x7f0c0117;
+        public static final int buttonPlayAudio=0x7f0c0118;
+        public static final int buttonStopSong=0x7f0c0119;
         public static final int buttonTxBLE=0x7f0c0112;
         public static final int button_image=0x7f0c006b;
         public static final int cancel_action=0x7f0c00d9;
@@ -1937,7 +1936,7 @@ containing a value of this type.
         public static final int chart_container=0x7f0c007e;
         public static final int checkbox=0x7f0c003c;
         public static final int chronometer=0x7f0c00df;
-        public static final int clearcache=0x7f0c0124;
+        public static final int clearcache=0x7f0c0121;
         public static final int collapseActionView=0x7f0c001e;
         public static final int container=0x7f0c0054;
         public static final int container2=0x7f0c0055;
@@ -1980,7 +1979,7 @@ containing a value of this type.
         public static final int focus_view=0x7f0c0079;
         public static final int fragment_content=0x7f0c0090;
         public static final int gatt_service_carousel=0x7f0c00f6;
-        public static final int graph=0x7f0c0121;
+        public static final int graph=0x7f0c011e;
         public static final int heading_2=0x7f0c00e5;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000d;
@@ -2025,7 +2024,7 @@ containing a value of this type.
         public static final int listView=0x7f0c00e6;
         public static final int listView_profiles=0x7f0c0099;
         public static final int list_item=0x7f0c002b;
-        public static final int log=0x7f0c0120;
+        public static final int log=0x7f0c011d;
         public static final int media_actions=0x7f0c00db;
         public static final int middle=0x7f0c001c;
         public static final int multiply=0x7f0c0014;
@@ -2033,7 +2032,7 @@ containing a value of this type.
         public static final int never=0x7f0c0020;
         public static final int next_button=0x7f0c00e8;
         public static final int no_dev=0x7f0c0098;
-        public static final int no_service_text=0x7f0c011e;
+        public static final int no_service_text=0x7f0c011b;
         public static final int none=0x7f0c000e;
         public static final int normal=0x7f0c000a;
         public static final int ota_app_download=0x7f0c00eb;
@@ -2041,7 +2040,7 @@ containing a value of this type.
         public static final int ota_app_stack_seperate=0x7f0c00ed;
         public static final int pairCacheParent=0x7f0c00cc;
         public static final int pair_checkbox=0x7f0c00ce;
-        public static final int pairing=0x7f0c0125;
+        public static final int pairing=0x7f0c0122;
         public static final int parameter=0x7f0c009a;
         public static final int parent=0x7f0c005c;
         public static final int parentPanel=0x7f0c0030;
@@ -2068,7 +2067,7 @@ containing a value of this type.
         public static final int scrollIndicatorDown=0x7f0c0038;
         public static final int scrollIndicatorUp=0x7f0c0035;
         public static final int scrollView=0x7f0c0036;
-        public static final int search=0x7f0c0122;
+        public static final int search=0x7f0c011f;
         public static final int search_badge=0x7f0c0049;
         public static final int search_bar=0x7f0c0048;
         public static final int search_button=0x7f0c004a;
@@ -2079,10 +2078,9 @@ containing a value of this type.
         public static final int search_plate=0x7f0c004d;
         public static final int search_src_text=0x7f0c004e;
         public static final int search_voice_btn=0x7f0c0052;
-        public static final int seekBar=0x7f0c011b;
         public static final int select_dialog_listview=0x7f0c0053;
-        public static final int share=0x7f0c011f;
-        public static final int sharelogger=0x7f0c0123;
+        public static final int share=0x7f0c011c;
+        public static final int sharelogger=0x7f0c0120;
         public static final int shortcut=0x7f0c003d;
         public static final int showCustom=0x7f0c000f;
         public static final int showHome=0x7f0c0010;
@@ -2092,7 +2090,6 @@ containing a value of this type.
         public static final int slider_view_1=0x7f0c0075;
         public static final int slider_view_2=0x7f0c0076;
         public static final int slider_view_arrow=0x7f0c0077;
-        public static final int songnameText=0x7f0c011c;
         public static final int spacer=0x7f0c002f;
         public static final int split_action_bar=0x7f0c0007;
         public static final int src_atop=0x7f0c0016;
@@ -2116,7 +2113,7 @@ containing a value of this type.
         public static final int text_uuid=0x7f0c007d;
         public static final int time=0x7f0c00de;
         public static final int timepassedText=0x7f0c0057;
-        public static final int timeremainingText=0x7f0c011d;
+        public static final int timeremainingText=0x7f0c011a;
         public static final int title=0x7f0c002d;
         public static final int title_template=0x7f0c0032;
         public static final int top=0x7f0c0023;
@@ -2252,11 +2249,11 @@ containing a value of this type.
         public static final int global=0x7f0f0000;
     }
     public static final class raw {
-        public static final int backup=0x7f060000;
-        public static final int beep=0x7f060001;
-        public static final int bonjourflac=0x7f060002;
-        public static final int flacmorning=0x7f060003;
-        public static final int pcm=0x7f060004;
+        public static final int beep=0x7f060000;
+        public static final int bonjourflac=0x7f060001;
+        public static final int flacmorning=0x7f060002;
+        public static final int pcm=0x7f060003;
+        public static final int sample=0x7f060004;
         public static final int trip_to_the_forest=0x7f060005;
         public static final int trip_to_the_forest_file=0x7f060006;
     }
