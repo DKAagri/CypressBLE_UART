@@ -17,7 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" afterPath="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
@@ -143,13 +142,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProfileScanningFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProfileScanningFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.275862">
-              <caret line="364" column="16" selection-start-line="364" selection-start-column="16" selection-end-line="364" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="620" column="5" selection-start-line="620" selection-start-column="5" selection-end-line="620" selection-end-column="5" />
               <folding>
-                <element signature="e#0#30394#0" expanded="true" />
+                <element signature="e#0#30393#0" expanded="true" />
                 <element signature="e#4909#5741#0" expanded="true" />
                 <element signature="e#5740#5741#0" expanded="true" />
                 <element signature="e#5888#7269#0" expanded="true" />
@@ -166,25 +165,25 @@
                 <element signature="e#12904#12905#0" expanded="true" />
                 <element signature="e#13390#13443#0" expanded="true" />
                 <element signature="e#13947#14013#0" expanded="true" />
-                <element signature="e#17372#17463#0" expanded="true" />
-                <element signature="e#20349#20379#0" expanded="true" />
-                <element signature="e#22101#23321#0" expanded="true" />
-                <element signature="e#22442#23276#0" expanded="true" />
-                <element signature="e#23275#23276#0" expanded="true" />
-                <element signature="e#23320#23321#0" expanded="true" />
-                <element signature="e#23487#24047#0" expanded="true" />
-                <element signature="e#23691#23933#0" expanded="true" />
-                <element signature="e#23823#23891#0" expanded="true" />
-                <element signature="e#23932#23933#0" expanded="true" />
-                <element signature="e#24046#24047#0" expanded="true" />
-                <element signature="e#24307#24324#0" expanded="true" />
-                <element signature="e#27501#27564#0" expanded="true" />
-                <element signature="e#27567#27632#0" expanded="true" />
-                <element signature="e#27864#27887#0" expanded="true" />
-                <element signature="e#28085#28693#0" expanded="true" />
-                <element signature="e#28466#28515#0" expanded="true" />
-                <element signature="e#28692#28693#0" expanded="true" />
-                <element signature="e#29298#29315#0" expanded="true" />
+                <element signature="e#17367#17458#0" expanded="true" />
+                <element signature="e#20344#20374#0" expanded="true" />
+                <element signature="e#22096#23316#0" expanded="true" />
+                <element signature="e#22437#23271#0" expanded="true" />
+                <element signature="e#23270#23271#0" expanded="true" />
+                <element signature="e#23315#23316#0" expanded="true" />
+                <element signature="e#23482#24046#0" expanded="true" />
+                <element signature="e#23686#23928#0" expanded="true" />
+                <element signature="e#23818#23886#0" expanded="true" />
+                <element signature="e#23927#23928#0" expanded="true" />
+                <element signature="e#24045#24046#0" expanded="true" />
+                <element signature="e#24306#24323#0" expanded="true" />
+                <element signature="e#27500#27563#0" expanded="true" />
+                <element signature="e#27566#27631#0" expanded="true" />
+                <element signature="e#27863#27886#0" expanded="true" />
+                <element signature="e#28084#28692#0" expanded="true" />
+                <element signature="e#28465#28514#0" expanded="true" />
+                <element signature="e#28691#28692#0" expanded="true" />
+                <element signature="e#29297#29314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,19 +207,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#12800#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RGBFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RGBFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45564517">
-              <caret line="318" column="28" selection-start-line="318" selection-start-column="28" selection-end-line="318" selection-end-column="28" />
+            <state vertical-scroll-proportion="-2.3448277">
+              <caret line="318" column="0" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1016,9 +1012,9 @@
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileControlFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/rgb_view_portrait.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEConnectionServices/BluetoothLeService.java" />
         <option value="$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java" />
       </list>
     </option>
   </component>
@@ -1528,7 +1524,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459969753550</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="remove col 9 from array 8 to array 7">
+      <created>1459972565003</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1459972565003</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1550,7 +1552,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969603" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.515873" sideWeight="0.47856587" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4063492" sideWeight="0.47856587" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56349206" sideWeight="0.48480123" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25643024" sideWeight="0.51598173" order="5" side_tool="false" content_ui="tabs" />
@@ -1631,7 +1633,8 @@
     <MESSAGE value="add media player buttons and layout" />
     <MESSAGE value="woorkspace&#10;" />
     <MESSAGE value="add media player&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add media player&#10;" />
+    <MESSAGE value="remove col 9 from array 8 to array 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove col 9 from array 8 to array 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1818,7 +1821,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
-          <line>458</line>
+          <line>459</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
@@ -1848,7 +1851,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
-          <line>601</line>
+          <line>602</line>
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
@@ -1866,19 +1869,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
-          <line>799</line>
+          <line>800</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
-          <line>594</line>
+          <line>595</line>
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java</url>
-          <line>606</line>
+          <line>607</line>
           <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
@@ -2228,17 +2231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/CarouselFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#12800#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/rgb_view_landscape.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2301,51 +2293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862">
-          <caret line="364" column="16" selection-start-line="364" selection-start-column="16" selection-end-line="364" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#30394#0" expanded="true" />
-            <element signature="e#4909#5741#0" expanded="true" />
-            <element signature="e#5740#5741#0" expanded="true" />
-            <element signature="e#5888#7269#0" expanded="true" />
-            <element signature="e#6229#6280#0" expanded="true" />
-            <element signature="e#7125#7164#0" expanded="true" />
-            <element signature="e#7268#7269#0" expanded="true" />
-            <element signature="e#9027#9878#0" expanded="true" />
-            <element signature="e#9877#9878#0" expanded="true" />
-            <element signature="e#10093#10608#0" expanded="true" />
-            <element signature="e#10607#10608#0" expanded="true" />
-            <element signature="e#10923#10956#0" expanded="true" />
-            <element signature="e#11397#11436#0" expanded="true" />
-            <element signature="e#12629#12905#0" expanded="true" />
-            <element signature="e#12904#12905#0" expanded="true" />
-            <element signature="e#13390#13443#0" expanded="true" />
-            <element signature="e#13947#14013#0" expanded="true" />
-            <element signature="e#17372#17463#0" expanded="true" />
-            <element signature="e#20349#20379#0" expanded="true" />
-            <element signature="e#22101#23321#0" expanded="true" />
-            <element signature="e#22442#23276#0" expanded="true" />
-            <element signature="e#23275#23276#0" expanded="true" />
-            <element signature="e#23320#23321#0" expanded="true" />
-            <element signature="e#23487#24047#0" expanded="true" />
-            <element signature="e#23691#23933#0" expanded="true" />
-            <element signature="e#23823#23891#0" expanded="true" />
-            <element signature="e#23932#23933#0" expanded="true" />
-            <element signature="e#24046#24047#0" expanded="true" />
-            <element signature="e#24307#24324#0" expanded="true" />
-            <element signature="e#27501#27564#0" expanded="true" />
-            <element signature="e#27567#27632#0" expanded="true" />
-            <element signature="e#27864#27887#0" expanded="true" />
-            <element signature="e#28085#28693#0" expanded="true" />
-            <element signature="e#28466#28515#0" expanded="true" />
-            <element signature="e#28692#28693#0" expanded="true" />
-            <element signature="e#29298#29315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-152.06897">
@@ -2362,11 +2309,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/CarouselFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45564517">
-          <caret line="318" column="28" selection-start-line="318" selection-start-column="28" selection-end-line="318" selection-end-column="28" />
+        <state vertical-scroll-proportion="-2.3448277">
+          <caret line="318" column="0" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/CommonFragments/ProfileScanningFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="620" column="5" selection-start-line="620" selection-start-column="5" selection-end-line="620" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#30393#0" expanded="true" />
+            <element signature="e#4909#5741#0" expanded="true" />
+            <element signature="e#5740#5741#0" expanded="true" />
+            <element signature="e#5888#7269#0" expanded="true" />
+            <element signature="e#6229#6280#0" expanded="true" />
+            <element signature="e#7125#7164#0" expanded="true" />
+            <element signature="e#7268#7269#0" expanded="true" />
+            <element signature="e#9027#9878#0" expanded="true" />
+            <element signature="e#9877#9878#0" expanded="true" />
+            <element signature="e#10093#10608#0" expanded="true" />
+            <element signature="e#10607#10608#0" expanded="true" />
+            <element signature="e#10923#10956#0" expanded="true" />
+            <element signature="e#11397#11436#0" expanded="true" />
+            <element signature="e#12629#12905#0" expanded="true" />
+            <element signature="e#12904#12905#0" expanded="true" />
+            <element signature="e#13390#13443#0" expanded="true" />
+            <element signature="e#13947#14013#0" expanded="true" />
+            <element signature="e#17367#17458#0" expanded="true" />
+            <element signature="e#20344#20374#0" expanded="true" />
+            <element signature="e#22096#23316#0" expanded="true" />
+            <element signature="e#22437#23271#0" expanded="true" />
+            <element signature="e#23270#23271#0" expanded="true" />
+            <element signature="e#23315#23316#0" expanded="true" />
+            <element signature="e#23482#24046#0" expanded="true" />
+            <element signature="e#23686#23928#0" expanded="true" />
+            <element signature="e#23818#23886#0" expanded="true" />
+            <element signature="e#23927#23928#0" expanded="true" />
+            <element signature="e#24045#24046#0" expanded="true" />
+            <element signature="e#24306#24323#0" expanded="true" />
+            <element signature="e#27500#27563#0" expanded="true" />
+            <element signature="e#27566#27631#0" expanded="true" />
+            <element signature="e#27863#27886#0" expanded="true" />
+            <element signature="e#28084#28692#0" expanded="true" />
+            <element signature="e#28465#28514#0" expanded="true" />
+            <element signature="e#28691#28692#0" expanded="true" />
+            <element signature="e#29297#29314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

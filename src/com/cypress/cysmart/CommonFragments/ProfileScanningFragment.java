@@ -430,7 +430,7 @@ public class ProfileScanningFragment extends Fragment {
                 e.printStackTrace();
             }
         }
-      //  getActivity().unregisterReceiver(mGattConnectReceiver);
+        getActivity().unregisterReceiver(mGattConnectReceiver);
         FragmentManager fragmentManager = getFragmentManager();
         ServiceDiscoveryFragment serviceDiscoveryFragment = new ServiceDiscoveryFragment();
         fragmentManager.beginTransaction().remove(getFragmentManager().
@@ -446,8 +446,9 @@ public class ProfileScanningFragment extends Fragment {
             getActivity().finish();
         } else {
             // Check which request we're responding to
+            // Make sure the request was successful
+
             if (requestCode == REQUEST_ENABLE_BT) {
-                // Make sure the request was successful
                 if (resultCode == Activity.RESULT_OK) {
                     Toast.makeText(
                             getActivity(),
@@ -634,7 +635,7 @@ public class ProfileScanningFragment extends Fragment {
                         mRefreshText.setText(getResources().getString(R.string.profile_control_no_device_message));
                     }
                 });
-                mSwipeLayout.setRefreshing(false);
+                /*mSwipeLayout.setRefreshing(false);*/
                 scanLeDevice(false);
             }
         },SCAN_PERIOD_TIMEOUT);

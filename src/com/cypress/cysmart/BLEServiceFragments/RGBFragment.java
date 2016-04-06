@@ -316,7 +316,7 @@ public class RGBFragment extends Fragment {
                             Logger.v(csvvalues.get(csvindex)[2]);
                             if(csvvalues.get(csvindex)[2].equalsIgnoreCase("7.83"))frequency=68;
                             else frequency=Integer.parseInt(csvvalues.get(csvindex)[2])*10-10;
-                            
+
                             writeDreamweaverCsv(mReadCharacteristic,
                                     frequency,
                                     Integer.parseInt(csvvalues.get(csvindex)[3]),
