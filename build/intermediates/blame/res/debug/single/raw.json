@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/raw/beep.mp3",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/raw/beep.mp3"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/raw/flacmorning.flac",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/raw/flacmorning.flac"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/raw/pcm.wav",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/raw/pcm.wav"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/raw/trip_to_the_forest.mp3",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/raw/trip_to_the_forest.mp3"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/raw/bonjourflac.flac",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/raw/bonjourflac.flac"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/raw/trip_to_the_forest_file.csv",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/raw/trip_to_the_forest_file.csv"
+    }
+]

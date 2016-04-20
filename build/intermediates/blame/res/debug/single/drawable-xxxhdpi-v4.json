@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/appicon.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxxhdpi/appicon.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/slider.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxxhdpi/slider.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/gray_transparent.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxxhdpi/gray_transparent.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/info_icon.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxxhdpi/info_icon.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_more_vert_white_24dp.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxxhdpi/ic_more_vert_white_24dp.png"
+    }
+]

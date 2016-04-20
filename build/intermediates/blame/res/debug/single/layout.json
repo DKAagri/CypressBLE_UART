@@ -1,0 +1,222 @@
+[
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/listitem_glucose_spinner.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/listitem_glucose_spinner.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/fragment_profile_scan.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/fragment_profile_scan.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/device_information_measurement.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/device_information_measurement.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/contact_us_fragment.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/contact_us_fragment.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/datalogger_list_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/datalogger_list_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/fragment_drawer_header.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/fragment_drawer_header.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/servicediscovery_temp_fragment.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/servicediscovery_temp_fragment.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/gattdb_details.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/gattdb_details.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/runningspeed_n_cadence.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/runningspeed_n_cadence.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/ota_upgrade_type_selection.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/ota_upgrade_type_selection.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/listitem_firmware.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/listitem_firmware.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/hrm_measurement.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/hrm_measurement.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/ascii_value_popup.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/ascii_value_popup.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/sensor_hub.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/sensor_hub.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/fragment_content.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/fragment_content.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/gattdb_characteristics_list_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/gattdb_characteristics_list_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/lazy_loader_footer.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/lazy_loader_footer.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/custom_graphview.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/custom_graphview.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/rdk_motion_sensor.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/rdk_motion_sensor.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/gattdb_descriptor_details.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/gattdb_descriptor_details.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/data_logger_list_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/data_logger_list_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/rgb_view_portrait.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/rgb_view_portrait.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/layout_search.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/layout_search.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/rgb_view_landscape.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/rgb_view_landscape.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/rdk_microphone.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/rdk_microphone.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/health_temp_measurement.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/health_temp_measurement.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/fragment_navigation_drawer.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/capsense_buttons_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/capsense_buttons_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/gattdb_services_list_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/gattdb_services_list_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/glucose_measurement.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/glucose_measurement.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/datalogger_list.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/datalogger_list.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/battery_info_fragment.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/battery_info_fragment.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/profile_control.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/profile_control.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/layout_menu_paircache.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/layout_menu_paircache.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/blood_pressure_measurement.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/blood_pressure_measurement.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/ota_firmware_files_list.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/ota_firmware_files_list.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/capsense_buttons.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/capsense_buttons.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/hex_value_popup.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/hex_value_popup.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/fragment_list_child_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/fragment_list_child_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/datalogger.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/datalogger.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/fragment_drawer_list_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/fragment_drawer_list_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/cyclingspeed_n_cadence.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/cyclingspeed_n_cadence.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/profile_findme.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/profile_findme.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/about_fragment.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/about_fragment.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/carousel_fragment_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/carousel_fragment_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/capsense_slider.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/capsense_slider.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/listitem_device.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/capsense_main.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/capsense_main.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/rdk_emulator_view_portrait.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/rdk_emulator_view_portrait.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/api_key_dialog_alert.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/api_key_dialog_alert.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/fragment_gatt_list.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/fragment_gatt_list.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/capsense_proximity.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/capsense_proximity.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/glucose_additional_info.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/glucose_additional_info.xml"
+    }
+]
