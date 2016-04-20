@@ -9,13 +9,14 @@
         android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#cecece"
+        android:weightSum="1">
 
         <RelativeLayout
             android:id="@+id/viewgroup"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="0.54"
+            android:layout_height="wrap_content"
             android:clickable="false">
 
             <ImageView
@@ -25,7 +26,7 @@
                 android:contentDescription="@string/app_name"
                 android:scaleType="matrix"
                 android:src="@drawable/gamut"
-                android:layout_centerVertical="true"
+                android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true" />
 
             <ImageView
@@ -40,19 +41,40 @@
                 android:padding="5dp"
                 android:src="@drawable/color_picker" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                android:text="@string/rgb_current_color"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/textView5" />
+
+            <ImageView
+                android:id="@+id/txtcolorindicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/app_name"
+                android:minHeight="30dp"
+                android:minWidth="40dp"
+                android:padding="1dp"
+                android:scaleType="matrix"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView5"
+                android:layout_alignEnd="@+id/textView5"
+                android:layout_marginEnd="38dp" />
+
         </RelativeLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/brightness_icon" />
+            android:orientation="horizontal"
+            android:id="@+id/intensityLayout">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -66,11 +88,13 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="5dp"
                     android:layout_weight="8"
-                    android:max="255"
+                    android:max="10"
                     android:maxHeight="3dp"
                     android:minHeight="3dp"
-                    android:progress="128"
-                    android:progressDrawable="@drawable/custom_seekbar" />
+                    android:progress="4"
+                    android:progressDrawable="@drawable/custom_seekbar"
+                    android:thumb="@drawable/brightness_icon"
+                    android:mirrorForRtl="true" />
             </LinearLayout>
         </LinearLayout>
 
@@ -79,43 +103,24 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="@color/actionbar_bg_color_light"
-            android:gravity="center_vertical">
+            android:gravity="center_vertical"
+            android:id="@+id/intensitycolorChangeLayout">
 
-            <TextView
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="left|center_vertical"
-                android:padding="10dp"
-                android:text="@string/rgb_current_color"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/white" />
+                android:layout_alignParentEnd="true">
 
-            <ImageView
-                android:id="@+id/txtcolorindicator"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="17dp"
-                android:background="@color/white"
-                android:contentDescription="@string/app_name"
-                android:minHeight="30dp"
-                android:minWidth="40dp"
-                android:padding="1dp"
-                android:scaleType="matrix"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/txtcolorindicator"
-                android:layout_alignLeft="@+id/txtcolorindicator"
-                android:layout_alignRight="@+id/txtcolorindicator"
-                android:layout_alignTop="@+id/txtcolorindicator"
-                android:layout_centerVertical="true"
-                android:background="@drawable/rec_broder"
-                android:contentDescription="@string/app_name" />
         </RelativeLayout>
 
         <ScrollView
@@ -131,7 +136,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="@drawable/line_background"
                     android:gravity="center_vertical">
 
                     <TextView
@@ -142,7 +146,8 @@
                         android:padding="5dp"
                         android:text="Red"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:textColor="@color/actionbar_bg_color" />
+                        android:textColor="@color/actionbar_bg_color"
+                        android:id="@+id/textView1" />
 
                     <TextView
                         android:id="@+id/txtred"
@@ -160,7 +165,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="@drawable/line_background"
                     android:gravity="center_vertical">
 
                     <TextView
@@ -171,7 +175,8 @@
                         android:padding="5dp"
                         android:text="Green"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:textColor="@color/actionbar_bg_color" />
+                        android:textColor="@color/actionbar_bg_color"
+                        android:id="@+id/textView2" />
 
                     <TextView
                         android:id="@+id/txtgreen"
@@ -189,7 +194,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="@drawable/line_background"
                     android:gravity="center_vertical">
 
                     <TextView
@@ -233,7 +237,7 @@
                         android:textColor="@color/actionbar_bg_color" />
 
                     <TextView
-                        android:id="@+id/txtintencity"
+                        android:id="@+id/txtintensity"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -246,41 +250,75 @@
             </LinearLayout>
         </ScrollView>
 
-        <LinearLayout
-            android:orientation="horizontal"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:id="@+id/dreamWeaverLayout"
+            android:paddingTop="20dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Pause"
+                android:id="@+id/buttonPauseSong"
+                android:focusable="true"
+                android:background="@color/medium_blue"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/buttonStopSong"
+                android:layout_toStartOf="@+id/buttonStopSong" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="play"
+                android:id="@+id/buttonPlayAudio"
+                android:background="@color/file_read_progress"
+                android:textColor="#ffffff"
+                android:layout_above="@+id/timeStamp"
+                android:layout_toStartOf="@+id/buttonPauseSong" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Stop"
+                android:id="@+id/buttonStopSong"
+                android:background="@android:color/holo_red_light"
+                android:textColor="#ffffff"
+                android:layout_above="@+id/timeStamp"
+                android:layout_alignParentEnd="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="enter audio level here "
-                android:id="@+id/textView5"
-                android:layout_alignParentBottom="true"
-                android:layout_toStartOf="@+id/editTextTxBLE" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Trip to the Forest"
+                android:id="@+id/titleText"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
 
-            <EditText
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:progressDrawable="@android:color/darker_gray"
+                android:indeterminate="false"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="6"
-                android:id="@+id/editTextTxBLE"
-                android:text="00"
-                android:layout_alignParentBottom="true"
-                android:layout_toStartOf="@+id/buttonTxBLE"
-                android:enabled="true"
-                android:editable="true"
-                android:focusable="true" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="time stamp"
+                android:id="@+id/timeStamp"
+                android:layout_above="@+id/seekBar"
+                android:layout_alignParentStart="true" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Send"
-                android:id="@+id/buttonTxBLE"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
 
-        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>
