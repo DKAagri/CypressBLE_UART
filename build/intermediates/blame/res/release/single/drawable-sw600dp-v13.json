@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/proximity.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/proximity.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/gamut.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/gamut.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/heart_rate.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/heart_rate.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/gatt_db_dark_blue.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/gatt_db_dark_blue.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/capsense_buttons.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/capsense_buttons.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/battery.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/battery.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/rgb_led.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/rgb_led.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/sensor_hub.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/sensor_hub.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/otafu.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/otafu.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/device_info.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/device_info.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/unknown.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/unknown.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/find_me.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/find_me.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/blood_pressure.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/blood_pressure.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/thermometer_carousel.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/thermometer_carousel.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/rsc.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/rsc.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/capsense_proimity.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/capsense_proimity.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/glucose.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/glucose.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/capsense_slider.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/capsense_slider.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/capsense.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/capsense.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/cpc.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/cpc.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/release/drawable-sw600dp-v13/emulator.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw600dp/emulator.png"
+    }
+]

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cypress.cysmart"
+    android:versionCode="8"
+    android:versionName="9.3" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
+
+    <!--
+    Declare this required feature if you want to make the app available to BLE-capable
+    devices only.  If you want to make your app available to devices that don't support BLE,
+    you should omit this in the manifest.  Instead, determine BLE capability by using
+    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
+    -->
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.cypress.cysmart.CySmartApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyCustomTheme" >
+        <service
+            android:name="com.cypress.cysmart.BLEConnectionServices.BluetoothLeService"
+            android:enabled="true" />
+
+        <receiver android:name="com.cypress.cysmart.OTAFirmwareUpdate.OTAResponseReceiver" >
+            <intent-filter>
+                <action android:name="com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.cypress.cysmart.BLEStatusReceiver" >
+            <intent-filter>
+                <action android:name="com.example.bluetooth.le.ACTION_GATT_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.cypress.cysmart.SplashPageActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cypress.cysmart.HomePageActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@style/MyCustomTheme"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <!-- </intent-filter> -->
+            <!-- For email attachments -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:mimeType="application/octet-stream"
+                    android:pathPattern=".*\\.cyacd"
+                    android:scheme="content" />
+            </intent-filter>
+
+            <!-- For file browsers -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.cyacd"
+                    android:scheme="file" />
+            </intent-filter>
+
+            <!-- For web browsers -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.cyacd" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cypress.cysmart.OTAFirmwareUpdate.OTAFilesListingActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.cypress.cysmart.DataLoggerFragments.DataLoggerHistoryList"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="19d92b49b82cb250f6db269ddde1bd189daf2b9b" />
+    </application>
+
+</manifest>

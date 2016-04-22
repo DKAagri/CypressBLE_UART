@@ -58,8 +58,8 @@ public class RGBFragment extends Fragment {
     List<String[]> csvvalues=null;
     int csvindex=0;
     int _frequency=0;
-    int _i=0, _r=0 , _g=0 , _b=0;
-    int _phase =0;
+    int _i=0, _r=0 , _g=0 , _b=0 , _f=0;
+    int _phase =0,  _duty_cycle=0;
 
     // GATT service and characteristics
     private static BluetoothGattService mCurrentservice;
@@ -69,10 +69,6 @@ public class RGBFragment extends Fragment {
     private ImageView mRGBcanavs;
     private ImageView mcolorpicker;
     private ViewGroup mViewContainer;
-    private TextView mTextred;
-    private TextView mTextgreen;
-    private TextView mTextblue;
-    private TextView mTextalpha;
 
 
     // added for the Send button in TX BLE
@@ -208,10 +204,7 @@ public class RGBFragment extends Fragment {
         mRGBcanavs = (ImageView) mRootView.findViewById(R.id.imgrgbcanvas);
         mcolorpicker = (ImageView) mRootView.findViewById(R.id.imgcolorpicker);
 
-        mTextalpha = (TextView) mRootView.findViewById(R.id.txtintensity);
-        mTextred = (TextView) mRootView.findViewById(R.id.txtred);
-        mTextgreen = (TextView) mRootView.findViewById(R.id.txtgreen);
-        mTextblue = (TextView) mRootView.findViewById(R.id.txtblue);
+
         mColorindicator = (ImageView) mRootView.findViewById(R.id.txtcolorindicator);
         mViewContainer = (ViewGroup) mRootView.findViewById(R.id.viewgroup);
 
@@ -242,7 +235,7 @@ public class RGBFragment extends Fragment {
                                     x = mRGBcanavs.getMeasuredWidth();
                                 if (y > mRGBcanavs.getMeasuredHeight())
                                     y = mRGBcanavs.getMeasuredHeight();
-                                setwidth(1.f / mRGBcanavs.getMeasuredWidth()                                        * x);
+                                setwidth(1.f / mRGBcanavs.getMeasuredWidth() * x);
                                 setheight(1.f - (1.f / mRGBcanavs.getMeasuredHeight() * y));
                                 mRed = Color.red(p);
                                 mGreen = Color.green(p);
@@ -268,7 +261,7 @@ public class RGBFragment extends Fragment {
 
             public void onProgressChanged(SeekBar seekBar, int progress,   boolean fromUser) {
                 mIntensity = progress;
-                UIupdation();
+                //UIupdation();
                 mIsReaded = false;
                 _i=progress;
             }
@@ -310,28 +303,54 @@ public class RGBFragment extends Fragment {
                     @Override
                     public void run() {
 
-                        setTimeStampText((csvvalues.get(csvindex)[0]).toString() ,Integer.parseInt(csvvalues.get(csvindex)[1]));
-                        if(!(csvvalues.get(csvindex)[2]).equalsIgnoreCase("0")){
+                        //if(!(csvvalues.get(csvindex)[2]).equalsIgnoreCase("0")){
 
-                            if( (csvvalues.get(csvindex)[2]).equalsIgnoreCase("7.83")) {
-                                _frequency=68;
-                            }else{
-                                _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
+                            if( ((int)(Double.parseDouble(csvvalues.get(csvindex)[2])))!=_f &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[5])!=_r  &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[6])!=_g &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[7])!=_b &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", ""))!=_duty_cycle &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[8])!=_phase
+                                    ){
+
+                                _f=(int) (Double.parseDouble(csvvalues.get(csvindex)[2]));
+
+                                if( (csvvalues.get(csvindex)[2]).equalsIgnoreCase("7.83")) {
+                                    _frequency=68;
+                                }else{
+                                    _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
+                                }
+                                /*
+                                if( (csvvalues.get(csvindex)[2]).equalsIgnoreCase("7.83")) {
+                                    _frequency=68;
+                                }else{
+                                    _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
+                                }*/
+
+                                //_i=Integer.parseInt(csvvalues.get(csvindex)[3])/10;
+                                _r=Integer.parseInt(csvvalues.get(csvindex)[5]);
+                                _g=Integer.parseInt(csvvalues.get(csvindex)[6]);
+                                _b=Integer.parseInt(csvvalues.get(csvindex)[7]);
+
+                                _duty_cycle= Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", ""));
+                                _phase = Integer.parseInt(csvvalues.get(csvindex)[8]);
+
+                                Logger.v("Frequency :"+ _f + " altered freq :"+ _frequency+" rgb:"+_r+" "+_g+" "+_b);
+
+                                writeDreamweaverCsv(mReadCharacteristic,
+                                        _frequency,
+                                        _i,
+                                        _duty_cycle,
+                                        _r, _g, _b,
+                                        _phase);
                             }
 
-                            //_i=Integer.parseInt(csvvalues.get(csvindex)[3])/10;
-                            _r=Integer.parseInt(csvvalues.get(csvindex)[5]);
-                            _g=Integer.parseInt(csvvalues.get(csvindex)[6]);
-                            _b=Integer.parseInt(csvvalues.get(csvindex)[7]);
-                            Logger.v("Frequency :"+ csvvalues.get(csvindex)[2]+ " altered freq :"+ _frequency+" rgb:"+_r+" "+_g+" "+_b);
+                        //}
 
-                            writeDreamweaverCsv(mReadCharacteristic,
-                                    _frequency,
-                                    _i,
-                                    Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", "")),
-                                    _r, _g, _b,
-                                    Integer.parseInt(csvvalues.get(csvindex)[8]));
-                        }
+                        setTimeStampText((csvvalues.get(csvindex)[0]).toString() ,
+                                Integer.parseInt(csvvalues.get(csvindex)[1]),
+                                String.format("#%02x%02x%02x%02x", (255) ,(2^(8- _r)),(2^(8- _g)),(2^(8- _b))));
+
                         csvindex++;
                     }
                 }, 0, 1000);
@@ -339,15 +358,35 @@ public class RGBFragment extends Fragment {
             }
         });
     }
-    private void setTimeStampText(final String value, final int i){
+
+/*
+    private String rgbToHex(int R, int G, int B) {return toHex(R)+toHex(G)+toHex(B)}
+
+    private String toHex(int n) {
+        n = Integer.parseInt(n,10);
+        if () return "00";
+        n = Math.max(0,Math.min(n,255));
+        return "0123456789ABCDEF".charAt((n-n%16)/16)
+                + "0123456789ABCDEF".charAt(n%16);
+    }
+*/
+
+    private void setTimeStampText(final String timestamp, final int progress , final String hexColor){
         getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                mTextTimestamp.setText(value);
-                mseekBar.setProgress(i);
+                mTextTimestamp.setText(timestamp);
+                mseekBar.setProgress(progress);
+                Logger.v("hexColor :"+ hexColor);
+                try {
+                    mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
+                }catch(Exception e){
+                    Logger.e(" exception mcolcor indicator " + e );
+                }
             }
         });
     }
+
     @Override
     public void onResume() {
         getActivity().registerReceiver(mGattUpdateReceiver,Utils.makeGattUpdateIntentFilter());
@@ -364,20 +403,20 @@ public class RGBFragment extends Fragment {
 
 
     private void UIupdation() {
-        String hexColor = String.format("#%02x%02x%02x%02x", mIntensity, mRed, mGreen, mBlue);
-        mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
-        mTextalpha.setText(String.format("0x%02x", mIntensity));
+       // String hexColor = String.format("#%02x%02x%02x%02x", mIntensity, mRed, mGreen, mBlue);
+       // mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
+       /* mTextalpha.setText(String.format("0x%02x", mIntensity));*/
 
-        mHexRed = String.format("0x%02x", mRed);
-        mTextred.setText(mHexRed);
+      //  mHexRed = String.format("0x%02x", mRed);
+       /* mTextred.setText(mHexRed);*/
 
-        mHexGreen = String.format("0x%02x", mGreen);
-        mTextgreen.setText(mHexGreen);
+      //  mHexGreen = String.format("0x%02x", mGreen);
+       /* mTextgreen.setText(mHexGreen);*/
 
-        mHexBlue = String.format("0x%02x", mBlue);
-        mTextblue.setText(mHexBlue);
+      //  mHexBlue = String.format("0x%02x", mBlue);
+       /* mTextblue.setText(mHexBlue);*/
 
-        mTextalpha.setText(String.format("0x%02x", mIntensity));
+      /*  mTextalpha.setText(String.format("0x%02x", mIntensity));*/
 
         /*
         try {
@@ -416,8 +455,7 @@ public class RGBFragment extends Fragment {
     void moveTarget() {
         float x = getwidth() * mRGBcanavs.getMeasuredWidth();
         float y = (1.f - getheigth()) * mRGBcanavs.getMeasuredHeight();
-        RelativeLayout.LayoutParams layoutParams = (RelativeLayout.LayoutParams) mcolorpicker
-                .getLayoutParams();
+        RelativeLayout.LayoutParams layoutParams = (RelativeLayout.LayoutParams) mcolorpicker.getLayoutParams();
         layoutParams.leftMargin = (int) (mRGBcanavs.getLeft() + x
                 - Math.floor(mcolorpicker.getMeasuredWidth() / 2) - mViewContainer
                 .getPaddingLeft());
