@@ -40,32 +40,36 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/capsense.png"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/capsense_proimity.png",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/capsense_proimity.png"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/blood_pressure.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/blood_pressure.png"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/heart_rate.png",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/heart_rate.png"
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/capsense_proimity.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/capsense_proimity.png"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/rsc.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/rsc.png"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/emulator.png",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/emulator.png"
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/heart_rate.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/heart_rate.png"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/otafu.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/otafu.png"
     },
     {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/emulator.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/emulator.png"
+    },
+    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/gamut.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/gamut.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/thermometer_carousel.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/thermometer_carousel.png"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/proximity.png",
@@ -74,10 +78,6 @@
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/unknown.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/unknown.png"
-    },
-    {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/thermometer_carousel.png",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-sw720dp/thermometer_carousel.png"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-sw720dp-v13/battery.png",

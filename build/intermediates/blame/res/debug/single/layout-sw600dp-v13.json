@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/ascii_value_popup.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/ascii_value_popup.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/rdk_emulator_view_landscape.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/rdk_emulator_view_landscape.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/ascii_value_popup.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/ascii_value_popup.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/glucose_measurement.xml",
@@ -32,12 +32,12 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/profile_findme.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/cyclingspeed_n_cadence.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/cyclingspeed_n_cadence.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_details.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/gattdb_details.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/cyclingspeed_n_cadence.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/cyclingspeed_n_cadence.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/health_temp_measurement.xml",
@@ -48,12 +48,12 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/runningspeed_n_cadence.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/device_information_measurement.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/device_information_measurement.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/fragment_drawer_list_item.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/fragment_drawer_list_item.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/device_information_measurement.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/device_information_measurement.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_characteristics_list_item.xml",
@@ -68,23 +68,23 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/blood_pressure_measurement.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_services_list_item.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/gattdb_services_list_item.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/hex_value_popup.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/hex_value_popup.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_services_list_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/gattdb_services_list_item.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/rgb_view_landscape.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/rgb_view_landscape.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/listitem_device.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/listitem_device.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/rgb_view_portrait.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/rgb_view_portrait.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout-sw600dp-v13/listitem_device.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout-sw600dp/listitem_device.xml"
     }
 ]

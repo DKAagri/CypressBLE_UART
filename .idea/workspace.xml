@@ -9,7 +9,103 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ebb64b6-7300-4e35-bba9-2b82ab3860ba" name="Default" comment="machine final code" />
+    <list default="true" id="9ebb64b6-7300-4e35-bba9-2b82ab3860ba" name="Default" comment="machine final code">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" afterPath="$PROJECT_DIR$/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/cypress/cysmart/BuildConfig.java" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/cypress/cysmart/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-sw600dp-v13.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-sw720dp-v13.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-sw720dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/battery_progress_bar.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/battery_progress_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/bg_shadow.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/bg_shadow.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/bg_shadow_blue.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/bg_shadow_blue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_blue_fill.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_blue_fill.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_blue_white.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_blue_white.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_button_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_button_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_button_text_selecter.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_button_text_selecter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_square.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/border_square.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/broder.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/broder.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/button_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/button_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/button_selector_square.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/button_selector_square.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/checkbox_checked.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/checkbox_checked.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/checkbox_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/checkbox_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/checkbox_unchecked.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/checkbox_unchecked.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/ota_list_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/ota_list_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/ota_text_selecter.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/ota_text_selecter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_back_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_back_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_border.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_border.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_exit_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_exit_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_gesture_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_gesture_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_left_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_left_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_microphone_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_microphone_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_minus_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_minus_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_plus_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_plus_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_power_btn_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_power_btn_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_record_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_record_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_right_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_right_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_trackpad_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rdk_trackpad_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rec_broder.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/rec_broder.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/square_button.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/square_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/square_button_black.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/square_button_black.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/blood_pressure_measurement.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/blood_pressure_measurement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/capsense_slider.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/capsense_slider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/device_information_measurement.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/device_information_measurement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/fragment_drawer_list_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/fragment_drawer_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_services_list_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_services_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/health_temp_measurement.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/health_temp_measurement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/hex_value_popup.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/hex_value_popup.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/hrm_measurement.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/hrm_measurement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/listitem_device.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/listitem_device.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/profile_findme.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/profile_findme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/rdk_emulator_view_landscape.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/rdk_emulator_view_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/rdk_emulator_view_portrait.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-sw600dp-v13/rdk_emulator_view_portrait.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/about_fragment.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/about_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/api_key_dialog_alert.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/api_key_dialog_alert.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/battery_info_fragment.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/battery_info_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/blood_pressure_measurement.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/blood_pressure_measurement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/capsense_main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/capsense_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/capsense_slider.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/capsense_slider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/carousel_fragment_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/carousel_fragment_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/custom_graphview.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/custom_graphview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/data_logger_list_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/data_logger_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/datalogger.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/datalogger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/datalogger_list.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/datalogger_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/datalogger_list_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/datalogger_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/device_information_measurement.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/device_information_measurement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_drawer_list_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_drawer_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_gatt_list.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_gatt_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_list_child_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_list_child_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_profile_scan.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_profile_scan.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/gattdb_descriptor_details.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/gattdb_descriptor_details.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/gattdb_services_list_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/gattdb_services_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/health_temp_measurement.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/health_temp_measurement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/hrm_measurement.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/hrm_measurement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/lazy_loader_footer.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/lazy_loader_footer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/listitem_device.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/listitem_device.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/listitem_firmware.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/listitem_firmware.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/ota_firmware_files_list.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/ota_firmware_files_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/profile_findme.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/profile_findme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/rdk_emulator_view_portrait.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/rdk_emulator_view_portrait.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/searchable.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/searchable.xml" />
+    </list>
     <ignored path="cysmart_android.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +148,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10398614">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.1559792">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -738,7 +834,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2890638690998" />
+        <entry key="$PROJECT_DIR$" value="2890916814083" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -965,8 +1061,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -974,18 +1068,43 @@
               <option name="myItemId" value="cysmart_android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/android-sdks" />
-    <property name="device.picker.selection" value="ZY2222GZ98" />
+    <property name="device.picker.selection" value="Nexus_5_API_23_x86" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../blekey.jks" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$" />
     <property name="ExportApk.Flavors" value="" />
@@ -1283,7 +1402,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5866455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1336,6 +1455,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="358" column="11" selection-start-line="358" selection-start-column="11" selection-end-line="358" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/trip_to_the_forest_file.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1244" column="30" selection-start-line="1244" selection-start-column="25" selection-end-line="1244" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/rgb_view_portrait.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cypress/cysmart/BLEServiceFragments/RGBFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1446,8 +1600,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10398614">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.1559792">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
