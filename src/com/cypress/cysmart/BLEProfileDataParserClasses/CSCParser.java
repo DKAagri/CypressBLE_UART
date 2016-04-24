@@ -41,6 +41,8 @@ import java.util.ArrayList;
 
 /**
  * Class used for parsing Cycling speed and cadence related information
+ * CRANK_REVOLUTION_DATA_PRESENT
+ * Wheel_REVOLUTION_DATA_PRESENT
  */
 public class CSCParser {
 
@@ -108,7 +110,8 @@ public class CSCParser {
     }
 
     private static void onWheelMeasurementReceived(final int wheelRevolutions, final int lastWheelEventTime) {
-        double WHEEL_CIRCUMFERENCE =  (2 * 3.14 * CSCService.mRadiusInt);;
+        double WHEEL_CIRCUMFERENCE =  (2 * 3.14 * CSCService.mRadiusInt);
+
         if (mFirstWheelRevolutions < 0) {
             mFirstWheelRevolutions = wheelRevolutions;
         }
