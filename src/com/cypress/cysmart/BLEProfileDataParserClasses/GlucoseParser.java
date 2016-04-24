@@ -46,6 +46,8 @@ import java.util.UUID;
 
 /**
  * Class used for parsing Glucose related information
+ * carbohydratePresent ,  mealPresent ,tessterHealthPresent ,  exercisePresent  ,  medicationPresent
+ * medicationUnit , hbA1cPresent  , moreFlagsPresent
  */
 public class GlucoseParser {
 
