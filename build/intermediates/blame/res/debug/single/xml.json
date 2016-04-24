@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/xml/app_tracker.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/xml/app_tracker.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/xml/searchable.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/xml/searchable.xml"
+    }
+]

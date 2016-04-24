@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/anim/slide_right.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/anim/slide_right.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/anim/pulse.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/anim/pulse.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/anim/slide_left.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/anim/slide_left.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/anim/push_right.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/anim/push_right.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/anim/push_left.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/anim/push_left.xml"
+    }
+]

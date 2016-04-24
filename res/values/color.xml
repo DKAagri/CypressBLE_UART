@@ -25,5 +25,5 @@
     <!--File Read/Write progress colors-->
     <color name="file_read_progress">#751abb00</color>
     <color name="grey">#EFEFF4</color>
-    <color name="green">#701ABB00</color>
+    <color name="green">#c33fff20</color>
 </resources>

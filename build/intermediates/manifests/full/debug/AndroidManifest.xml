@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cypress.cysmart"
     android:versionCode="8"
-    android:versionName="1.9" >
+    android:versionName="9.3" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -122,6 +122,16 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="19d92b49b82cb250f6db269ddde1bd189daf2b9b" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
     </application>
 
 </manifest>

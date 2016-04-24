@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cypress.cysmart"
     android:versionCode="8"
-    android:versionName="1.9">
+    android:versionName="9.3">
 
     <!--
     Declare this required feature if you want to make the app available to BLE-capable
@@ -38,7 +38,6 @@
                 <action android:name="com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE" />
             </intent-filter>
         </receiver>
-
         <receiver android:name=".BLEStatusReceiver">
             <intent-filter>
                 <action android:name="com.example.bluetooth.le.ACTION_GATT_DISCONNECTED" />
@@ -106,15 +105,15 @@
             android:configChanges="orientation|screenSize"
             android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar"
             android:windowSoftInputMode="adjustPan">
-        </activity>
 
+        </activity>
         <activity
             android:name=".DataLoggerFragments.DataLoggerHistoryList"
             android:configChanges="orientation|screenSize"
             android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar"
             android:windowSoftInputMode="adjustPan">
-        </activity>
 
+        </activity>
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="19d92b49b82cb250f6db269ddde1bd189daf2b9b" />

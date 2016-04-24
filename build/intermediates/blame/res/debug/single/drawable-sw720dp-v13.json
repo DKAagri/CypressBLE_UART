@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/gatt_db_dark_blue.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/gatt_db_dark_blue.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/capsense_proimity.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/capsense_proimity.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/device_info.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/device_info.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/capsense_buttons.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/capsense_buttons.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/capsense.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/capsense.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/capsense_slider.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/capsense_slider.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/battery.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/battery.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/emulator.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/emulator.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/rgb_led.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/rgb_led.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/unknown.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/unknown.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/proximity.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/proximity.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/gamut.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/gamut.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/cpc.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/cpc.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/otafu.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/otafu.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/find_me.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/find_me.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw720dp-v13/glucose.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw720dp/glucose.png"
+    }
+]
