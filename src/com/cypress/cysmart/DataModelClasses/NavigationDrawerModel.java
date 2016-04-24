@@ -38,6 +38,7 @@ import com.cypress.cysmart.R.string;
 
 /**
  * Navigation drawer Data model
+ * title , icon
  */
 public class NavigationDrawerModel {
 

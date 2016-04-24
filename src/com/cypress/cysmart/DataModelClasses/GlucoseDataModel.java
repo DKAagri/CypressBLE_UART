@@ -36,6 +36,7 @@ import java.util.Calendar;
 
 /**
  * Glucose profile data constants
+ * empty class
  */
 public class GlucoseDataModel {
     public static final int UNIT_kgpl = 0;

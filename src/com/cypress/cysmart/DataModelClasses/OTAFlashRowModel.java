@@ -34,6 +34,7 @@ package com.cypress.cysmart.DataModelClasses;
 
 /**
  * Data Model class for OTA File
+ * OTA , over the air
  */
 public class OTAFlashRowModel {
     public int mArrayId;

@@ -34,6 +34,7 @@ package com.cypress.cysmart.DataModelClasses;
 
 /**
  * Data Model class for OTA File
+ * file, name , path , selected , aparent
  */
 public class OTAFileModel {
     /**

@@ -34,6 +34,7 @@ package com.cypress.cysmart.DataModelClasses;
 
 /**
  * Data Model class for OTA File
+ * name , data , path
  */
 public class DataLoggerModel {
     public String mLogName = null;

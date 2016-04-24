@@ -34,6 +34,13 @@ package com.cypress.cysmart.DataModelClasses;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+/*
+sequenceNumber);
+time , timeOffset);
+glucoseConcentration);
+(unit, type);
+  sampleLocation , (status);
+ */
 public class GlucoseRecord implements Parcelable {
     public static final int UNIT_kgpl = 0;
     public static final int UNIT_molpl = 1;

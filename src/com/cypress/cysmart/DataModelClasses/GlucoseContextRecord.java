@@ -24,6 +24,19 @@ package com.cypress.cysmart.DataModelClasses;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+/*
+(carbohydrateId);
+(carbohydrateUnits);
+meal);
+tester);
+(health);
+(exerciseDuration);
+exerciseIntensity);
+medicationId);
+medicationQuantity);
+(medicationUnit);
+HbA1c);
+ */
 public class GlucoseContextRecord implements Parcelable{
 
     public static final int UNIT_kg = 0;
