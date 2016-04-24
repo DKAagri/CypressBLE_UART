@@ -41,6 +41,7 @@ import com.cypress.cysmart.R;
 
 /**
  * Class used for parsing Blood pressure related information
+ * such as Diastolic Pressure , Systolic pressure , nitsFlag of blood Pressure
  */
 public class BloodPressureParser {
 
