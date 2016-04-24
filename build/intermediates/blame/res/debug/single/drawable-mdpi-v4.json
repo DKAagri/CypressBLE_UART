@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/products.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/products.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/hand_icon.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/hand_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/device_info.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/device_info.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/view_trackpad_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/view_trackpad_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/emulator.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/emulator.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/find_me.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/find_me.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/back_icon.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/back_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/batter_result.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/batter_result.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_more_vert_white_24dp.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/ic_more_vert_white_24dp.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/capsense.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/capsense.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/mobile.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/mobile.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/otafu.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/otafu.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/white_circle2.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/white_circle2.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/plus_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/plus_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/bledevices.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/bledevices.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/glucose_icon.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/glucose_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/hand_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/hand_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/gray_transparent.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/gray_transparent.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/right_menu_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/right_menu_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/capsense_buttons.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/capsense_buttons.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/rgb_led.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/rgb_led.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/drawer_shadow.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/contact.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/contact.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/splash_bg.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/splash_bg.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/gatt_db_dark_blue.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/gatt_db_dark_blue.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/minus_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/minus_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/exit_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/exit_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/glucose.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/glucose.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/share.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/share.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/cadence.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/cadence.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/view_trackpad_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/view_trackpad_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/proximity.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/proximity.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/back_btn_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/back_btn_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/appicon.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/appicon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/list_bg.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/list_bg.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/record_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/record_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/battery_blank.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/battery_blank.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/capsense_slider.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/capsense_slider.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/left_menu_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/left_menu_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/info_icon.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/info_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/hand_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/hand_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/back_btn_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/back_btn_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/home.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/home.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/record_down.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/record_down.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/right_menu_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/right_menu_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/graph_right.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/graph_right.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/cypress.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/cypress.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/left_menu_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/left_menu_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/minus_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/minus_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/graph.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/graph.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/arrow_bw.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/arrow_bw.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/blutooth_icon.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/blutooth_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/plus_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/plus_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/about.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/about.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/capsense_btn_bg.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/capsense_btn_bg.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/rgb_img.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/rgb_img.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/cpc.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/cpc.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/battery_small.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/battery_small.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/delete_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/delete_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/exit_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/exit_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/brightness_icon.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/brightness_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/logo.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/list_bg_small.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/list_bg_small.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/gamut.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/gamut.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/green_color_btn.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/green_color_btn.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/qube.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/qube.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/logo_about.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/logo_about.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/off_btn.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/off_btn.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/on_btn.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/on_btn.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/slider.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/slider.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/find_me_blue_circle.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/find_me_blue_circle.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/back_btn.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/back_btn.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/banner_logo.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/banner_logo.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/proximity_bar.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/proximity_bar.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/battery.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/battery.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/unknown.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/unknown.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/accelometer.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/accelometer.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/capsense_proimity.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/capsense_proimity.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/document_icon.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/document_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/cycle.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/cycle.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha1/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    }
+]
