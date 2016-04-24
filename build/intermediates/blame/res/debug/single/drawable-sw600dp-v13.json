@@ -12,12 +12,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw600dp/capsense_slider.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/otafu.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw600dp/otafu.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/rgb_led.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw600dp/rgb_led.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/otafu.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw600dp/otafu.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/unknown.png",
@@ -28,12 +28,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw600dp/battery.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense_proimity.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw600dp/capsense_proimity.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/device_info.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw600dp/device_info.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense_proimity.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-sw600dp/capsense_proimity.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/cpc.png",

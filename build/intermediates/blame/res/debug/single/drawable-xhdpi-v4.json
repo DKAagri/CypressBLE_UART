@@ -8,12 +8,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/capsense_buttons.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/on_btn.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/on_btn.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/cycle.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/cycle.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/on_btn.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/on_btn.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/splash_bg.png",
@@ -52,16 +52,16 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/hand_normal.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/rgb_img.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/rgb_img.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/back_btn_normal.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/back_btn_normal.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/right_menu_active.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/right_menu_active.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/rgb_img.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/rgb_img.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/graph_right.png",
@@ -76,12 +76,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/plus_normal.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/minus_active.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/minus_active.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/off_btn.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/off_btn.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/minus_active.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/minus_active.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/batter_result.png",
@@ -104,12 +104,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/view_trackpad_active.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/home.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/otafu.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/otafu.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/home.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/proximity.png",
@@ -164,12 +164,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/rgb_led.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/find_me.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/find_me.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/slider.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/slider.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/find_me.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/find_me.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abovelogo.png",
@@ -220,20 +220,20 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/capsense_slider.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/back_icon.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/back_icon.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/banner_logo.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/banner_logo.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/cypress.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/cypress.png"
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/back_icon.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/back_icon.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/qube.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/qube.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/cypress.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/cypress.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/left_menu_normal.png",
@@ -252,20 +252,20 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/exit_active.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/capsense_proimity.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/capsense_proimity.png"
-    },
-    {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/gatt_db_dark_blue.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/gatt_db_dark_blue.png"
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_circle2.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/white_circle2.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/graph.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/graph.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_circle2.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/white_circle2.png"
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/gatt_db_dark_blue.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/gatt_db_dark_blue.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/capsense_proimity.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/capsense_proimity.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/capsense.png",
@@ -284,12 +284,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/hand_active.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/capsense_btn_bg.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/capsense_btn_bg.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/document_icon.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/document_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/capsense_btn_bg.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/capsense_btn_bg.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/logo.png",
@@ -308,12 +308,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/device_info.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/glucose_icon.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/glucose_icon.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/record_down.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/record_down.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/glucose_icon.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/glucose_icon.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/arrow_bw.png",

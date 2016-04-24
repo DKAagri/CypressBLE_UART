@@ -16,12 +16,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout-sw600dp/rgb_view_landscape.xml"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_details.xml",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout-sw600dp/gattdb_details.xml"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout-sw600dp-v13/ota_upgrade_type_selection.xml",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout-sw600dp/ota_upgrade_type_selection.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_details.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout-sw600dp/gattdb_details.xml"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout-sw600dp-v13/capsense_slider.xml",

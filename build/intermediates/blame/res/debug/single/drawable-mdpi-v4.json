@@ -168,12 +168,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-mdpi/common_full_open_on_phone.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/record_down.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-mdpi/record_down.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/otafu.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-mdpi/otafu.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/record_down.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-mdpi/record_down.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/right_menu_normal.png",
@@ -216,12 +216,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-mdpi/back_btn_active.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/gatt_db_dark_blue.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-mdpi/gatt_db_dark_blue.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/hand_icon.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-mdpi/hand_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/gatt_db_dark_blue.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-mdpi/gatt_db_dark_blue.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/cadence.png",

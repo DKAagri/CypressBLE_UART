@@ -28,16 +28,16 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/layout_menu_paircache.xml"
     },
     {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_proximity.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/capsense_proximity.xml"
+    },
+    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_main.xml",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/capsense_main.xml"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/gattdb_descriptor_details.xml",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/gattdb_descriptor_details.xml"
-    },
-    {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_proximity.xml",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/capsense_proximity.xml"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/listitem_firmware.xml",
@@ -60,12 +60,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/fragment_profile_scan.xml"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/gattdb_services_list_item.xml",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/gattdb_services_list_item.xml"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/datalogger_list_item.xml",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/datalogger_list_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/gattdb_services_list_item.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/gattdb_services_list_item.xml"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_buttons.xml",
@@ -80,32 +80,32 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/profile_control.xml"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_buttons_item.xml",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/capsense_buttons_item.xml"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/lazy_loader_footer.xml",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/lazy_loader_footer.xml"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/hex_value_popup.xml",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/hex_value_popup.xml"
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_buttons_item.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/capsense_buttons_item.xml"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/ota_firmware_files_list.xml",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/ota_firmware_files_list.xml"
     },
     {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/hex_value_popup.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/hex_value_popup.xml"
+    },
+    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/rgb_view_portrait.xml",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/rgb_view_portrait.xml"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_slider.xml",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/capsense_slider.xml"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/carousel_fragment_item.xml",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/carousel_fragment_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_slider.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/capsense_slider.xml"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/listitem_device.xml",
@@ -136,8 +136,8 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/gattdb_details.xml"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/activity_main.xml"
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/datalogger.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/datalogger.xml"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/ascii_value_popup.xml",
@@ -148,7 +148,7 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/datalogger_list.xml"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/datalogger.xml",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/datalogger.xml"
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/layout/activity_main.xml"
     }
 ]

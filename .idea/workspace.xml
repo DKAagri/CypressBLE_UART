@@ -1237,7 +1237,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/xml/searchable.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-sw600dp-v13/glucose.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/tmp/dex/debug/inputList.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/outputs/apk/cysmart_android-debug-unaligned.apk" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/outputs/apk/cysmart_android-debug.apk" afterPath="" />
@@ -1635,6 +1634,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/cypress/cysmart/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/cypress/cysmart/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/crashlytics-build.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest-merger-release-report.txt" afterPath="$PROJECT_DIR$/manifest-merger-release-report.txt" />
@@ -2738,6 +2738,16 @@
       </pane>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cysmart_android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="cysmart_android" />

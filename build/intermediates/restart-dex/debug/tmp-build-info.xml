@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="1"
+    format="7"
+    timestamp="4945209164285" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+
+</instant-run>

@@ -162,7 +162,7 @@
     <string name="channel">CH</string>
     <string name="channel_down">Channel Down</string>
     <string name="channel_up">Channel Up</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">0fe90cb1-b1af-4559-9bd8-44a015af9582</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">37074ff7-c687-4642-8d73-b8f9722cf10b</string>
     <string name="common_android_wear_notification_needs_update_text"><ns2:g id="app_name">%1$s</ns2:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
