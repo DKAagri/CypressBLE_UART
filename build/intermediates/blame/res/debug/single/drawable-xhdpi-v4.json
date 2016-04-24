@@ -308,12 +308,12 @@
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/device_info.png"
     },
     {
-        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/record_down.png",
-        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/record_down.png"
-    },
-    {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/glucose_icon.png",
         "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/glucose_icon.png"
+    },
+    {
+        "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/record_down.png",
+        "source": "/home/altanai/ble/gitcloneble/CypressBLE_UART/res/drawable-xhdpi/record_down.png"
     },
     {
         "merged": "/home/altanai/ble/gitcloneble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xhdpi-v4/arrow_bw.png",

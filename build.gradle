@@ -18,6 +18,10 @@ repositories {
 
 dependencies {
     compile 'com.google.android.gms:play-services-analytics:8.1.0'
+    compile files('libs/opencsv-3.7.jar')
+    compile files('libs/Android-WebRequest.jar')
+    compile files('libs/achartengine-1.0.0.jar')
+    compile 'com.android.support:support-v4:23.3.0'
 }
 
 android {
