@@ -47,6 +47,7 @@ import java.util.ArrayList;
 
 /**
  * Adapter class for CapSense Buttons. Uses CapSenseButtonsGridModel data model
+ * sttaus 8 bit , 16 bit
  */
 public class CapSenseButtonsGridAdapter extends
         ArrayAdapter<CapSenseButtonsGridModel> {

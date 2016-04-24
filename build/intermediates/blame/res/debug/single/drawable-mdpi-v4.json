@@ -360,12 +360,12 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-mdpi/cpc.png"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-mdpi-v4/blood_pressure.png",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-mdpi/blood_pressure.png"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-mdpi-v4/exit_active.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-mdpi/exit_active.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-mdpi-v4/blood_pressure.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-mdpi/blood_pressure.png"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-mdpi-v4/minus_normal.png",

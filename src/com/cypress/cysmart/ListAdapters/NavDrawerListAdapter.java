@@ -50,6 +50,7 @@ import java.util.ArrayList;
 /**
  * Navigation drawer list adapter to display the list items inside navigation
  * drawer list view
+ *
  */
 public class NavDrawerListAdapter extends BaseAdapter {
 

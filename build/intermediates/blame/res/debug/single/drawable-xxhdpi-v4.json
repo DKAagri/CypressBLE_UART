@@ -148,12 +148,12 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxhdpi/splash_bg.png"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/battery_small.png",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxhdpi/battery_small.png"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/proximity.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxhdpi/proximity.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/battery_small.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxhdpi/battery_small.png"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/heart.png",
@@ -332,12 +332,12 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxhdpi/on_btn.png"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cadence.png",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxhdpi/cadence.png"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/glucose_icon.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxhdpi/glucose_icon.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cadence.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xxhdpi/cadence.png"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/right_menu_active.png",

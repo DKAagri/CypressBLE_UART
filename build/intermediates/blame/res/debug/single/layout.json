@@ -20,12 +20,12 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout/contact_us_fragment.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/datalogger_list_item.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/datalogger_list_item.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/fragment_drawer_header.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout/fragment_drawer_header.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/datalogger_list_item.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/datalogger_list_item.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/servicediscovery_temp_fragment.xml",
@@ -144,12 +144,12 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout/layout_menu_paircache.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/ota_firmware_files_list.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/ota_firmware_files_list.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/blood_pressure_measurement.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/layout/blood_pressure_measurement.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/ota_firmware_files_list.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/layout/ota_firmware_files_list.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/layout/capsense_buttons.xml",

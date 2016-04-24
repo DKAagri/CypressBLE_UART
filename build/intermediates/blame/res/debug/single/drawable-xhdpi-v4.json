@@ -236,12 +236,12 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xhdpi/graph_right.png"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/contact.png",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xhdpi/contact.png"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/find_me_blue_circle.png",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xhdpi/find_me_blue_circle.png"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/contact.png",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable-xhdpi/contact.png"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/exit_normal.png",

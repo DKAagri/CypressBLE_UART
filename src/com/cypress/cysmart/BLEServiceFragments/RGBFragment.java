@@ -59,7 +59,7 @@ public class RGBFragment extends Fragment {
     int csvindex=0;
     int _frequency=0 , _phase =0,  _duty_cycle=0;
     int _i=0, _r=0 , _g=0 , _b=0 , _f=0;
-
+    boolean flagPause=false;
     // GATT service and characteristics
     private static BluetoothGattService mCurrentservice;
     private static BluetoothGattCharacteristic mReadCharacteristic;
@@ -290,6 +290,7 @@ public class RGBFragment extends Fragment {
                         0,
                         0,0,0,
                         0);
+                flagPause=true;
             }
         });
 
@@ -302,7 +303,7 @@ public class RGBFragment extends Fragment {
                     timer = null;
                 }
                 mMediaPlayer.stop();
-                mseekBar.setProgress(1);
+                mseekBar.setProgress(0);
                 writeDreamweaverCsv(mReadCharacteristic,
                         0,
                         0,
@@ -319,11 +320,15 @@ public class RGBFragment extends Fragment {
 
                 if(csvindex==0){
                     mMediaPlayer.start();
+                }else if(flagPause){
+                    flagPause=false;
+                    mMediaPlayer.start();
                 }else{
                     mMediaPlayer.reset();
                     mMediaPlayer.start();
+                    csvindex=0;
                 }
-                csvindex=0;
+
                 timer = new Timer();
                 timer.schedule(new TimerTask() {
                     @Override

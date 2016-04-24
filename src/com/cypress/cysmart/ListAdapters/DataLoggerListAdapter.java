@@ -46,6 +46,7 @@ import java.util.ArrayList;
 
 /**
  * Adapter class for DataLogger ListView
+ * layout inflater
  */
 public class DataLoggerListAdapter extends BaseAdapter {
     /**

@@ -55,6 +55,7 @@ import java.util.UUID;
 
 /**
  * Adapter class for the CarouselView. extends FragmentPagerAdapter
+ * seected the service frragment
  */
 public class CarouselPagerAdapter extends FragmentPagerAdapter implements
         ViewPager.OnPageChangeListener {

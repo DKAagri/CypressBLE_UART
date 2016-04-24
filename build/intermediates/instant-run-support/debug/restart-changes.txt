@@ -1,0 +1,4 @@
+CHANGED,/home/altanaibisht/ble/cysmart_android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/cypress/cysmart/BLEServiceFragments/RGBFragment$8.class
+CHANGED,/home/altanaibisht/ble/cysmart_android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/cypress/cysmart/BLEServiceFragments/RGBFragment$7$1.class
+CHANGED,/home/altanaibisht/ble/cysmart_android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/cypress/cysmart/BLEServiceFragments/RGBFragment.class
+CHANGED,/home/altanaibisht/ble/cysmart_android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/cypress/cysmart/BLEServiceFragments/RGBFragment$7.class

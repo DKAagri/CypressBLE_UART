@@ -45,7 +45,8 @@ import com.cypress.cysmart.R;
 import java.util.ArrayList;
 
 /**
- * Adapter class for loading Data LOgger logs
+ * Adapter class for loading Data LOgger
+ * data , count , item , view
  */
 public class DataLogsListAdapter extends BaseAdapter {
     private ArrayList<String> mStrings;

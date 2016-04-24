@@ -45,6 +45,7 @@ import com.cypress.cysmart.R;
 
 /**
  * Adapter class for Glucose Spinner
+ *
  */
 public class GlucoseSpinnerAdapter extends BaseAdapter {
 

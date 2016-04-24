@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="tvdpi"
+    format="7"
+    timestamp="39406880040758" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="36842078375484" >
+        <artifact
+            location="/home/altanaibisht/ble/cysmart_android/build/outputs/apk/cysmart_android-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="38035627780823" >
+        <artifact
+            location="/home/altanaibisht/ble/cysmart_android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="39326814723852" >
+        <artifact
+            location="/home/altanaibisht/ble/cysmart_android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="39391927649778"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/altanaibisht/ble/cysmart_android/build/intermediates/builds/debug/39391927649778/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="39406880040758" />
+
+</instant-run>

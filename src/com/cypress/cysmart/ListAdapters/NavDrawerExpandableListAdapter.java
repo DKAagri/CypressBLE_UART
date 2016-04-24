@@ -50,6 +50,7 @@ import java.util.List;
 
 /**
  * Expandable list adapter for navigation drawer elements
+ *
  */
 public class NavDrawerExpandableListAdapter extends BaseExpandableListAdapter {
     private Context mContext;
