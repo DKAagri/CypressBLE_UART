@@ -41,6 +41,7 @@ import java.util.ArrayList;
 
 /**
  * Class used for parsing Running speed related information
+ *  values of stride , DistFlag , runOrWalk ,  speed
  */
 public class RSCParser {
 
