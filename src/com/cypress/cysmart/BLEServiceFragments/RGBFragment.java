@@ -57,9 +57,8 @@ public class RGBFragment extends Fragment {
 
     List<String[]> csvvalues=null;
     int csvindex=0;
-    int _frequency=0;
+    int _frequency=0 , _phase =0,  _duty_cycle=0;
     int _i=0, _r=0 , _g=0 , _b=0 , _f=0;
-    int _phase =0,  _duty_cycle=0;
 
     // GATT service and characteristics
     private static BluetoothGattService mCurrentservice;
@@ -148,17 +147,15 @@ public class RGBFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-
         int currentOrientation = getResources().getConfiguration().orientation;
         if (currentOrientation == Configuration.ORIENTATION_LANDSCAPE) {
-            mRootView = inflater.inflate(R.layout.rgb_view_landscape, container,
-                    false);
+            mRootView = inflater.inflate(R.layout.rgb_view_landscape, container,  false);
         } else {
-            mRootView = inflater.inflate(R.layout.rgb_view_portrait, container,
-                    false);
+            mRootView = inflater.inflate(R.layout.rgb_view_portrait, container,   false);
         }
 
         mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.trip_to_the_forest);
+        mseekBar = (SeekBar) mRootView.findViewById(R.id.SongSeekBar);
 
         // getActivity().getActionBar().setTitle(R.string.rgb_led);
         setUpControls();
@@ -185,7 +182,7 @@ public class RGBFragment extends Fragment {
                         mGreen = Color.green(p);
                         mBlue = Color.blue(p);
                         Logger.i("r--->" + mRed + "g-->" + mGreen + "b-->" + mBlue);
-                        UIupdation();
+
                     }
                 }
             }
@@ -203,7 +200,6 @@ public class RGBFragment extends Fragment {
         mTextTimestamp = (TextView) mRootView.findViewById(R.id.timeStamp);
         mRGBcanavs = (ImageView) mRootView.findViewById(R.id.imgrgbcanvas);
         mcolorpicker = (ImageView) mRootView.findViewById(R.id.imgcolorpicker);
-
 
         mColorindicator = (ImageView) mRootView.findViewById(R.id.txtcolorindicator);
         mViewContainer = (ViewGroup) mRootView.findViewById(R.id.viewgroup);
@@ -240,7 +236,7 @@ public class RGBFragment extends Fragment {
                                 mRed = Color.red(p);
                                 mGreen = Color.green(p);
                                 mBlue = Color.blue(p);
-                                UIupdation();
+
                                 mIsReaded = false;
                                 moveTarget();
                                 return true;
@@ -252,9 +248,12 @@ public class RGBFragment extends Fragment {
             }
         });
 
-        mseekBar=(SeekBar) mRootView.findViewById(R.id.seekBar);
-        mseekBar.setMax(csvvalues.size());
-
+        Logger.v( " CSV values Size "+ csvvalues.size());
+        try {
+            mseekBar.setMax(csvvalues.size());
+        }catch ( Exception e ){
+            Logger.e(e.getMessage());
+        }
         mIntensity = mIntensityBar.getProgress();
         /*mTextalpha.setText(String.format("0x%02x", mIntensity));*/
         mIntensityBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
@@ -273,7 +272,6 @@ public class RGBFragment extends Fragment {
                 mIsReaded = false;
                 BluetoothLeService.writeCharacteristicRGB(mReadCharacteristic,
                         mRed, mGreen, mBlue, mIntensity);
-
             }
         });
 
@@ -288,6 +286,13 @@ public class RGBFragment extends Fragment {
                     csvindex=0;
                 }
                 mMediaPlayer.stop();
+                mseekBar.setProgress(0);
+                writeDreamweaverCsv(mReadCharacteristic,
+                        0,
+                        0,
+                        0,
+                        0,0,0,
+                        0);
             }
         });
 
@@ -297,21 +302,24 @@ public class RGBFragment extends Fragment {
             public void onClick(View v) {
 
                 mMediaPlayer.start();
-
                 timer = new Timer();
                 timer.schedule(new TimerTask() {
                     @Override
                     public void run() {
-
-                        //if(!(csvvalues.get(csvindex)[2]).equalsIgnoreCase("0")){
-
-                            if( ((int)(Double.parseDouble(csvvalues.get(csvindex)[2])))!=_f &&
+                        Logger.v(String.valueOf(csvindex)+" --> "+
+                                csvvalues.get(csvindex)[2]+" "+ _f +" || "+
+                                csvvalues.get(csvindex)[5]+" "+_r +" || "+
+                                csvvalues.get(csvindex)[6]+" "+_g  +" || "+
+                                csvvalues.get(csvindex)[7]+" "+_b  +" || "+
+                                csvvalues.get(csvindex)[4].replace("%", "")+" "+ _duty_cycle +" || "+
+                                csvvalues.get(csvindex)[8]+" "+ _phase );
+/*                        if( ((int)(Double.parseDouble(csvvalues.get(csvindex)[2])))!=_f &&
                                     Integer.parseInt(csvvalues.get(csvindex)[5])!=_r  &&
                                     Integer.parseInt(csvvalues.get(csvindex)[6])!=_g &&
                                     Integer.parseInt(csvvalues.get(csvindex)[7])!=_b &&
                                     Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", ""))!=_duty_cycle &&
                                     Integer.parseInt(csvvalues.get(csvindex)[8])!=_phase
-                                    ){
+                                    ){*/
 
                                 _f=(int) (Double.parseDouble(csvvalues.get(csvindex)[2]));
 
@@ -320,12 +328,6 @@ public class RGBFragment extends Fragment {
                                 }else{
                                     _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
                                 }
-                                /*
-                                if( (csvvalues.get(csvindex)[2]).equalsIgnoreCase("7.83")) {
-                                    _frequency=68;
-                                }else{
-                                    _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
-                                }*/
 
                                 //_i=Integer.parseInt(csvvalues.get(csvindex)[3])/10;
                                 _r=Integer.parseInt(csvvalues.get(csvindex)[5]);
@@ -343,8 +345,6 @@ public class RGBFragment extends Fragment {
                                         _duty_cycle,
                                         _r, _g, _b,
                                         _phase);
-                            }
-
                         //}
 
                         setTimeStampText((csvvalues.get(csvindex)[0]).toString() ,
@@ -377,7 +377,7 @@ public class RGBFragment extends Fragment {
             public void run() {
                 mTextTimestamp.setText(timestamp);
                 mseekBar.setProgress(progress);
-                Logger.v("hexColor :"+ hexColor);
+                //Logger.v("hexColor :"+ hexColor);
                 try {
                     mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
                 }catch(Exception e){
@@ -401,37 +401,6 @@ public class RGBFragment extends Fragment {
         super.onDestroy();
     }
 
-
-    private void UIupdation() {
-       // String hexColor = String.format("#%02x%02x%02x%02x", mIntensity, mRed, mGreen, mBlue);
-       // mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
-       /* mTextalpha.setText(String.format("0x%02x", mIntensity));*/
-
-      //  mHexRed = String.format("0x%02x", mRed);
-       /* mTextred.setText(mHexRed);*/
-
-      //  mHexGreen = String.format("0x%02x", mGreen);
-       /* mTextgreen.setText(mHexGreen);*/
-
-      //  mHexBlue = String.format("0x%02x", mBlue);
-       /* mTextblue.setText(mHexBlue);*/
-
-      /*  mTextalpha.setText(String.format("0x%02x", mIntensity));*/
-
-        /*
-        try {
-            Logger.i("Writing value-->" + mRed + " " + mGreen + " " + mBlue + " " + mIntensity);
-            BluetoothLeService.writeCharacteristicRGB(
-                    mReadCharacteristic,
-                    mRed,
-                    mGreen,
-                    mBlue,
-                    mIntensity);
-        } catch (Exception e) {
-            Logger.e("exception");
-        }*/
-
-    }
 
     /**
      * Method to get required characteristics from service

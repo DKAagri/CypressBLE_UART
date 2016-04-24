@@ -206,6 +206,7 @@ public final class R {
     }
     public static final class id {
         public static final int ListView_gatt_services=0x7f0d0067;
+        public static final int SongSeekBar=0x7f0d0141;
         public static final int about_image=0x7f0d0001;
         public static final int abt_parent=0x7f0d0000;
         public static final int acc_context_menu=0x7f0d0155;
@@ -476,7 +477,6 @@ public final class R {
         public static final int scroll_glucose=0x7f0d009d;
         public static final int scroll_rsc=0x7f0d0149;
         public static final int search=0x7f0d0173;
-        public static final int seekBar=0x7f0d0141;
         public static final int select_record=0x7f0d0099;
         public static final int share=0x7f0d0170;
         public static final int sharelogger=0x7f0d0174;

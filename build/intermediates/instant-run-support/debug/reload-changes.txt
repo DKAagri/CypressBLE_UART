@@ -1,2 +1,0 @@
-CHANGED,/home/altanaibisht/ble/cysmart_android/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/cypress/cysmart/BLEServiceFragments/RGBFragment$6$1$override.class
-CHANGED,/home/altanaibisht/ble/cysmart_android/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

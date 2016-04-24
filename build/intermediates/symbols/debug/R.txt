@@ -183,6 +183,7 @@ int drawable view_trackpad_active 0x7f020085
 int drawable view_trackpad_normal 0x7f020086
 int drawable white_circle2 0x7f020087
 int id ListView_gatt_services 0x7f0d0067
+int id SongSeekBar 0x7f0d0141
 int id about_image 0x7f0d0001
 int id abt_parent 0x7f0d0000
 int id acc_context_menu 0x7f0d0155
@@ -453,7 +454,6 @@ int id scroll_csc 0x7f0d0048
 int id scroll_glucose 0x7f0d009d
 int id scroll_rsc 0x7f0d0149
 int id search 0x7f0d0173
-int id seekBar 0x7f0d0141
 int id select_record 0x7f0d0099
 int id share 0x7f0d0170
 int id sharelogger 0x7f0d0174

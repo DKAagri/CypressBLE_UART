@@ -12,36 +12,36 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/rdk_plus_selector.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/rdk_microphone_selector.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/rdk_microphone_selector.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/battery_progress_bar.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/battery_progress_bar.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/rdk_microphone_selector.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/rdk_microphone_selector.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/border_square.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/border_square.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/checkbox_selector.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/checkbox_selector.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/rdk_minus_selector.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/rdk_minus_selector.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/checkbox_selector.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/checkbox_selector.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/line_background.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/line_background.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/border_blue_fill.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/border_blue_fill.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/rdk_back_selector.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/rdk_back_selector.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/border_blue_fill.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/border_blue_fill.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/rdk_left_selector.xml",
@@ -56,24 +56,24 @@
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/ota_list_selector.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/checkbox_checked.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/checkbox_checked.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/rdk_record_selector.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/rdk_record_selector.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/checkbox_checked.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/checkbox_checked.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/border_blue_white.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/border_blue_white.xml"
     },
     {
-        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/border_button_selector.xml",
-        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/border_button_selector.xml"
-    },
-    {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/checkbox_unchecked.xml",
         "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/checkbox_unchecked.xml"
+    },
+    {
+        "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/border_button_selector.xml",
+        "source": "/home/altanaibisht/ble/cysmart_android/res/drawable/border_button_selector.xml"
     },
     {
         "merged": "/home/altanaibisht/ble/cysmart_android/build/intermediates/res/merged/debug/drawable/bg_shadow.xml",
