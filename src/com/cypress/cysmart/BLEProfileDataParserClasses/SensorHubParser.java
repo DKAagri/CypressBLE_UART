@@ -37,6 +37,7 @@ import com.cypress.cysmart.CommonUtils.Logger;
 
 /**
  * Class used for parsing Sensor hub related information
+ * such as baroometeer , sensor , temperature
  */
 public class SensorHubParser {
     private static final int FIRST_BITMASK = 0x01;
