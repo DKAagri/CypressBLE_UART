@@ -159,14 +159,10 @@ public class BatteryInformationService extends Fragment {
         View rootView = inflater.inflate(R.layout.battery_info_fragment,
                 container, false);
 
-        mBatteryLevelText = (TextView) rootView
-                .findViewById(R.id.battery_level);
-        mBatteryProgress = (ProgressBar) rootView
-                .findViewById(R.id.battery_level_progressbar);
-        mNotifyButton = (Button) rootView
-                .findViewById(R.id.battery_level_notify);
-        mReadButton = (Button) rootView
-                .findViewById(R.id.battery_level_read);
+        mBatteryLevelText = (TextView) rootView.findViewById(R.id.battery_level);
+        mBatteryProgress = (ProgressBar) rootView.findViewById(R.id.battery_level_progressbar);
+        mNotifyButton = (Button) rootView.findViewById(R.id.battery_level_notify);
+        mReadButton = (Button) rootView.findViewById(R.id.battery_level_read);
         mProgressDialog = new ProgressDialog(getActivity());
         mNotifyButton.setOnClickListener(new OnClickListener() {
 
@@ -200,10 +196,8 @@ public class BatteryInformationService extends Fragment {
     @Override
     public void onResume() {
         getGattData();
-        getActivity().registerReceiver(mGattUpdateReceiver,
-                Utils.makeGattUpdateIntentFilter());
-        Utils.setUpActionBar(getActivity(),
-                getResources().getString(R.string.battery_info_fragment));
+        getActivity().registerReceiver(mGattUpdateReceiver,  Utils.makeGattUpdateIntentFilter());
+        Utils.setUpActionBar(getActivity(),  getResources().getString(R.string.battery_info_fragment));
         super.onResume();
     }
 
@@ -220,8 +214,7 @@ public class BatteryInformationService extends Fragment {
      * Method to get required characteristics from service
      */
     void getGattData() {
-        List<BluetoothGattCharacteristic> gattCharacteristics = mService
-                .getCharacteristics();
+        List<BluetoothGattCharacteristic> gattCharacteristics = mService.getCharacteristics();
         for (BluetoothGattCharacteristic gattCharacteristic : gattCharacteristics) {
             String uuidchara = gattCharacteristic.getUuid().toString();
             if (uuidchara.equalsIgnoreCase(GattAttributes.BATTERY_LEVEL)) {
