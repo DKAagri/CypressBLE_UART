@@ -41,6 +41,8 @@ import java.util.ArrayList;
 
 /**
  * Class used for parsing Health temperature related information
+ * F and C unit
+ * 1 C= 33.8F = 274.15 K
  */
 public class HTMParser {
 
@@ -67,8 +69,7 @@ public class HTMParser {
      * @param characteristic
      * @return
      */
-    public static ArrayList<String> getHealthThermo(
-            BluetoothGattCharacteristic characteristic, Context context) {
+    public static ArrayList<String> getHealthThermo( BluetoothGattCharacteristic characteristic, Context context) {
         String tempUnit = "";
         // For all other profiles, writes the data formatted in HEX.
         final byte[] data = characteristic.getValue();
