@@ -45,6 +45,7 @@ import java.util.HashMap;
 
 /**
  * Parser class for parsing the descriptor value
+ * format , exponent , unit , namespace and description
  */
 public class DescriptorParser {
 
