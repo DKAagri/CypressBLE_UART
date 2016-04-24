@@ -40,6 +40,7 @@ import java.util.ArrayList;
 
 /**
  * Parser class for parsing the data related to HRM Profile
+ * Heart Rate , energy expended , R wave-to-R wave (RR) interval
  */
 public class HRMParser {
 
