@@ -36,12 +36,12 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-hdpi-v4/green_color_btn.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-hdpi/green_color_btn.png"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-hdpi-v4/battery_small.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-hdpi/battery_small.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-hdpi-v4/green_color_btn.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-hdpi/green_color_btn.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-hdpi-v4/back_icon.png",

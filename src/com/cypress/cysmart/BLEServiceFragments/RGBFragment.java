@@ -76,7 +76,7 @@ public class RGBFragment extends Fragment {
 
 
     //added for mediacontroller and play button
-    private Button btnPlay,btnStop;
+    private Button btnPlay,btnStop , btnPause;
     private static MediaPlayer mMediaPlayer;
     Timer timer;
     private TextView mTextTimestamp;
@@ -275,6 +275,23 @@ public class RGBFragment extends Fragment {
             }
         });
 
+        btnPause= (Button) mRootView.findViewById(R.id.buttonPauseSong);
+        btnPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (timer != null) {
+                    timer.cancel();
+                    timer = null;
+                }
+                mMediaPlayer.pause();
+                writeDreamweaverCsv(mReadCharacteristic,
+                        0,
+                        0,
+                        0,
+                        0,0,0,
+                        0);
+            }
+        });
 
         btnStop=  (Button) mRootView.findViewById(R.id.buttonStopSong);
         btnStop.setOnClickListener(new View.OnClickListener() {
@@ -283,10 +300,9 @@ public class RGBFragment extends Fragment {
                 if (timer != null) {
                     timer.cancel();
                     timer = null;
-                    csvindex=0;
                 }
                 mMediaPlayer.stop();
-                mseekBar.setProgress(0);
+                mseekBar.setProgress(1);
                 writeDreamweaverCsv(mReadCharacteristic,
                         0,
                         0,
@@ -301,7 +317,13 @@ public class RGBFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                mMediaPlayer.start();
+                if(csvindex==0){
+                    mMediaPlayer.start();
+                }else{
+                    mMediaPlayer.reset();
+                    mMediaPlayer.start();
+                }
+                csvindex=0;
                 timer = new Timer();
                 timer.schedule(new TimerTask() {
                     @Override
@@ -328,7 +350,9 @@ public class RGBFragment extends Fragment {
                                 }else{
                                     _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
                                 }
-
+                                if(_frequency<0){
+                                    _frequency=0;
+                                }
                                 //_i=Integer.parseInt(csvvalues.get(csvindex)[3])/10;
                                 _r=Integer.parseInt(csvvalues.get(csvindex)[5]);
                                 _g=Integer.parseInt(csvvalues.get(csvindex)[6]);

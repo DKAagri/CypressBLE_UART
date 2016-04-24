@@ -40,6 +40,9 @@ class ProfileScanningListModel {
     private String mDeviceRssi;
     private int mIcon;
 
+    /*
+    titil , icon , address , rssi
+     */
     public ProfileScanningListModel() {
     }
 

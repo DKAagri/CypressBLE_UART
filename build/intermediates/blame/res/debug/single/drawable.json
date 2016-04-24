@@ -8,20 +8,20 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/square_button.xml"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/rdk_trackpad_selector.xml",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/rdk_trackpad_selector.xml"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/rdk_gesture_selector.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/rdk_gesture_selector.xml"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/ota_text_selecter.xml",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/ota_text_selecter.xml"
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/rdk_trackpad_selector.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/rdk_trackpad_selector.xml"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/border_blue_white.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/border_blue_white.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/ota_text_selecter.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/ota_text_selecter.xml"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/bg_shadow_blue.xml",
