@@ -16,12 +16,12 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/raw/beep.mp3"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/sample.csv",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/sample.csv"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/trip_to_the_forest_file.csv",
         "source": "/home/altanai/ble/CypressBLE_UART/res/raw/trip_to_the_forest_file.csv"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/sample.csv",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/sample.csv"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/pcm.wav",

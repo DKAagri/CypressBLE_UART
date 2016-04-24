@@ -34,7 +34,9 @@ package com.cypress.cysmart.BLEProfileDataParserClasses;
 import android.bluetooth.BluetoothGattCharacteristic;
 
 /**
- * Class to parse the RGB service related information
+ * Class to parse the RGB service related information,
+ * r, g,b,intensity
+ * for purpose of controlling rgb SMD LED 5050 ( Surface-Mounted-Device Light-Emitting Diode. )
  */
 public class RGBParser {
     /**
@@ -44,9 +46,9 @@ public class RGBParser {
      * @return {@link String}
      */
     public static String getRGBValue(BluetoothGattCharacteristic characteristic) {
-        int red = characteristic.getIntValue(     BluetoothGattCharacteristic.FORMAT_UINT8, 0);
-        int green = characteristic.getIntValue(   BluetoothGattCharacteristic.FORMAT_UINT8, 1);
-        int blue = characteristic.getIntValue(    BluetoothGattCharacteristic.FORMAT_UINT8, 2);
+        int red = characteristic.getIntValue(  BluetoothGattCharacteristic.FORMAT_UINT8, 0);
+        int green = characteristic.getIntValue( BluetoothGattCharacteristic.FORMAT_UINT8, 1);
+        int blue = characteristic.getIntValue( BluetoothGattCharacteristic.FORMAT_UINT8, 2);
         int intensity = characteristic.getIntValue( BluetoothGattCharacteristic.FORMAT_UINT8, 3);
         return String.valueOf(red + "," + green + "," + blue + "," + intensity);
     }

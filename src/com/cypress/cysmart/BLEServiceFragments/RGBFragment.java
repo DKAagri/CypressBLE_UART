@@ -57,7 +57,8 @@ public class RGBFragment extends Fragment {
 
     List<String[]> csvvalues=null;
     int csvindex=0;
-    int frequency=0;
+    int _frequency=0 , _phase =0,  _duty_cycle=0;
+    int _i=0, _r=0 , _g=0 , _b=0 , _f=0;
 
     // GATT service and characteristics
     private static BluetoothGattService mCurrentservice;
@@ -67,21 +68,19 @@ public class RGBFragment extends Fragment {
     private ImageView mRGBcanavs;
     private ImageView mcolorpicker;
     private ViewGroup mViewContainer;
-    private TextView mTextred;
-    private TextView mTextgreen;
-    private TextView mTextblue;
-    private TextView mTextalpha;
 
 
     // added for the Send button in TX BLE
-    private Button btnTXSend ;
     private EditText mTextTX;
     private String mHexTx;
-    private int mTxBLE;
 
-//added fpr mediacontroller and play button
+
+    //added for mediacontroller and play button
     private Button btnPlay,btnStop;
     private static MediaPlayer mMediaPlayer;
+    Timer timer;
+    private TextView mTextTimestamp;
+    private SeekBar mseekBar;
 
     private ImageView mColorindicator;
     private SeekBar mIntensityBar;
@@ -148,19 +147,17 @@ public class RGBFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-
         int currentOrientation = getResources().getConfiguration().orientation;
         if (currentOrientation == Configuration.ORIENTATION_LANDSCAPE) {
-            mRootView = inflater.inflate(R.layout.rgb_view_landscape, container,
-                    false);
+            mRootView = inflater.inflate(R.layout.rgb_view_landscape, container,  false);
         } else {
-            mRootView = inflater.inflate(R.layout.rgb_view_portrait, container,
-                    false);
+            mRootView = inflater.inflate(R.layout.rgb_view_portrait, container,   false);
         }
 
         mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.trip_to_the_forest);
+        mseekBar = (SeekBar) mRootView.findViewById(R.id.SongSeekBar);
 
-       // getActivity().getActionBar().setTitle(R.string.rgb_led);
+        // getActivity().getActionBar().setTitle(R.string.rgb_led);
         setUpControls();
         setDefaultColorPickerPositionColor();
         setHasOptionsMenu(true);
@@ -185,7 +182,7 @@ public class RGBFragment extends Fragment {
                         mGreen = Color.green(p);
                         mBlue = Color.blue(p);
                         Logger.i("r--->" + mRed + "g-->" + mGreen + "b-->" + mBlue);
-                        UIupdation();
+
                     }
                 }
             }
@@ -200,14 +197,10 @@ public class RGBFragment extends Fragment {
         mParentRelLayout.setClickable(true);
 
         csvvalues = readCsv();
-
+        mTextTimestamp = (TextView) mRootView.findViewById(R.id.timeStamp);
         mRGBcanavs = (ImageView) mRootView.findViewById(R.id.imgrgbcanvas);
         mcolorpicker = (ImageView) mRootView.findViewById(R.id.imgcolorpicker);
 
-        mTextalpha = (TextView) mRootView.findViewById(R.id.txtintensity);
-        mTextred = (TextView) mRootView.findViewById(R.id.txtred);
-        mTextgreen = (TextView) mRootView.findViewById(R.id.txtgreen);
-        mTextblue = (TextView) mRootView.findViewById(R.id.txtblue);
         mColorindicator = (ImageView) mRootView.findViewById(R.id.txtcolorindicator);
         mViewContainer = (ViewGroup) mRootView.findViewById(R.id.viewgroup);
 
@@ -238,14 +231,12 @@ public class RGBFragment extends Fragment {
                                     x = mRGBcanavs.getMeasuredWidth();
                                 if (y > mRGBcanavs.getMeasuredHeight())
                                     y = mRGBcanavs.getMeasuredHeight();
-                                setwidth(1.f / mRGBcanavs.getMeasuredWidth()
-                                        * x);
-                                setheight(1.f - (1.f / mRGBcanavs
-                                        .getMeasuredHeight() * y));
+                                setwidth(1.f / mRGBcanavs.getMeasuredWidth() * x);
+                                setheight(1.f - (1.f / mRGBcanavs.getMeasuredHeight() * y));
                                 mRed = Color.red(p);
                                 mGreen = Color.green(p);
                                 mBlue = Color.blue(p);
-                                UIupdation();
+
                                 mIsReaded = false;
                                 moveTarget();
                                 return true;
@@ -257,14 +248,21 @@ public class RGBFragment extends Fragment {
             }
         });
 
+        Logger.v( " CSV values Size "+ csvvalues.size());
+        try {
+            mseekBar.setMax(csvvalues.size());
+        }catch ( Exception e ){
+            Logger.e(e.getMessage());
+        }
         mIntensity = mIntensityBar.getProgress();
-        mTextalpha.setText(String.format("0x%02x", mIntensity));
+        /*mTextalpha.setText(String.format("0x%02x", mIntensity));*/
         mIntensityBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
 
             public void onProgressChanged(SeekBar seekBar, int progress,   boolean fromUser) {
                 mIntensity = progress;
-                UIupdation();
+                //UIupdation();
                 mIsReaded = false;
+                _i=progress;
             }
 
             public void onStartTrackingTouch(SeekBar seekBar) {
@@ -274,30 +272,28 @@ public class RGBFragment extends Fragment {
                 mIsReaded = false;
                 BluetoothLeService.writeCharacteristicRGB(mReadCharacteristic,
                         mRed, mGreen, mBlue, mIntensity);
-
             }
         });
 
-        //for sending the Tx BLE Value
-        mTextTX = (EditText) mRootView.findViewById(R.id.editTextTxBLE);
-
-        btnTXSend = (Button) mRootView.findViewById(R.id.buttonTxBLE);
-        btnTXSend.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                SendTxVal();
-                mTextTX.setText("");
-                mTextTX.setFocusable(true);
-                mTextTX.requestFocus();
-            }
-        });
 
         btnStop=  (Button) mRootView.findViewById(R.id.buttonStopSong);
         btnStop.setOnClickListener(new View.OnClickListener() {
-                                       @Override
-                                       public void onClick(View v) {
-                                           mMediaPlayer.stop();
-                                       }
+            @Override
+            public void onClick(View v) {
+                if (timer != null) {
+                    timer.cancel();
+                    timer = null;
+                    csvindex=0;
+                }
+                mMediaPlayer.stop();
+                mseekBar.setProgress(0);
+                writeDreamweaverCsv(mReadCharacteristic,
+                        0,
+                        0,
+                        0,
+                        0,0,0,
+                        0);
+            }
         });
 
         btnPlay=  (Button) mRootView.findViewById(R.id.buttonPlayAudio);
@@ -306,31 +302,87 @@ public class RGBFragment extends Fragment {
             public void onClick(View v) {
 
                 mMediaPlayer.start();
-
-                Timer timer = new Timer();
+                timer = new Timer();
                 timer.schedule(new TimerTask() {
                     @Override
                     public void run() {
-                        if(csvvalues.get(csvindex)[2]!= "0"){
+                        Logger.v(String.valueOf(csvindex)+" --> "+
+                                csvvalues.get(csvindex)[2]+" "+ _f +" || "+
+                                csvvalues.get(csvindex)[5]+" "+_r +" || "+
+                                csvvalues.get(csvindex)[6]+" "+_g  +" || "+
+                                csvvalues.get(csvindex)[7]+" "+_b  +" || "+
+                                csvvalues.get(csvindex)[4].replace("%", "")+" "+ _duty_cycle +" || "+
+                                csvvalues.get(csvindex)[8]+" "+ _phase );
+/*                        if( ((int)(Double.parseDouble(csvvalues.get(csvindex)[2])))!=_f &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[5])!=_r  &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[6])!=_g &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[7])!=_b &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", ""))!=_duty_cycle &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[8])!=_phase
+                                    ){*/
 
-                            Logger.v(csvvalues.get(csvindex)[2]);
-                            if(csvvalues.get(csvindex)[2].equalsIgnoreCase("7.83"))frequency=68;
-                            else frequency=Integer.parseInt(csvvalues.get(csvindex)[2])*10-10;
+                                _f=(int) (Double.parseDouble(csvvalues.get(csvindex)[2]));
 
-                            writeDreamweaverCsv(mReadCharacteristic,
-                                    frequency,
-                                    Integer.parseInt(csvvalues.get(csvindex)[3]),
-                                    Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", "")),
-                                    Integer.parseInt(csvvalues.get(csvindex)[5]),
-                                    Integer.parseInt(csvvalues.get(csvindex)[6]),
-                                    Integer.parseInt(csvvalues.get(csvindex)[7]),
-                                    Integer.parseInt(csvvalues.get(csvindex)[8]));
-                        }
+                                if( (csvvalues.get(csvindex)[2]).equalsIgnoreCase("7.83")) {
+                                    _frequency=68;
+                                }else{
+                                    _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
+                                }
 
-                    csvindex++;
+                                //_i=Integer.parseInt(csvvalues.get(csvindex)[3])/10;
+                                _r=Integer.parseInt(csvvalues.get(csvindex)[5]);
+                                _g=Integer.parseInt(csvvalues.get(csvindex)[6]);
+                                _b=Integer.parseInt(csvvalues.get(csvindex)[7]);
+
+                                _duty_cycle= Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", ""));
+                                _phase = Integer.parseInt(csvvalues.get(csvindex)[8]);
+
+                                Logger.v("Frequency :"+ _f + " altered freq :"+ _frequency+" rgb:"+_r+" "+_g+" "+_b);
+
+                                writeDreamweaverCsv(mReadCharacteristic,
+                                        _frequency,
+                                        _i,
+                                        _duty_cycle,
+                                        _r, _g, _b,
+                                        _phase);
+                        //}
+
+                        setTimeStampText((csvvalues.get(csvindex)[0]).toString() ,
+                                Integer.parseInt(csvvalues.get(csvindex)[1]),
+                                String.format("#%02x%02x%02x%02x", (255) ,(2^(8- _r)),(2^(8- _g)),(2^(8- _b))));
+
+                        csvindex++;
                     }
                 }, 0, 1000);
 
+            }
+        });
+    }
+
+/*
+    private String rgbToHex(int R, int G, int B) {return toHex(R)+toHex(G)+toHex(B)}
+
+    private String toHex(int n) {
+        n = Integer.parseInt(n,10);
+        if () return "00";
+        n = Math.max(0,Math.min(n,255));
+        return "0123456789ABCDEF".charAt((n-n%16)/16)
+                + "0123456789ABCDEF".charAt(n%16);
+    }
+*/
+
+    private void setTimeStampText(final String timestamp, final int progress , final String hexColor){
+        getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                mTextTimestamp.setText(timestamp);
+                mseekBar.setProgress(progress);
+                //Logger.v("hexColor :"+ hexColor);
+                try {
+                    mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
+                }catch(Exception e){
+                    Logger.e(" exception mcolcor indicator " + e );
+                }
             }
         });
     }
@@ -350,80 +402,6 @@ public class RGBFragment extends Fragment {
     }
 
 
-    private void UIupdation() {
-        String hexColor = String.format("#%02x%02x%02x%02x", mIntensity, mRed, mGreen, mBlue);
-        mColorindicator.setBackgroundColor(Color.parseColor(hexColor));
-        mTextalpha.setText(String.format("0x%02x", mIntensity));
-
-        mHexRed = String.format("0x%02x", mRed);
-        mTextred.setText(mHexRed);
-
-        mHexGreen = String.format("0x%02x", mGreen);
-        mTextgreen.setText(mHexGreen);
-
-        mHexBlue = String.format("0x%02x", mBlue);
-        mTextblue.setText(mHexBlue);
-
-        mTextalpha.setText(String.format("0x%02x", mIntensity));
-
-        try {
-            Logger.i("Writing value-->" + mRed + " " + mGreen + " " + mBlue + " " + mIntensity);
-            BluetoothLeService.writeCharacteristicRGB(
-                    mReadCharacteristic,
-                    mRed,
-                    mGreen,
-                    mBlue,
-                    mIntensity);
-        } catch (Exception e) {
-
-        }
-
-    }
-
-    private void SendTxVal() {
-
-        mHexRed = String.format("0x%02x", mRed);
-        mTextred.setText(mHexRed);
-
-        mHexGreen = String.format("0x%02x", mGreen);
-        mTextgreen.setText(mHexGreen);
-
-        mHexBlue = String.format("0x%02x", mBlue);
-        mTextblue.setText(mHexBlue);
-
-        mTextalpha.setText(String.format("0x%02x", mIntensity));
-
-        int mHexTx_int =0;
-        if (mTextTX.getText().toString().length() > 0) {
-            mHexTx = mTextTX.getText().toString();
-            mHexTx_int = Integer.parseInt(mHexTx);
-        }
-        //int mHexTx_int= Integer.getInteger(mHexTx);
-
-        try {
-            /* send value of input box inside intensity */
-            Logger.i(" SendTxVal Writing value-->" + mRed + " " + mGreen + " " + mBlue + " " + mHexTx);
-            BluetoothLeService.writeCharacteristicRGB(
-                    mReadCharacteristic,
-                    mRed,
-                    mGreen,
-                    mBlue,
-                    mHexTx_int);
-
-            /* sedning value of inout box inside green */
-            /*
-            Logger.i(" SendTxVal Writing value-->" + mRed + " " + mHexTx_int + " " + mBlue + " " + mIntensity);
-            BluetoothLeService.writeCharacteristicRGB(
-                    mReadCharacteristic,
-                    mRed,
-                    mHexTx_int,
-                    mBlue,
-                    mIntensity);*/
-        } catch (Exception e) {
-            Logger.e(" error in send TXval");
-        }
-
-    }
     /**
      * Method to get required characteristics from service
      */
@@ -446,8 +424,7 @@ public class RGBFragment extends Fragment {
     void moveTarget() {
         float x = getwidth() * mRGBcanavs.getMeasuredWidth();
         float y = (1.f - getheigth()) * mRGBcanavs.getMeasuredHeight();
-        RelativeLayout.LayoutParams layoutParams = (RelativeLayout.LayoutParams) mcolorpicker
-                .getLayoutParams();
+        RelativeLayout.LayoutParams layoutParams = (RelativeLayout.LayoutParams) mcolorpicker.getLayoutParams();
         layoutParams.leftMargin = (int) (mRGBcanavs.getLeft() + x
                 - Math.floor(mcolorpicker.getMeasuredWidth() / 2) - mViewContainer
                 .getPaddingLeft());
@@ -525,7 +502,7 @@ public class RGBFragment extends Fragment {
         List<String[]> questionList = new ArrayList<String[]>();
 
         try {
-            InputStream csvStream= getResources().openRawResource(R.raw.sample);
+            InputStream csvStream= getResources().openRawResource(R.raw.trip_to_the_forest_file);
             Logger.v("Csv file read as stream ");
             InputStreamReader csvStreamReader = new InputStreamReader(csvStream);
             CSVReader csvReader = new CSVReader(csvStreamReader);

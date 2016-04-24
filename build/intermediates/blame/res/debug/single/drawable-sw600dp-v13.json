@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense_slider.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/capsense_slider.png"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/emulator.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/emulator.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense_slider.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/capsense_slider.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/unknown.png",
@@ -40,12 +40,12 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/capsense.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/find_me.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/find_me.png"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/otafu.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/otafu.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/find_me.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/find_me.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/proximity.png",

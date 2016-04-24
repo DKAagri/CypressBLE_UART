@@ -40,6 +40,7 @@ import java.util.ArrayList;
 
 /**
  * Class used for parsing CapSense related information
+ * such as slider and 3  buttons
  */
 public class CapSenseParser {
     /**
@@ -50,8 +51,7 @@ public class CapSenseParser {
      */
     public static int getCapSenseProximity(
             BluetoothGattCharacteristic characteristic) {
-        int mProximityValue = characteristic.getIntValue(
-                BluetoothGattCharacteristic.FORMAT_UINT8, 0);
+        int mProximityValue = characteristic.getIntValue( BluetoothGattCharacteristic.FORMAT_UINT8, 0);
         return mProximityValue;
     }
 
@@ -63,8 +63,7 @@ public class CapSenseParser {
      */
     public static int getCapSenseSlider(
             BluetoothGattCharacteristic characteristic) {
-        int mSliderValue = characteristic.getIntValue(
-                BluetoothGattCharacteristic.FORMAT_UINT8, 0);
+        int mSliderValue = characteristic.getIntValue( BluetoothGattCharacteristic.FORMAT_UINT8, 0);
         return mSliderValue;
 
     }
@@ -79,13 +78,12 @@ public class CapSenseParser {
     public static ArrayList<Integer> getCapSenseButtons(
             BluetoothGattCharacteristic characteristic) {
         ArrayList<Integer> mButtonParams = new ArrayList<Integer>();
-        int buttonCount = characteristic.getIntValue(
-                BluetoothGattCharacteristic.FORMAT_UINT8, 0);
-        int buttonStatus1 = characteristic.getIntValue(
-                BluetoothGattCharacteristic.FORMAT_UINT8, 1);
-        int buttonStatus2 = characteristic.getIntValue(
-                BluetoothGattCharacteristic.FORMAT_UINT8, 2);
-        Logger.i("Button count" + buttonCount + "Button status " + buttonStatus1 + "Button status " + buttonStatus2);
+        int buttonCount = characteristic.getIntValue(  BluetoothGattCharacteristic.FORMAT_UINT8, 0);
+        int buttonStatus1 = characteristic.getIntValue( BluetoothGattCharacteristic.FORMAT_UINT8, 1);
+        int buttonStatus2 = characteristic.getIntValue( BluetoothGattCharacteristic.FORMAT_UINT8, 2);
+
+        Logger.i("Button count" + buttonCount + "Button status "
+                + buttonStatus1 + "Button status " + buttonStatus2);
         mButtonParams.add(buttonCount);
         mButtonParams.add(buttonStatus1);
         mButtonParams.add(buttonStatus2);

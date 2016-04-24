@@ -39,6 +39,7 @@ import java.util.Locale;
 public class DateTimeParser {
 	/**
 	 * Parses the date and time info.
+	 * day month year hh:mm:sec
 	 * 
 	 * @param characteristic
 	 * @return time in human readable format
