@@ -158,17 +158,14 @@ public class BloodPressureService extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.blood_pressure_measurement,
-                container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View rootView = inflater.inflate(R.layout.blood_pressure_measurement, container, false);
         mProgressDialog = new ProgressDialog(getActivity());
         mSystolicPressure = (TextView) rootView.findViewById(R.id.bp_sys_value);
-        mDiastolicPressure = (TextView) rootView
-                .findViewById(R.id.bp_dia_value);
+        mDiastolicPressure = (TextView) rootView.findViewById(R.id.bp_dia_value);
 
-        mSystolicPressureUnit = (TextView) rootView
-                .findViewById(R.id.bp_sys_value_unit);
+        mSystolicPressureUnit = (TextView) rootView.findViewById(R.id.bp_sys_value_unit);
         mDiastolicPressureUnit = (TextView) rootView
                 .findViewById(R.id.bp_dia_value_unit);
         mStartStopBtn = (Button) rootView
@@ -266,8 +263,7 @@ public class BloodPressureService extends Fragment {
         super.onResume();
         getActivity().registerReceiver(mGattUpdateReceiver,
                 Utils.makeGattUpdateIntentFilter());
-        Utils.setUpActionBar(getActivity(),
-                getResources().getString(R.string.blood_pressure));
+        Utils.setUpActionBar(getActivity(),    getResources().getString(R.string.blood_pressure));
 
     }
 
