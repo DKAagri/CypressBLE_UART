@@ -10,8 +10,6 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Color;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -19,9 +17,7 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.Button;
@@ -59,7 +55,7 @@ public class RGBFragment extends Fragment {
     int csvindex=0;
     int _frequency=0 , _phase =0,  _duty_cycle=0;
     int _i=0, _r=0 , _g=0 , _b=0 , _f=0;
-
+    boolean flagPause=false;
     // GATT service and characteristics
     private static BluetoothGattService mCurrentservice;
     private static BluetoothGattCharacteristic mReadCharacteristic;
@@ -101,6 +97,9 @@ public class RGBFragment extends Fragment {
     private boolean mIsReaded = false;
     private Bitmap mBitmap;
     private int mRed, mGreen, mBlue, mIntensity;
+
+
+    private Button btnTXDataSend;
     /**
      * BroadcastReceiver for receiving the GATT server status
      */
@@ -159,6 +158,7 @@ public class RGBFragment extends Fragment {
 
         // getActivity().getActionBar().setTitle(R.string.rgb_led);
         setUpControls();
+        setUpDemoControls();
         setDefaultColorPickerPositionColor();
         setHasOptionsMenu(true);
         return mRootView;
@@ -207,47 +207,6 @@ public class RGBFragment extends Fragment {
         mIntensityBar = (SeekBar) mRootView.findViewById(R.id.intencitychanger);
         mProgressDialog = new ProgressDialog(getActivity());
 
-        BitmapDrawable mBmpdwbl = (BitmapDrawable) mRGBcanavs.getDrawable();
-        mBitmap = mBmpdwbl.getBitmap();
-
-        Drawable d = getResources().getDrawable(R.drawable.gamut);
-        mRGBcanavs.setOnTouchListener(new OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_MOVE
-                        || event.getAction() == MotionEvent.ACTION_DOWN
-                        || event.getAction() == MotionEvent.ACTION_UP) {
-
-                    float x = event.getX();
-                    float y = event.getY();
-                    if (x >= 0 && y >= 0) {
-
-                        int x1 = (int) x;
-                        int y1 = (int) y;
-                        if (x < mBitmap.getWidth() && y < mBitmap.getHeight()) {
-                            int p = mBitmap.getPixel(x1, y1);
-                            if (p != 0) {
-                                if (x > mRGBcanavs.getMeasuredWidth())
-                                    x = mRGBcanavs.getMeasuredWidth();
-                                if (y > mRGBcanavs.getMeasuredHeight())
-                                    y = mRGBcanavs.getMeasuredHeight();
-                                setwidth(1.f / mRGBcanavs.getMeasuredWidth() * x);
-                                setheight(1.f - (1.f / mRGBcanavs.getMeasuredHeight() * y));
-                                mRed = Color.red(p);
-                                mGreen = Color.green(p);
-                                mBlue = Color.blue(p);
-
-                                mIsReaded = false;
-                                moveTarget();
-                                return true;
-                            }
-                        }
-                    }
-                }
-                return false;
-            }
-        });
-
         Logger.v( " CSV values Size "+ csvvalues.size());
         try {
             mseekBar.setMax(csvvalues.size());
@@ -255,7 +214,6 @@ public class RGBFragment extends Fragment {
             Logger.e(e.getMessage());
         }
         mIntensity = mIntensityBar.getProgress();
-        /*mTextalpha.setText(String.format("0x%02x", mIntensity));*/
         mIntensityBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
 
             public void onProgressChanged(SeekBar seekBar, int progress,   boolean fromUser) {
@@ -290,6 +248,7 @@ public class RGBFragment extends Fragment {
                         0,
                         0,0,0,
                         0);
+                flagPause=true;
             }
         });
 
@@ -302,7 +261,7 @@ public class RGBFragment extends Fragment {
                     timer = null;
                 }
                 mMediaPlayer.stop();
-                mseekBar.setProgress(1);
+                mseekBar.setProgress(0);
                 writeDreamweaverCsv(mReadCharacteristic,
                         0,
                         0,
@@ -319,11 +278,15 @@ public class RGBFragment extends Fragment {
 
                 if(csvindex==0){
                     mMediaPlayer.start();
+                }else if(flagPause){
+                    flagPause=false;
+                    mMediaPlayer.start();
                 }else{
                     mMediaPlayer.reset();
                     mMediaPlayer.start();
+                    csvindex=0;
                 }
-                csvindex=0;
+
                 timer = new Timer();
                 timer.schedule(new TimerTask() {
                     @Override
@@ -383,6 +346,134 @@ public class RGBFragment extends Fragment {
         });
     }
 
+    /**
+     * Method to set up the GAMOT view
+     */
+
+    private EditText editfrequency,editphaseshift , editintensity,
+            editdutycycle, editred, editblue, editgreen;
+    void setUpDemoControls() {
+        mParentRelLayout = (RelativeLayout) mRootView.findViewById(R.id.parent);
+        mParentRelLayout.setClickable(true);
+
+        editfrequency= (EditText) mRootView.findViewById(R.id.editfrequency);
+        editphaseshift= (EditText) mRootView.findViewById(R.id.editPhase);
+        editdutycycle= (EditText) mRootView.findViewById(R.id.editDutyCycle);
+        editintensity= (EditText) mRootView.findViewById(R.id.editIntensity);
+
+        editred= (EditText) mRootView.findViewById(R.id.editRed);
+        editblue= (EditText) mRootView.findViewById(R.id.editBlue);
+        editgreen= (EditText) mRootView.findViewById(R.id.editGreen);
+
+        btnTXDataSend = (Button) mRootView.findViewById(R.id.btnTxDataSend);
+        btnTXDataSend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                writeDreamweaverCsv(mReadCharacteristic,
+                        Integer.parseInt(editfrequency.getText().toString()),
+                        Integer.parseInt(editintensity.getText().toString()),
+                        Integer.parseInt(editdutycycle.getText().toString()),
+                        Integer.parseInt(editred.getText().toString()),
+                        Integer.parseInt(editgreen.getText().toString()),
+                        Integer.parseInt(editblue.getText().toString()),
+                        Integer.parseInt(editdutycycle.getText().toString()));
+            }
+        });
+
+        btnStop=  (Button) mRootView.findViewById(R.id.buttonStopSong);
+        btnStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (timer != null) {
+                    timer.cancel();
+                    timer = null;
+                }
+                mMediaPlayer.stop();
+                mseekBar.setProgress(0);
+                writeDreamweaverCsv(mReadCharacteristic,
+                        0,
+                        0,
+                        0,
+                        0,0,0,
+                        0);
+            }
+        });
+
+        btnPlay=  (Button) mRootView.findViewById(R.id.buttonPlayAudio);
+        btnPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if(csvindex==0){
+                    mMediaPlayer.start();
+                }else if(flagPause){
+                    flagPause=false;
+                    mMediaPlayer.start();
+                }else{
+                    mMediaPlayer.reset();
+                    mMediaPlayer.start();
+                    csvindex=0;
+                }
+
+                timer = new Timer();
+                timer.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        Logger.v(String.valueOf(csvindex)+" --> "+
+                                csvvalues.get(csvindex)[2]+" "+ _f +" || "+
+                                csvvalues.get(csvindex)[5]+" "+_r +" || "+
+                                csvvalues.get(csvindex)[6]+" "+_g  +" || "+
+                                csvvalues.get(csvindex)[7]+" "+_b  +" || "+
+                                csvvalues.get(csvindex)[4].replace("%", "")+" "+ _duty_cycle +" || "+
+                                csvvalues.get(csvindex)[8]+" "+ _phase );
+/*                        if( ((int)(Double.parseDouble(csvvalues.get(csvindex)[2])))!=_f &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[5])!=_r  &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[6])!=_g &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[7])!=_b &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", ""))!=_duty_cycle &&
+                                    Integer.parseInt(csvvalues.get(csvindex)[8])!=_phase
+                                    ){*/
+
+                        _f=(int) (Double.parseDouble(csvvalues.get(csvindex)[2]));
+
+                        if( (csvvalues.get(csvindex)[2]).equalsIgnoreCase("7.83")) {
+                            _frequency=68;
+                        }else{
+                            _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
+                        }
+                        if(_frequency<0){
+                            _frequency=0;
+                        }
+                        //_i=Integer.parseInt(csvvalues.get(csvindex)[3])/10;
+                        _r=Integer.parseInt(csvvalues.get(csvindex)[5]);
+                        _g=Integer.parseInt(csvvalues.get(csvindex)[6]);
+                        _b=Integer.parseInt(csvvalues.get(csvindex)[7]);
+
+                        _duty_cycle= Integer.parseInt(csvvalues.get(csvindex)[4].replace("%", ""));
+                        _phase = Integer.parseInt(csvvalues.get(csvindex)[8]);
+
+                        Logger.v("Frequency :"+ _f + " altered freq :"+ _frequency+" rgb:"+_r+" "+_g+" "+_b);
+
+                        writeDreamweaverCsv(mReadCharacteristic,
+                                _frequency,
+                                _i,
+                                _duty_cycle,
+                                _r, _g, _b,
+                                _phase);
+                        //}
+
+                        setTimeStampText((csvvalues.get(csvindex)[0]).toString() ,
+                                Integer.parseInt(csvvalues.get(csvindex)[1]),
+                                String.format("#%02x%02x%02x%02x", (255) ,(2^(8- _r)),(2^(8- _g)),(2^(8- _b))));
+
+                        csvindex++;
+                    }
+                }, 0, 1000);
+
+            }
+        });
+    }
 /*
     private String rgbToHex(int R, int G, int B) {return toHex(R)+toHex(G)+toHex(B)}
 

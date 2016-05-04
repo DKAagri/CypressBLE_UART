@@ -124,12 +124,12 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/carousel_fragment_item.xml"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/servicediscovery_temp_fragment.xml",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/servicediscovery_temp_fragment.xml"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/ota_firmware_files_list.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/ota_firmware_files_list.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/servicediscovery_temp_fragment.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/servicediscovery_temp_fragment.xml"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_buttons.xml",

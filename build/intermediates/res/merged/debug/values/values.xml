@@ -146,7 +146,7 @@
     <string name="channel">CH</string>
     <string name="channel_down">Channel Down</string>
     <string name="channel_up">Channel Up</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">6cb2a08a-f74e-4a43-8972-09fdb4e1f9b2</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">b577321a-f2fc-44ea-bd1f-d585c877894d</string>
     <string name="convert">CONVERT</string>
     <string name="csc_cadence">Cadence</string>
     <string name="csc_cadence_graph">Cadence (rpm)</string>

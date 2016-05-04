@@ -88,12 +88,12 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/bledevices.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/left_menu_normal.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/left_menu_normal.png"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/minus_normal.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/minus_normal.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/left_menu_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/left_menu_normal.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/glucose_icon.png",

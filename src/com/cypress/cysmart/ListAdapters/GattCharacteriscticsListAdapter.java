@@ -48,6 +48,7 @@ import java.util.List;
 
 /**
  * Adapter class for GattCharacteristics ListView
+ * properties , read , write , notify , indicate
  */
 public class GattCharacteriscticsListAdapter extends BaseAdapter {
     /**

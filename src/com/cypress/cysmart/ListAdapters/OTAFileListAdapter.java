@@ -54,8 +54,7 @@ public class OTAFileListAdapter extends BaseAdapter {
     int mRequiredFilesCount;
     Context mContext;
 
-    public OTAFileListAdapter(Context context, ArrayList<OTAFileModel> fileList,
-                              int requiredFilesCount) {
+    public OTAFileListAdapter(Context context, ArrayList<OTAFileModel> fileList, int requiredFilesCount) {
         this.mFileList = fileList;
         this.mContext = context;
         this.mRequiredFilesCount = requiredFilesCount;

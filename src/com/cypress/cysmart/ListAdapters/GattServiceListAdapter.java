@@ -48,6 +48,7 @@ import java.util.HashMap;
 
 /**
  * Adapter class for GattService ListView
+ *
  */
 public class GattServiceListAdapter extends BaseAdapter {
     private ArrayList<HashMap<String, BluetoothGattService>> mGattServiceData;

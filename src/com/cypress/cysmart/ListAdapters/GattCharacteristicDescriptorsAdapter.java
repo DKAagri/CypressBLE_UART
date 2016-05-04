@@ -46,6 +46,7 @@ import java.util.List;
 
 /**
  * Adapter class for listing the GATT Characteristics
+ *
  */
 public class GattCharacteristicDescriptorsAdapter extends BaseAdapter {
     /**
