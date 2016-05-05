@@ -92,10 +92,6 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/ascii_value_popup.xml"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/rgb_view_landscape.xml",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/rgb_view_landscape.xml"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/layout_menu_paircache.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/layout_menu_paircache.xml"
     },

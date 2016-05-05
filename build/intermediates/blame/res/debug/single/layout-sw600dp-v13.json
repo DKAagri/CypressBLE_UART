@@ -16,10 +16,6 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/device_information_measurement.xml"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout-sw600dp-v13/rgb_view_landscape.xml",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/rgb_view_landscape.xml"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout-sw600dp-v13/gattdb_services_list_item.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/gattdb_services_list_item.xml"
     },

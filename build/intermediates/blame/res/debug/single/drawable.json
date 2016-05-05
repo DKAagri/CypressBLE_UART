@@ -128,12 +128,12 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/ota_list_selector.xml"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/rdk_left_selector.xml",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/rdk_left_selector.xml"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/checkbox_unchecked.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/checkbox_unchecked.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/rdk_left_selector.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable/rdk_left_selector.xml"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable/broder.xml",

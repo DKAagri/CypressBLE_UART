@@ -198,11 +198,7 @@ public class RGBFragment extends Fragment {
 
         csvvalues = readCsv();
         mTextTimestamp = (TextView) mRootView.findViewById(R.id.timeStamp);
-        mRGBcanavs = (ImageView) mRootView.findViewById(R.id.imgrgbcanvas);
-        mcolorpicker = (ImageView) mRootView.findViewById(R.id.imgcolorpicker);
-
         mColorindicator = (ImageView) mRootView.findViewById(R.id.txtcolorindicator);
-        mViewContainer = (ViewGroup) mRootView.findViewById(R.id.viewgroup);
 
         mIntensityBar = (SeekBar) mRootView.findViewById(R.id.intencitychanger);
         mProgressDialog = new ProgressDialog(getActivity());

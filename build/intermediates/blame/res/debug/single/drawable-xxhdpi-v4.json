@@ -316,12 +316,12 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/home.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/heart.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/heart.png"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/rgb_img.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/rgb_img.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/heart.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/heart.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/minus_active.png",

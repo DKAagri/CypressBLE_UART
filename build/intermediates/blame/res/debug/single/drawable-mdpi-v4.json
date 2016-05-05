@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/hand_active.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/hand_active.png"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/temp.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/temp.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/hand_active.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/hand_active.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/products.png",
@@ -160,12 +160,12 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/about.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/capsense_buttons.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/capsense_buttons.png"
-    },
-    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/capsense_btn_bg.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/capsense_btn_bg.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/capsense_buttons.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-mdpi/capsense_buttons.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-mdpi-v4/rgb_img.png",
