@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/raw/flacmorning.flac",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/flacmorning.flac"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/raw/trip_to_the_forest.mp3",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/trip_to_the_forest.mp3"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/raw/trip_to_the_forest_file.csv",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/trip_to_the_forest_file.csv"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/raw/beep.mp3",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/beep.mp3"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/raw/pcm.wav",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/pcm.wav"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/raw/sample.csv",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/sample.csv"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/raw/bonjourflac.flac",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/bonjourflac.flac"
+    }
+]

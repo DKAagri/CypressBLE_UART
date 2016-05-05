@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/ascii_value_popup.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/ascii_value_popup.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/profile_findme.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/profile_findme.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/cyclingspeed_n_cadence.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/cyclingspeed_n_cadence.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/listitem_glucose_spinner.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/listitem_glucose_spinner.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/datalogger_list.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/datalogger_list.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/servicediscovery_temp_fragment.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/servicediscovery_temp_fragment.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/ota_upgrade_type_selection.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/ota_upgrade_type_selection.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/ota_firmware_files_list.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/ota_firmware_files_list.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/hex_value_popup.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/hex_value_popup.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/api_key_dialog_alert.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/api_key_dialog_alert.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/capsense_buttons_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/capsense_buttons_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/lazy_loader_footer.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/lazy_loader_footer.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/blood_pressure_measurement.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/blood_pressure_measurement.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/rgb_view_portrait.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/rgb_view_portrait.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/gattdb_services_list_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/gattdb_services_list_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/fragment_drawer_list_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_drawer_list_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/activity_splash.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/capsense_slider.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/capsense_slider.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/gattdb_characteristics_list_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/gattdb_characteristics_list_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/profile_control.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/profile_control.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/listitem_device.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/fragment_drawer_header.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_drawer_header.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/fragment_content.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_content.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/fragment_profile_scan.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_profile_scan.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/fragment_list_child_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_list_child_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/capsense_proximity.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/capsense_proximity.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/layout_search.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/layout_search.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/battery_info_fragment.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/battery_info_fragment.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/capsense_main.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/capsense_main.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/fragment_gatt_list.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_gatt_list.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/capsense_buttons.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/capsense_buttons.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/listitem_firmware.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/listitem_firmware.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/datalogger.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/datalogger.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/gattdb_details.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/gattdb_details.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/device_information_measurement.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/device_information_measurement.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/layout_menu_paircache.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/layout_menu_paircache.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/custom_graphview.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/custom_graphview.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/gattdb_descriptor_details.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/gattdb_descriptor_details.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/carousel_fragment_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/carousel_fragment_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/data_logger_list_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/data_logger_list_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout/datalogger_list_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/datalogger_list_item.xml"
+    }
+]

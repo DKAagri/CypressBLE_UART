@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/gattdb_characteristics_list_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/gattdb_characteristics_list_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/capsense_slider.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/capsense_slider.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/listitem_device.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/listitem_device.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/device_information_measurement.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/device_information_measurement.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/gattdb_services_list_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/gattdb_services_list_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/profile_findme.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/profile_findme.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/gattdb_details.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/gattdb_details.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/hex_value_popup.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/hex_value_popup.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/ota_upgrade_type_selection.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/ota_upgrade_type_selection.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/release/layout-sw600dp-v13/ascii_value_popup.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout-sw600dp/ascii_value_popup.xml"
+    }
+]
