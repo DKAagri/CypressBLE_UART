@@ -28,6 +28,10 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/share.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/themometer.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/themometer.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/view_trackpad_normal.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/view_trackpad_normal.png"
     },
@@ -52,6 +56,10 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/contact.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/thermometer_carousel.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/thermometer_carousel.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/battery.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/battery.png"
     },
@@ -64,12 +72,24 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/slider.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/flame.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/flame.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/record_down.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/record_down.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/speed.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/speed.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/drawer_shadow.9.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/blood_pressure.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/blood_pressure.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/blutooth_icon.png",
@@ -100,16 +120,24 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/find_me.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/right_menu_normal.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/right_menu_normal.png"
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/blood_pressure_image.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/blood_pressure_image.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/right_menu_normal.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/right_menu_normal.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/graph.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/graph.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/rsc.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/rsc.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/hand_normal.png",
@@ -122,6 +150,10 @@
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/products.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/products.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/temp.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/temp.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_more_vert_white_24dp.png",
@@ -200,6 +232,10 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/proximity_bar.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/run.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/run.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/device_info.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/device_info.png"
     },
@@ -224,6 +260,10 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/right_menu_active.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/heart_rate.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/heart_rate.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/hand_icon.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/hand_icon.png"
     },
@@ -234,6 +274,10 @@
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/white_circle2.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/white_circle2.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/sensor_hub.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/sensor_hub.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/capsense_buttons.png",
@@ -274,6 +318,10 @@
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/rgb_img.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/rgb_img.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/heart.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/heart.png"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/minus_active.png",
@@ -326,5 +374,9 @@
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/accelometer.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/accelometer.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/pressure.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxhdpi/pressure.png"
     }
 ]

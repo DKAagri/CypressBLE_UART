@@ -24,6 +24,14 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/rgb_led.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/sensor_hub.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/sensor_hub.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/glucose.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/glucose.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense_buttons.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/capsense_buttons.png"
     },
@@ -48,6 +56,10 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/find_me.png"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/heart_rate.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/heart_rate.png"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/proximity.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/proximity.png"
     },
@@ -58,5 +70,17 @@
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/device_info.png",
         "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/device_info.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/thermometer_carousel.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/thermometer_carousel.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/rsc.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/rsc.png"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/blood_pressure.png",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/blood_pressure.png"
     }
 ]

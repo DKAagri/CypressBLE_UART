@@ -16,6 +16,10 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/activity_main.xml"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/fragment_drawer_header.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_drawer_header.xml"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_slider.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/capsense_slider.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/api_key_dialog_alert.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/api_key_dialog_alert.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/blood_pressure_measurement.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/blood_pressure_measurement.xml"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_buttons_item.xml",
@@ -44,8 +52,16 @@
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_list_child_item.xml"
     },
     {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/listitem_glucose_spinner.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/listitem_glucose_spinner.xml"
+    },
+    {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/gattdb_services_list_item.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/gattdb_services_list_item.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/fragment_drawer_list_item.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/fragment_drawer_list_item.xml"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/datalogger_list_item.xml",
@@ -130,6 +146,10 @@
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/servicediscovery_temp_fragment.xml",
         "source": "/home/altanai/ble/CypressBLE_UART/res/layout/servicediscovery_temp_fragment.xml"
+    },
+    {
+        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/cyclingspeed_n_cadence.xml",
+        "source": "/home/altanai/ble/CypressBLE_UART/res/layout/cyclingspeed_n_cadence.xml"
     },
     {
         "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/layout/capsense_buttons.xml",
