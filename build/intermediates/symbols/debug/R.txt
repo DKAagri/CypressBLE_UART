@@ -184,7 +184,7 @@ int drawable view_trackpad_active 0x7f020086
 int drawable view_trackpad_normal 0x7f020087
 int drawable white_circle2 0x7f020088
 int id ListView_gatt_services 0x7f0d005e
-int id SongSeekBar 0x7f0d00d1
+int id SongSeekBar 0x7f0d00d3
 int id ascii_edittext_text 0x7f0d000b
 int id battery_buttons_parent 0x7f0d000f
 int id battery_image 0x7f0d0010
@@ -221,9 +221,9 @@ int id btnsix 0x7f0d0089
 int id btnthree 0x7f0d0086
 int id btntwo 0x7f0d0085
 int id btnzero 0x7f0d0094
-int id buttonPauseSong 0x7f0d00cc
-int id buttonPlayAudio 0x7f0d00ce
-int id buttonStopSong 0x7f0d00cd
+int id buttonPauseSong 0x7f0d00d0
+int id buttonPlayAudio 0x7f0d00d2
+int id buttonStopSong 0x7f0d00d1
 int id button_image 0x7f0d001d
 int id cadence 0x7f0d0046
 int id cadence_calorie_layout 0x7f0d0044
@@ -259,7 +259,7 @@ int id div_regulatory 0x7f0d0057
 int id div_serial 0x7f0d0052
 int id div_software 0x7f0d0055
 int id div_system 0x7f0d0056
-int id dreamWeaverLayout 0x7f0d00cb
+int id dreamWeaverLayout 0x7f0d00cf
 int id editBlue 0x7f0d00df
 int id editDutyCycle 0x7f0d00d9
 int id editGreen 0x7f0d00dd
@@ -286,9 +286,9 @@ int id imgcolorpicker 0x7f0d00c7
 int id imgrgbcanvas 0x7f0d00c6
 int id immalert_layout 0x7f0d00bd
 int id immediate_spinner 0x7f0d00be
-int id intencitychanger 0x7f0d00c9
-int id intensityLayout 0x7f0d00c8
-int id intensitycolorChangeLayout 0x7f0d00ca
+int id intencitychanger 0x7f0d00cd
+int id intensityLayout 0x7f0d00cc
+int id intensitycolorChangeLayout 0x7f0d00ce
 int id itemParent 0x7f0d009a
 int id layout_root 0x7f0d0005
 int id lazyFooter 0x7f0d0099
@@ -363,7 +363,7 @@ int id stop_upgrade_button 0x7f0d00b8
 int id swipe_container 0x7f0d0061
 int id text 0x7f0d002d
 int id textView 0x7f0d00ad
-int id textView10 0x7f0d00d3
+int id textView10 0x7f0d00ca
 int id textView11 0x7f0d00d4
 int id textView13 0x7f0d00d6
 int id textView15 0x7f0d00dc
@@ -373,13 +373,13 @@ int id textView6 0x7f0d0004
 int id textView8 0x7f0d00da
 int id textView9 0x7f0d00d8
 int id text_uuid 0x7f0d002f
-int id timeStamp 0x7f0d00cf
+int id timeStamp 0x7f0d00c9
 int id time_counter 0x7f0d003d
 int id time_layout 0x7f0d003b
 int id time_title 0x7f0d003c
 int id timepassedText 0x7f0d0003
 int id title 0x7f0d0048
-int id titleText 0x7f0d00d0
+int id titleText 0x7f0d00c8
 int id transmission_layout 0x7f0d00bf
 int id transmission_rel_layout 0x7f0d00c2
 int id tv_pair 0x7f0d0097
@@ -390,7 +390,7 @@ int id txtascii 0x7f0d0075
 int id txtcancel 0x7f0d000d
 int id txtcharacteristicname 0x7f0d0067
 int id txtcharatrname 0x7f0d0073
-int id txtcolorindicator 0x7f0d00d2
+int id txtcolorindicator 0x7f0d00cb
 int id txtdate 0x7f0d0079
 int id txtdescriptorHexvalue 0x7f0d006b
 int id txtdescriptorname 0x7f0d0069

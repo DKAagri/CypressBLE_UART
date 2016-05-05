@@ -148,7 +148,7 @@ public class RGBFragment extends Fragment {
 
         int currentOrientation = getResources().getConfiguration().orientation;
         if (currentOrientation == Configuration.ORIENTATION_LANDSCAPE) {
-            mRootView = inflater.inflate(R.layout.rgb_view_landscape, container,  false);
+            mRootView = inflater.inflate(R.layout.rgb_view_portrait, container,  false);
         } else {
             mRootView = inflater.inflate(R.layout.rgb_view_portrait, container,   false);
         }
@@ -590,7 +590,7 @@ public class RGBFragment extends Fragment {
 
         if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
             LayoutInflater inflater = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            mRootView = inflater.inflate(R.layout.rgb_view_landscape, null);
+            mRootView = inflater.inflate(R.layout.rgb_view_portrait, null);
             ViewGroup rootViewG = (ViewGroup) getView();
             // Remove all the existing views from the root view.
             rootViewG.removeAllViews();

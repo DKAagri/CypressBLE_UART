@@ -207,7 +207,7 @@ public final class R {
     }
     public static final class id {
         public static final int ListView_gatt_services=0x7f0d005e;
-        public static final int SongSeekBar=0x7f0d00d1;
+        public static final int SongSeekBar=0x7f0d00d3;
         public static final int ascii_edittext_text=0x7f0d000b;
         public static final int battery_buttons_parent=0x7f0d000f;
         public static final int battery_image=0x7f0d0010;
@@ -244,9 +244,9 @@ public final class R {
         public static final int btnthree=0x7f0d0086;
         public static final int btntwo=0x7f0d0085;
         public static final int btnzero=0x7f0d0094;
-        public static final int buttonPauseSong=0x7f0d00cc;
-        public static final int buttonPlayAudio=0x7f0d00ce;
-        public static final int buttonStopSong=0x7f0d00cd;
+        public static final int buttonPauseSong=0x7f0d00d0;
+        public static final int buttonPlayAudio=0x7f0d00d2;
+        public static final int buttonStopSong=0x7f0d00d1;
         public static final int button_image=0x7f0d001d;
         public static final int cadence=0x7f0d0046;
         public static final int cadence_calorie_layout=0x7f0d0044;
@@ -282,7 +282,7 @@ public final class R {
         public static final int div_serial=0x7f0d0052;
         public static final int div_software=0x7f0d0055;
         public static final int div_system=0x7f0d0056;
-        public static final int dreamWeaverLayout=0x7f0d00cb;
+        public static final int dreamWeaverLayout=0x7f0d00cf;
         public static final int editBlue=0x7f0d00df;
         public static final int editDutyCycle=0x7f0d00d9;
         public static final int editGreen=0x7f0d00dd;
@@ -309,9 +309,9 @@ public final class R {
         public static final int imgrgbcanvas=0x7f0d00c6;
         public static final int immalert_layout=0x7f0d00bd;
         public static final int immediate_spinner=0x7f0d00be;
-        public static final int intencitychanger=0x7f0d00c9;
-        public static final int intensityLayout=0x7f0d00c8;
-        public static final int intensitycolorChangeLayout=0x7f0d00ca;
+        public static final int intencitychanger=0x7f0d00cd;
+        public static final int intensityLayout=0x7f0d00cc;
+        public static final int intensitycolorChangeLayout=0x7f0d00ce;
         public static final int itemParent=0x7f0d009a;
         public static final int layout_root=0x7f0d0005;
         public static final int lazyFooter=0x7f0d0099;
@@ -386,7 +386,7 @@ public final class R {
         public static final int swipe_container=0x7f0d0061;
         public static final int text=0x7f0d002d;
         public static final int textView=0x7f0d00ad;
-        public static final int textView10=0x7f0d00d3;
+        public static final int textView10=0x7f0d00ca;
         public static final int textView11=0x7f0d00d4;
         public static final int textView13=0x7f0d00d6;
         public static final int textView15=0x7f0d00dc;
@@ -396,13 +396,13 @@ public final class R {
         public static final int textView8=0x7f0d00da;
         public static final int textView9=0x7f0d00d8;
         public static final int text_uuid=0x7f0d002f;
-        public static final int timeStamp=0x7f0d00cf;
+        public static final int timeStamp=0x7f0d00c9;
         public static final int time_counter=0x7f0d003d;
         public static final int time_layout=0x7f0d003b;
         public static final int time_title=0x7f0d003c;
         public static final int timepassedText=0x7f0d0003;
         public static final int title=0x7f0d0048;
-        public static final int titleText=0x7f0d00d0;
+        public static final int titleText=0x7f0d00c8;
         public static final int transmission_layout=0x7f0d00bf;
         public static final int transmission_rel_layout=0x7f0d00c2;
         public static final int tv_pair=0x7f0d0097;
@@ -413,7 +413,7 @@ public final class R {
         public static final int txtcancel=0x7f0d000d;
         public static final int txtcharacteristicname=0x7f0d0067;
         public static final int txtcharatrname=0x7f0d0073;
-        public static final int txtcolorindicator=0x7f0d00d2;
+        public static final int txtcolorindicator=0x7f0d00cb;
         public static final int txtdate=0x7f0d0079;
         public static final int txtdescriptorHexvalue=0x7f0d006b;
         public static final int txtdescriptorname=0x7f0d0069;

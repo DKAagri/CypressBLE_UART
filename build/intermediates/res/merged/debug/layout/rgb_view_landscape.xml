@@ -26,8 +26,7 @@
                 android:contentDescription="@string/app_name"
                 android:scaleType="matrix"
                 android:src="@drawable/gamut"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentTop="true" />
 
             <ImageView
                 android:id="@+id/imgcolorpicker"
@@ -40,6 +39,55 @@
                 android:contentDescription="@string/app_name"
                 android:padding="5dp"
                 android:src="@drawable/color_picker" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Trip to the Forest"
+                android:id="@+id/titleText"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30dp"
+                android:layout_alignBottom="@+id/imgcolorpicker"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="49dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="time stamp"
+                android:id="@+id/timeStamp"
+                android:textColor="#ffffff"
+                android:layout_centerVertical="true"
+                android:layout_alignEnd="@+id/titleText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                android:text="@string/rgb_current_color"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:id="@+id/textView10"
+                android:layout_below="@+id/timeStamp"
+                android:layout_alignStart="@+id/titleText" />
+
+            <ImageView
+                android:id="@+id/txtcolorindicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:contentDescription="@string/app_name"
+                android:minHeight="30dp"
+                android:minWidth="40dp"
+                android:padding="1dp"
+                android:scaleType="matrix"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignTop="@+id/textView10"
+                android:layout_alignStart="@+id/timeStamp" />
 
         </RelativeLayout>
 
@@ -176,18 +224,6 @@
                 android:layout_above="@+id/timeStamp"
                 android:layout_alignParentEnd="true" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Trip to the Forest"
-                android:id="@+id/titleText"
-                android:textStyle="bold"
-                android:textColor="@android:color/holo_blue_dark"
-                android:textSize="30dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true" />
-
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -195,42 +231,6 @@
                 android:progressDrawable="@android:color/darker_gray"
                 android:indeterminate="false"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="time stamp"
-                android:id="@+id/timeStamp"
-                android:layout_above="@+id/SongSeekBar"
-                android:layout_alignParentStart="true"
-                android:textColor="#ffffff" />
-
-            <ImageView
-                android:id="@+id/txtcolorindicator"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/black"
-                android:contentDescription="@string/app_name"
-                android:minHeight="30dp"
-                android:minWidth="40dp"
-                android:padding="1dp"
-                android:scaleType="matrix"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_centerVertical="true"
-                android:layout_alignEnd="@+id/titleText" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="left|center_vertical"
-                android:padding="10dp"
-                android:text="@string/rgb_current_color"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/white"
-                android:id="@+id/textView10"
-                android:layout_alignTop="@+id/txtcolorindicator"
                 android:layout_alignParentStart="true" />
 
         </RelativeLayout>
