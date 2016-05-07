@@ -1,86 +1,86 @@
 [
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/emulator.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/emulator.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\gamut.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\gamut.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense_slider.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/capsense_slider.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\otafu.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\otafu.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/unknown.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/unknown.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\device_info.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\device_info.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/cpc.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/cpc.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\gatt_db_dark_blue.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\gatt_db_dark_blue.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense_proimity.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/capsense_proimity.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\emulator.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\emulator.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/rgb_led.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/rgb_led.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\capsense_proimity.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\capsense_proimity.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/sensor_hub.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/sensor_hub.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\rsc.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\rsc.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/glucose.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/glucose.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\cpc.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\cpc.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense_buttons.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/capsense_buttons.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\battery.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\battery.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/battery.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/battery.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\blood_pressure.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\blood_pressure.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/gamut.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/gamut.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\thermometer_carousel.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\thermometer_carousel.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/capsense.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/capsense.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\glucose.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\glucose.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/otafu.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/otafu.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\sensor_hub.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\sensor_hub.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/find_me.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/find_me.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\rgb_led.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\rgb_led.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/heart_rate.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/heart_rate.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\capsense.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\capsense.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/proximity.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/proximity.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\heart_rate.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\heart_rate.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/gatt_db_dark_blue.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/gatt_db_dark_blue.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\capsense_buttons.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\capsense_buttons.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/device_info.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/device_info.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\unknown.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\unknown.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/thermometer_carousel.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/thermometer_carousel.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\find_me.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\find_me.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/rsc.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/rsc.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\proximity.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\proximity.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-sw600dp-v13/blood_pressure.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-sw600dp/blood_pressure.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-v13\\capsense_slider.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-sw600dp\\capsense_slider.png"
     }
 ]

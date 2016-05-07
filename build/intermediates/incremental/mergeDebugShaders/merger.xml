@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/altanai/ble/CypressBLE_UART/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/altanai/ble/CypressBLE_UART/build-types/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\ble\Cysmart_android\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\ble\Cysmart_android\build-types\debug\shaders"/></dataSet></merger>

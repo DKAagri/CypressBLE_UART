@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_more_vert_white_24dp.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxxhdpi/ic_more_vert_white_24dp.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\info_icon.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-xxxhdpi\\info_icon.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/info_icon.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxxhdpi/info_icon.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\slider.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-xxxhdpi\\slider.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/gray_transparent.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxxhdpi/gray_transparent.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\appicon.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-xxxhdpi\\appicon.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/appicon.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxxhdpi/appicon.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\gray_transparent.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-xxxhdpi\\gray_transparent.png"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/slider.png",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/drawable-xxxhdpi/slider.png"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_more_vert_white_24dp.png",
+        "source": "D:\\ble\\Cysmart_android\\res\\drawable-xxxhdpi\\ic_more_vert_white_24dp.png"
     }
 ]

@@ -76,9 +76,10 @@ public class ServiceDiscoveryFragment extends Fragment {
                 /*
                 / Changes the MTU size to 512 in case LOLLIPOP and above devices
                 */
+ /*
                 if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     BluetoothLeService.exchangeGattMtu(512);
-                }
+                }*/
             } else if (BluetoothLeService.ACTION_GATT_SERVICE_DISCOVERY_UNSUCCESSFUL.equals(action)) {
                     mProgressDialog.dismiss();
                       if(mTimer!=null)

@@ -60,17 +60,6 @@ public class RGBFragment extends Fragment {
     private static BluetoothGattService mCurrentservice;
     private static BluetoothGattCharacteristic mReadCharacteristic;
 
-    // Data view variables
-    private ImageView mRGBcanavs;
-    private ImageView mcolorpicker;
-    private ViewGroup mViewContainer;
-
-
-    // added for the Send button in TX BLE
-    private EditText mTextTX;
-    private String mHexTx;
-
-
     //added for mediacontroller and play button
     private Button btnPlay,btnStop , btnPause;
     private static MediaPlayer mMediaPlayer;
@@ -159,35 +148,10 @@ public class RGBFragment extends Fragment {
         // getActivity().getActionBar().setTitle(R.string.rgb_led);
         setUpControls();
         setUpDemoControls();
-        setDefaultColorPickerPositionColor();
         setHasOptionsMenu(true);
         return mRootView;
     }
 
-
-    private void setDefaultColorPickerPositionColor() {
-        ViewTreeObserver observer = mcolorpicker.getViewTreeObserver();
-        observer.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-            @Override
-            public void onGlobalLayout() {
-                mcolorpicker.getViewTreeObserver().removeGlobalOnLayoutListener(this);
-                int[] locations = new int[2];
-                mcolorpicker.getLocationOnScreen(locations);
-                int x = locations[0];
-                int y = locations[1];
-                if (x < mBitmap.getWidth() && y < mBitmap.getHeight()) {
-                    int p = mBitmap.getPixel(x, y);
-                    if (p != 0) {
-                        mRed = Color.red(p);
-                        mGreen = Color.green(p);
-                        mBlue = Color.blue(p);
-                        Logger.i("r--->" + mRed + "g-->" + mGreen + "b-->" + mBlue);
-
-                    }
-                }
-            }
-        });
-    }
 
     /**
      * Method to set up the GAMOT view
@@ -348,6 +312,7 @@ public class RGBFragment extends Fragment {
 
     private EditText editfrequency,editphaseshift , editintensity,
             editdutycycle, editred, editblue, editgreen;
+
     void setUpDemoControls() {
         mParentRelLayout = (RelativeLayout) mRootView.findViewById(R.id.parent);
         mParentRelLayout.setClickable(true);
@@ -436,7 +401,8 @@ public class RGBFragment extends Fragment {
                         if( (csvvalues.get(csvindex)[2]).equalsIgnoreCase("7.83")) {
                             _frequency=68;
                         }else{
-                            _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
+                          //  _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10-10);
+                            _frequency= (int) (Double.parseDouble(csvvalues.get(csvindex)[2])*10);
                         }
                         if(_frequency<0){
                             _frequency=0;
@@ -528,38 +494,7 @@ public class RGBFragment extends Fragment {
         }
     }
 
-    /**
-     * Moving the color picker object
-     */
 
-    void moveTarget() {
-        float x = getwidth() * mRGBcanavs.getMeasuredWidth();
-        float y = (1.f - getheigth()) * mRGBcanavs.getMeasuredHeight();
-        RelativeLayout.LayoutParams layoutParams = (RelativeLayout.LayoutParams) mcolorpicker.getLayoutParams();
-        layoutParams.leftMargin = (int) (mRGBcanavs.getLeft() + x
-                - Math.floor(mcolorpicker.getMeasuredWidth() / 2) - mViewContainer
-                .getPaddingLeft());
-        layoutParams.topMargin = (int) (mRGBcanavs.getTop() + y
-                - Math.floor(mcolorpicker.getMeasuredHeight() / 2) - mViewContainer
-                .getPaddingTop());
-        mcolorpicker.setLayoutParams(layoutParams);
-    }
-
-    private float getwidth() {
-        return mWidth;
-    }
-
-    private float getheigth() {
-        return mHeight;
-    }
-
-    private void setwidth(float sat) {
-        mWidth = sat;
-    }
-
-    private void setheight(float val) {
-        mHeight = val;
-    }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
@@ -592,7 +527,7 @@ public class RGBFragment extends Fragment {
             rootViewG.removeAllViews();
             rootViewG.addView(mRootView);
             setUpControls();
-            setDefaultColorPickerPositionColor();
+
         } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
             LayoutInflater inflater = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             mRootView = inflater.inflate(R.layout.rgb_view_portrait, null);
@@ -601,7 +536,7 @@ public class RGBFragment extends Fragment {
             rootViewG.removeAllViews();
             rootViewG.addView(mRootView);
             setUpControls();
-            setDefaultColorPickerPositionColor();
+
 
         }
 

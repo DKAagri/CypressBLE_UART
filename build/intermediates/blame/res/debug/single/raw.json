@@ -1,30 +1,30 @@
 [
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/bonjourflac.flac",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/bonjourflac.flac"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\raw\\flacmorning.flac",
+        "source": "D:\\ble\\Cysmart_android\\res\\raw\\flacmorning.flac"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/trip_to_the_forest.mp3",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/trip_to_the_forest.mp3"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\raw\\trip_to_the_forest.mp3",
+        "source": "D:\\ble\\Cysmart_android\\res\\raw\\trip_to_the_forest.mp3"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/flacmorning.flac",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/flacmorning.flac"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\raw\\sample.csv",
+        "source": "D:\\ble\\Cysmart_android\\res\\raw\\sample.csv"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/beep.mp3",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/beep.mp3"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\raw\\pcm.wav",
+        "source": "D:\\ble\\Cysmart_android\\res\\raw\\pcm.wav"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/trip_to_the_forest_file.csv",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/trip_to_the_forest_file.csv"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\raw\\trip_to_the_forest_file.csv",
+        "source": "D:\\ble\\Cysmart_android\\res\\raw\\trip_to_the_forest_file.csv"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/sample.csv",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/sample.csv"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\raw\\bonjourflac.flac",
+        "source": "D:\\ble\\Cysmart_android\\res\\raw\\bonjourflac.flac"
     },
     {
-        "merged": "/home/altanai/ble/CypressBLE_UART/build/intermediates/res/merged/debug/raw/pcm.wav",
-        "source": "/home/altanai/ble/CypressBLE_UART/res/raw/pcm.wav"
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\raw\\beep.mp3",
+        "source": "D:\\ble\\Cysmart_android\\res\\raw\\beep.mp3"
     }
 ]
