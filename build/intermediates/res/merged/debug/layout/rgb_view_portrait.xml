@@ -156,112 +156,15 @@
         </LinearLayout>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="155dp"
             android:layout_height="wrap_content"
             android:text="Send"
-            android:id="@+id/btnTxDataSend" />
+            android:id="@+id/btnTxDataSend"
+            android:layout_gravity="right" />
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@color/actionbar_bg_color_light"
-            android:gravity="center_vertical"
-            android:id="@+id/intensitycolorChangeLayout">
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="204dp"
-                android:layout_height="wrap_content">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true">
-
-            </LinearLayout>
-
-        </RelativeLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:id="@+id/intensityLayout"
-            android:layout_weight="0.96">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <SeekBar
-                    android:id="@+id/intencitychanger"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight="8"
-                    android:max="10"
-                    android:maxHeight="3dp"
-                    android:minHeight="3dp"
-                    android:progress="4"
-                    android:progressDrawable="@drawable/custom_seekbar"
-                    android:thumb="@drawable/brightness_icon"
-                    android:mirrorForRtl="true" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical">
-
-                </LinearLayout>
-            </LinearLayout>
-        </ScrollView>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="157dp"
+            android:layout_height="match_parent"
             android:id="@+id/dreamWeaverLayout">
 
             <Button
@@ -338,7 +241,7 @@
                 android:scaleType="matrix"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_centerVertical="true"
-                android:layout_toEndOf="@+id/textView10" />
+                android:layout_alignStart="@+id/buttonPlayAudio" />
 
             <TextView
                 android:layout_width="wrap_content"

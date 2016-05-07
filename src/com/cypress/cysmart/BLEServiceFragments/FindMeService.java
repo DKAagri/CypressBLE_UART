@@ -239,7 +239,6 @@ public class FindMeService extends Fragment {
             if (mSelectedLinkLossPosition != 3)
                 mSpinnerLinkLoss.setSelection(mSelectedLinkLossPosition);
         }
-
     }
 
     /**
@@ -338,14 +337,12 @@ public class FindMeService extends Fragment {
                                                             + getResources().getString(R.string.find_value_success_toast),
                                                     Toast.LENGTH_SHORT).show();
                                         }
-
                                     }
 
                                     @Override
                                     public void onNothingSelected(
                                             AdapterView<?> parent) {
                                         // TODO Auto-generated method stub
-
                                     }
                                 });
                     }

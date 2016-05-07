@@ -268,6 +268,7 @@ public class ProfileScanningFragment extends Fragment {
                     if (device != null) {
                         scanLeDevice(false);
                         connectDevice(device,true);
+                        Logger.v("Device is connected ");
                     }
                 }
             }
@@ -400,7 +401,7 @@ public class ProfileScanningFragment extends Fragment {
             mProgressdialog.dismiss();
         }
         Logger.e("UN Registering receiver in Profile scannng");
-        getActivity().unregisterReceiver(mGattConnectReceiver);
+        //getActivity().unregisterReceiver(mGattConnectReceiver);
         super.onPause();
     }
 

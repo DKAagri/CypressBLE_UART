@@ -46,6 +46,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Binder;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
@@ -501,7 +502,9 @@ public class BluetoothLeService extends Service {
         int retry = 5;
         boolean status = false;
         while (!status && retry > 0) {
-            status = mBluetoothGatt.requestMtu(mtu);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                status = mBluetoothGatt.requestMtu(mtu);
+            }
             retry--;
         }
 
@@ -1276,7 +1279,6 @@ public class BluetoothLeService extends Service {
      * @param Green
      * @param Blue
      * @param Phase
-     * @param Change
      */
     public static void writeDreamweaverCsv(
             BluetoothGattCharacteristic characteristic,
@@ -1300,7 +1302,7 @@ public class BluetoothLeService extends Service {
             valueByte[5] = (byte) Blue;
             valueByte[6] = (byte) Phase;
 
-/*            valueByte[0] = (byte) Red;
+/*          valueByte[0] = (byte) Red;
             valueByte[1] = (byte) Green;
             valueByte[2] = (byte) Blue;
             valueByte[3] = (byte) Intensity;*/

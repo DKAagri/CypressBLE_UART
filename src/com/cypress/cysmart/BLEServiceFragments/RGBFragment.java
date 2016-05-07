@@ -164,7 +164,7 @@ public class RGBFragment extends Fragment {
         mTextTimestamp = (TextView) mRootView.findViewById(R.id.timeStamp);
         mColorindicator = (ImageView) mRootView.findViewById(R.id.txtcolorindicator);
 
-        mIntensityBar = (SeekBar) mRootView.findViewById(R.id.intencitychanger);
+
         mProgressDialog = new ProgressDialog(getActivity());
 
         Logger.v( " CSV values Size "+ csvvalues.size());
@@ -173,25 +173,6 @@ public class RGBFragment extends Fragment {
         }catch ( Exception e ){
             Logger.e(e.getMessage());
         }
-        mIntensity = mIntensityBar.getProgress();
-        mIntensityBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
-
-            public void onProgressChanged(SeekBar seekBar, int progress,   boolean fromUser) {
-                mIntensity = progress;
-                //UIupdation();
-                mIsReaded = false;
-                _i=progress;
-            }
-
-            public void onStartTrackingTouch(SeekBar seekBar) {
-            }
-
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                mIsReaded = false;
-                BluetoothLeService.writeCharacteristicRGB(mReadCharacteristic,
-                        mRed, mGreen, mBlue, mIntensity);
-            }
-        });
 
         btnPause= (Button) mRootView.findViewById(R.id.buttonPauseSong);
         btnPause.setOnClickListener(new View.OnClickListener() {
