@@ -36,12 +36,12 @@
         "source": "D:\\ble\\Cysmart_android\\res\\layout\\datalogger_list.xml"
     },
     {
-        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\layout\\gattdb_details.xml",
-        "source": "D:\\ble\\Cysmart_android\\res\\layout\\gattdb_details.xml"
-    },
-    {
         "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\layout\\carousel_fragment_item.xml",
         "source": "D:\\ble\\Cysmart_android\\res\\layout\\carousel_fragment_item.xml"
+    },
+    {
+        "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\layout\\gattdb_details.xml",
+        "source": "D:\\ble\\Cysmart_android\\res\\layout\\gattdb_details.xml"
     },
     {
         "merged": "D:\\ble\\Cysmart_android\\build\\intermediates\\res\\merged\\debug\\layout\\lazy_loader_footer.xml",

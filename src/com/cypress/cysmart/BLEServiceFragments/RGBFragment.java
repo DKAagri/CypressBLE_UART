@@ -68,7 +68,7 @@ public class RGBFragment extends Fragment {
     private SeekBar mseekBar;
 
     private ImageView mColorindicator;
-    private SeekBar mIntensityBar;
+
     private RelativeLayout mParentRelLayout;
 
     //ProgressDialog
@@ -319,7 +319,7 @@ public class RGBFragment extends Fragment {
                         Integer.parseInt(editred.getText().toString()),
                         Integer.parseInt(editgreen.getText().toString()),
                         Integer.parseInt(editblue.getText().toString()),
-                        Integer.parseInt(editdutycycle.getText().toString()));
+                        Integer.parseInt(editphaseshift.getText().toString()));
             }
         });
 
